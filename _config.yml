@@ -30,6 +30,7 @@ permalink: /:title/
 # Exclude unnecessary files from the build
 exclude:
   - README.md
+  - CLAUDE.md
   - Gemfile
   - Gemfile.lock
   - node_modules/

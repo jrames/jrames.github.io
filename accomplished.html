@@ -1,0 +1,1410 @@
+---
+layout: null
+permalink: /accomplished/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- TODO: Update title and meta description with final copy -->
+  <title>Accomplished — Track What You Got Done</title>
+  <meta name="description" content="A macOS app that helps you capture daily accomplishments and turn them into useful summaries.">
+
+  <!-- TODO: Add Open Graph / social sharing meta tags -->
+  <!-- <meta property="og:title" content="Accomplished"> -->
+  <!-- <meta property="og:description" content="..."> -->
+  <!-- <meta property="og:image" content="..."> -->
+
+  <!-- GoatCounter analytics -->
+  <script data-goatcounter="https://accomplished.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+  <style>
+    /* ============================================================
+       CSS VARIABLES
+       Tweak these to change the entire page's feel.
+       ============================================================ */
+    :root {
+      /* Palette — muted blue accent, neutral base */
+      --color-accent: #2E6DA4;
+      --color-accent-hover: #245A88;
+      --color-accent-light: #EBF2FA;
+      --color-accent-subtle: #D4E4F3;
+
+      --color-bg: #FAFBFC;
+      --color-surface: #FFFFFF;
+      --color-text: #1D1D1F;
+      --color-text-secondary: #6E6E73;
+      --color-text-tertiary: #86868B;
+      --color-border: #E5E5EA;
+
+      /* Typography */
+      --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      --font-mono: "SF Mono", "Fira Code", "Cascadia Code", Menlo, monospace;
+
+      /* Spacing */
+      --section-padding: 96px 24px;
+      --container-max: 1080px;
+      --container-narrow: 720px;
+
+      /* Radii & shadows */
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 16px;
+      --shadow-card: 0 1px 3px rgba(0,0,0,0.06), 0 4px 12px rgba(0,0,0,0.04);
+      --shadow-card-hover: 0 2px 8px rgba(0,0,0,0.08), 0 8px 24px rgba(0,0,0,0.06);
+      --shadow-screenshot: 0 4px 24px rgba(0,0,0,0.10), 0 1px 4px rgba(0,0,0,0.06);
+    }
+
+    /* ============================================================
+       RESET & BASE
+       ============================================================ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-sans);
+      font-size: 17px;
+      line-height: 1.6;
+      color: var(--color-text);
+      background: var(--color-bg);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img { max-width: 100%; height: auto; display: block; }
+    a { color: var(--color-accent); text-decoration: none; }
+    a:hover { color: var(--color-accent-hover); }
+
+    /* ============================================================
+       LAYOUT UTILITIES
+       ============================================================ */
+    .container {
+      max-width: var(--container-max);
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .container--narrow {
+      max-width: var(--container-narrow);
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .section {
+      padding: var(--section-padding);
+    }
+
+    .section--alt {
+      background: var(--color-surface);
+    }
+
+    .section-label {
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: var(--color-accent);
+      margin-bottom: 12px;
+    }
+
+    .section-heading {
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 16px;
+      color: var(--color-text);
+    }
+
+    .section-subheading {
+      font-size: 18px;
+      line-height: 1.6;
+      color: var(--color-text-secondary);
+      max-width: 600px;
+    }
+
+    .section-header {
+      text-align: center;
+      margin-bottom: 56px;
+    }
+
+    .section-header .section-subheading {
+      margin: 0 auto;
+    }
+
+    .text-center { text-align: center; }
+
+    /* ============================================================
+       BUTTONS
+       ============================================================ */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 14px 28px;
+      font-size: 16px;
+      font-weight: 600;
+      border-radius: var(--radius-sm);
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.2s, transform 0.15s, box-shadow 0.2s;
+      text-decoration: none;
+      line-height: 1;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+    }
+
+    .btn:active {
+      transform: translateY(0);
+    }
+
+    .btn--primary {
+      background: var(--color-accent);
+      color: #fff;
+    }
+
+    .btn--primary:hover {
+      background: var(--color-accent-hover);
+      color: #fff;
+    }
+
+    .btn--secondary {
+      background: transparent;
+      color: var(--color-accent);
+      border: 1.5px solid var(--color-accent);
+    }
+
+    .btn--secondary:hover {
+      background: var(--color-accent-light);
+      color: var(--color-accent-hover);
+    }
+
+    /* ============================================================
+       CARDS
+       ============================================================ */
+    .card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      padding: 32px;
+      box-shadow: var(--shadow-card);
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+
+    .card:hover {
+      box-shadow: var(--shadow-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card-icon {
+      width: 48px;
+      height: 48px;
+      background: var(--color-accent-light);
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      font-size: 24px;
+    }
+
+    .card h3 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      color: var(--color-text-secondary);
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+
+    /* ============================================================
+       PILL / BADGE
+       ============================================================ */
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--color-text-secondary);
+      background: var(--color-accent-light);
+      border-radius: 100px;
+      margin-bottom: 20px;
+    }
+
+    .badge svg {
+      width: 14px;
+      height: 14px;
+    }
+
+    /* ============================================================
+       SCREENSHOT PLACEHOLDER
+       ============================================================ */
+    .screenshot-placeholder {
+      background: linear-gradient(135deg, #f0f0f5, #e8e8ed);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-screenshot);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--color-text-tertiary);
+      font-size: 14px;
+      font-weight: 500;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Mac window chrome for screenshot frames */
+    .screenshot-placeholder--window {
+      border: 1px solid var(--color-border);
+    }
+
+    .screenshot-placeholder--window::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 36px;
+      background: linear-gradient(180deg, #f7f7f7, #ececec);
+      border-bottom: 1px solid var(--color-border);
+      border-radius: var(--radius-md) var(--radius-md) 0 0;
+    }
+
+    .screenshot-placeholder--window::after {
+      content: '● ● ●';
+      position: absolute;
+      top: 10px;
+      left: 14px;
+      font-size: 10px;
+      letter-spacing: 4px;
+      color: #ccc;
+    }
+
+    /* ============================================================
+       1. HEADER / NAV
+       ============================================================ */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(250, 251, 252, 0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .site-header .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+
+    .site-header__brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--color-text);
+      text-decoration: none;
+    }
+
+    .site-header__brand:hover {
+      color: var(--color-text);
+    }
+
+    /* TODO: Replace with actual app icon */
+    .site-header__icon {
+      width: 32px;
+      height: 32px;
+      border-radius: var(--radius-sm);
+      object-fit: contain;
+    }
+
+    .site-header__icon-placeholder {
+      width: 32px;
+      height: 32px;
+      background: var(--color-accent-light);
+      border-radius: var(--radius-sm);
+      border: 1.5px solid var(--color-accent-subtle);
+    }
+
+    .site-nav {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+    }
+
+    .site-nav a {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--color-text-secondary);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+
+    .site-nav a:hover {
+      color: var(--color-text);
+    }
+
+    .site-nav .btn {
+      padding: 10px 20px;
+      font-size: 14px;
+      color: #fff;
+    }
+
+    .site-nav .btn:hover {
+      color: #fff;
+    }
+
+    /* Mobile nav toggle */
+    .nav-toggle {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 8px;
+      color: var(--color-text);
+    }
+
+    .nav-toggle svg {
+      width: 24px;
+      height: 24px;
+    }
+
+    /* ============================================================
+       2. HERO SECTION
+       ============================================================ */
+    .hero {
+      padding: 80px 24px 96px;
+    }
+
+    .hero .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: center;
+    }
+
+    .hero__content {
+      max-width: 500px;
+    }
+
+    .hero__headline {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 1.1;
+      margin-bottom: 16px;
+      letter-spacing: -0.5px;
+      color: var(--color-text);
+    }
+
+    .hero__subheadline {
+      font-size: 19px;
+      line-height: 1.6;
+      color: var(--color-text-secondary);
+      margin-bottom: 32px;
+    }
+
+    .hero__ctas {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      margin-bottom: 24px;
+    }
+
+    .hero__screenshot {
+      width: 100%;
+      aspect-ratio: 4/3;
+      font-size: 16px;
+    }
+
+    /* Hero video placeholder */
+    .hero__video-placeholder {
+      position: relative;
+      cursor: pointer;
+    }
+
+    .hero__video-placeholder .play-button {
+      position: relative;
+      z-index: 1;
+      width: 64px;
+      height: 64px;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero__video-placeholder .play-button::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 12px 0 12px 22px;
+      border-color: transparent transparent transparent #fff;
+      margin-left: 4px;
+    }
+
+    .hero__video-label {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1;
+      font-size: 13px;
+      color: var(--color-text-tertiary);
+    }
+
+    /* When a real video is added */
+    .hero__video {
+      width: 100%;
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-screenshot);
+    }
+
+    /* ============================================================
+       3. PROBLEM SECTION
+       ============================================================ */
+    /* Uses .section--alt, .card, .grid-3 */
+
+    .problem-card .card-icon {
+      font-size: 28px;
+    }
+
+    /* ============================================================
+       4. HOW IT WORKS
+       ============================================================ */
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 32px;
+      counter-reset: step;
+    }
+
+    .step {
+      text-align: center;
+    }
+
+    .step__number {
+      width: 48px;
+      height: 48px;
+      background: var(--color-accent);
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      font-weight: 700;
+      margin: 0 auto 20px;
+    }
+
+    .step h3 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .step p {
+      font-size: 15px;
+      color: var(--color-text-secondary);
+      line-height: 1.5;
+    }
+
+    .step__icon-area {
+      width: 64px;
+      height: 64px;
+      margin: 0 auto 16px;
+      background: var(--color-accent-light);
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+    }
+
+    /* ============================================================
+       5. ENTRY METHODS
+       ============================================================ */
+    .entry-card .card-icon {
+      width: 56px;
+      height: 56px;
+      font-size: 28px;
+    }
+
+    .entry-card {
+      text-align: center;
+    }
+
+    .entry-card .card-icon {
+      margin: 0 auto 20px;
+    }
+
+    .entry-card__mockup {
+      width: 100%;
+      margin-top: 20px;
+      border-radius: var(--radius-sm);
+      font-size: 12px;
+      box-shadow: var(--shadow-card);
+    }
+
+    /* ============================================================
+       6. PRODUCT SHOWCASE (alternating text + screenshot rows)
+       ============================================================ */
+    .showcase-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: center;
+      padding: 48px 0;
+    }
+
+    .showcase-row + .showcase-row {
+      border-top: 1px solid var(--color-border);
+    }
+
+    .showcase-row:nth-child(even) .showcase-text {
+      order: 2;
+    }
+
+    .showcase-row:nth-child(even) .showcase-image {
+      order: 1;
+    }
+
+    .showcase-text h3 {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: var(--color-text);
+    }
+
+    .showcase-text p {
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--color-text-secondary);
+    }
+
+    .showcase-image .screenshot-placeholder {
+      aspect-ratio: 16/10;
+    }
+
+    .showcase-screenshot {
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-screenshot);
+    }
+
+    /* ============================================================
+       7. AI / SUMMARIES VALUE
+       ============================================================ */
+    .transform-demo {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      gap: 32px;
+      align-items: start;
+      margin-top: 48px;
+    }
+
+    .transform-panel {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      box-shadow: var(--shadow-card);
+    }
+
+    .transform-panel__header {
+      padding: 14px 20px;
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .transform-panel--input .transform-panel__header {
+      background: #f7f7fa;
+      color: var(--color-text-secondary);
+    }
+
+    .transform-panel--output .transform-panel__header {
+      background: var(--color-accent-light);
+      color: var(--color-accent);
+    }
+
+    .transform-panel__body {
+      padding: 20px;
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .transform-panel__body ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .transform-panel__body li {
+      padding: 6px 0;
+      border-bottom: 1px solid var(--color-border);
+      color: var(--color-text-secondary);
+    }
+
+    .transform-panel__body li:last-child {
+      border-bottom: none;
+    }
+
+    .transform-panel--output .transform-panel__body {
+      color: var(--color-text);
+    }
+
+    .transform-arrow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 48px;
+      color: var(--color-accent);
+      font-size: 24px;
+    }
+
+    /* ============================================================
+       8. USE CASES
+       ============================================================ */
+    /* Uses .grid-4, .card */
+
+    .use-case-card {
+      text-align: center;
+    }
+
+    .use-case-card .card-icon {
+      margin: 0 auto 20px;
+    }
+
+    /* ============================================================
+       9. FAQ
+       ============================================================ */
+    .faq-list {
+      max-width: var(--container-narrow);
+      margin: 0 auto;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .faq-item:first-child {
+      border-top: 1px solid var(--color-border);
+    }
+
+    .faq-question {
+      width: 100%;
+      background: none;
+      border: none;
+      padding: 20px 0;
+      font-size: 17px;
+      font-weight: 600;
+      color: var(--color-text);
+      text-align: left;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: var(--font-sans);
+    }
+
+    .faq-question:hover {
+      color: var(--color-accent);
+    }
+
+    .faq-question__icon {
+      font-size: 20px;
+      font-weight: 300;
+      color: var(--color-text-tertiary);
+      transition: transform 0.2s;
+      flex-shrink: 0;
+      margin-left: 16px;
+    }
+
+    .faq-item.is-open .faq-question__icon {
+      transform: rotate(45deg);
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+    }
+
+    .faq-answer__inner {
+      padding: 0 0 20px;
+      font-size: 15px;
+      line-height: 1.7;
+      color: var(--color-text-secondary);
+    }
+
+    .faq-item.is-open .faq-answer {
+      max-height: 300px;
+    }
+
+    /* ============================================================
+       10. FINAL CTA
+       ============================================================ */
+    .final-cta {
+      text-align: center;
+      background: var(--color-accent-light);
+      border-radius: var(--radius-lg);
+      padding: 64px 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .final-cta h2 {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .final-cta p {
+      font-size: 18px;
+      color: var(--color-text-secondary);
+      margin-bottom: 28px;
+    }
+
+    .final-cta .hero__ctas {
+      justify-content: center;
+    }
+
+    /* ============================================================
+       11. FOOTER
+       ============================================================ */
+    .site-footer {
+      padding: 40px 24px;
+      text-align: center;
+      border-top: 1px solid var(--color-border);
+    }
+
+    .site-footer__name {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--color-text);
+      margin-bottom: 8px;
+    }
+
+    .site-footer__copy {
+      font-size: 13px;
+      color: var(--color-text-tertiary);
+      margin-bottom: 16px;
+    }
+
+    .site-footer__links {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .site-footer__links a {
+      font-size: 13px;
+      color: var(--color-text-secondary);
+    }
+
+    .site-footer__links a:hover {
+      color: var(--color-accent);
+    }
+
+    /* ============================================================
+       RESPONSIVE
+       ============================================================ */
+    @media (max-width: 900px) {
+      .hero .container {
+        grid-template-columns: 1fr;
+        gap: 48px;
+        text-align: center;
+      }
+
+      .hero__content { max-width: 100%; }
+
+      .hero__ctas { justify-content: center; }
+
+      .hero__headline { font-size: 38px; }
+
+      .hero__screenshot { max-width: 520px; margin: 0 auto; }
+
+      .grid-3, .steps { grid-template-columns: 1fr 1fr; }
+
+      .grid-4 { grid-template-columns: 1fr 1fr; }
+
+      .showcase-row { gap: 40px; }
+
+      .transform-demo {
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+
+      .transform-arrow {
+        padding-top: 0;
+        transform: rotate(90deg);
+      }
+
+      .section-heading { font-size: 30px; }
+    }
+
+    @media (max-width: 600px) {
+      :root {
+        --section-padding: 64px 16px;
+      }
+
+      .site-nav a:not(.btn) { display: none; }
+      .nav-toggle { display: block; }
+
+      .hero { padding: 48px 16px 64px; }
+      .hero__headline { font-size: 32px; }
+      .hero__subheadline { font-size: 17px; }
+      .hero__ctas { flex-direction: column; }
+      .hero__ctas .btn { width: 100%; }
+
+      .showcase-row { grid-template-columns: 1fr; gap: 24px; }
+      .showcase-row:nth-child(even) .showcase-text { order: 0; }
+      .showcase-row:nth-child(even) .showcase-image { order: 0; }
+      .grid-3, .grid-4, .steps {
+        grid-template-columns: 1fr;
+      }
+
+      .final-cta { padding: 48px 24px; }
+      .final-cta h2 { font-size: 26px; }
+    }
+
+    /* ============================================================
+       SCROLL FADE-IN (subtle)
+       ============================================================ */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(16px);
+      transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    .fade-in.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ============================================================
+       1. HEADER / NAV
+       ============================================================ -->
+  <header class="site-header">
+    <div class="container">
+      <a href="/accomplished/" class="site-header__brand">
+        <!-- TODO: Replace with actual app icon image -->
+        <!-- <img src="/assets/images/accomplished/icon.png" alt="Accomplished icon" class="site-header__icon"> -->
+        <div class="site-header__icon-placeholder" aria-hidden="true"></div>
+        Accomplished
+      </a>
+
+      <nav class="site-nav">
+        <!-- TODO: Update nav labels if needed -->
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#faq">FAQ</a>
+        <!-- TODO: Update CTA text if needed -->
+        <a href="https://testflight.apple.com/join/RFNnHUvw" class="btn btn--primary">Join the Beta</a>
+      </nav>
+
+      <!-- Mobile hamburger (toggles nav on small screens) -->
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.site-nav').classList.toggle('is-open')">
+        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+
+  <!-- ============================================================
+       2. HERO SECTION
+       ============================================================ -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__content">
+        <!-- macOS badge -->
+        <div class="badge">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 21.99 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.1 21.99C7.79 22.03 6.8 20.68 5.96 19.47C4.25 16.97 2.94 12.45 4.7 9.39C5.57 7.87 7.13 6.91 8.82 6.89C10.1 6.87 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.06 16.74 19.67 18.11 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z"/></svg>
+          Built for macOS
+        </div>
+
+        <!-- TODO: Replace headline with final copy -->
+        <h1 class="hero__headline">Remember what you actually got done.</h1>
+
+        <!-- TODO: Replace subheadline with final copy -->
+        <p class="hero__subheadline">Accomplished helps you capture daily wins and turn them into useful summaries — for standups, reviews, or just peace of mind.</p>
+
+        <div class="hero__ctas">
+          <a href="https://testflight.apple.com/join/RFNnHUvw" class="btn btn--primary">Join the TestFlight</a>
+          <!-- TODO: Update secondary CTA — could link to #how-it-works, a signup, etc. -->
+          <a href="#how-it-works" class="btn btn--secondary">See How It Works</a>
+        </div>
+      </div>
+
+      <video class="hero__video hero__screenshot" autoplay loop muted playsinline>
+        <source src="/assets/video/accomplished-demo.mp4" type="video/mp4">
+      </video>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       3. PROBLEM SECTION
+       ============================================================ -->
+  <section class="section section--alt fade-in" id="features">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">The Problem</p>
+        <!-- TODO: Replace heading -->
+        <h2 class="section-heading">Where did the day go?</h2>
+        <!-- TODO: Replace subheading -->
+        <p class="section-subheading">You do good work every day. But when it's time to recall what you accomplished, your mind goes blank.</p>
+      </div>
+
+      <div class="grid-3">
+        <!-- TODO: Update pain point cards with final copy -->
+        <div class="card problem-card fade-in">
+          <h3>Blank at standups</h3>
+          <p>You spent the whole day working, but when someone asks what you did, you can't remember the details.</p>
+        </div>
+
+        <div class="card problem-card fade-in">
+          <h3>Review scramble</h3>
+          <p>Performance review time rolls around and you're digging through old PRs and messages trying to reconstruct months of work.</p>
+        </div>
+
+        <div class="card problem-card fade-in">
+          <h3>Lost context</h3>
+          <p>Useful work context fades over time. Decisions, wins, and small victories disappear into the noise.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       4. HOW IT WORKS
+       ============================================================ -->
+  <section class="section fade-in" id="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">How It Works</p>
+        <!-- TODO: Replace heading -->
+        <h2 class="section-heading">Simple by design</h2>
+        <!-- TODO: Replace subheading -->
+        <p class="section-subheading">Log what you did. Get useful summaries. That's it.</p>
+      </div>
+
+      <div class="steps">
+        <!-- TODO: Update step titles, descriptions, and icons -->
+        <div class="step fade-in">
+          <div class="step__number">1</div>
+          <h3>Capture</h3>
+          <p>Log an accomplishment however works best — in the app, from the menu bar, or with a global hotkey.</p>
+        </div>
+
+        <div class="step fade-in">
+          <div class="step__number">2</div>
+          <h3>Accumulate</h3>
+          <p>Your entries build up over days and weeks into a searchable personal log of work.</p>
+        </div>
+
+        <div class="step fade-in">
+          <div class="step__number">3</div>
+          <h3>Generate</h3>
+          <p>Turn raw entries into polished summaries for standups, weekly updates, or reviews.</p>
+        </div>
+
+        <div class="step fade-in">
+          <div class="step__number">4</div>
+          <h3>Share</h3>
+          <p>Copy or export your summaries wherever you need them — Slack, email, docs, or your own notes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       5. ENTRY METHODS
+       ============================================================ -->
+  <section class="section section--alt fade-in">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Multiple Ways to Log</p>
+        <!-- TODO: Replace heading -->
+        <h2 class="section-heading">Capture it your way</h2>
+        <!-- TODO: Replace subheading -->
+        <p class="section-subheading">Log accomplishments without breaking your flow. Three entry methods, all on your Mac.</p>
+      </div>
+
+      <div class="grid-3">
+        <!-- TODO: Update card content and replace mockup placeholders -->
+        <div class="card entry-card fade-in">
+          <h3>In the App</h3>
+          <p>Full view of your timeline, entries, and summaries. The home base for reviewing your work.</p>
+          <img src="/assets/images/accomplished/app-daily-view.png" alt="Accomplished app showing daily timeline with summary and logged entries" class="entry-card__mockup">
+        </div>
+
+        <div class="card entry-card fade-in">
+          <h3>Menu Bar</h3>
+          <p>Quick access from the menu bar. Add an entry without leaving what you're doing.</p>
+          <img src="/assets/images/accomplished/menu-bar.png" alt="Accomplished menu bar dropdown with quick entry field and recent accomplishments" class="entry-card__mockup">
+        </div>
+
+        <div class="card entry-card fade-in">
+          <h3>Global Hotkey</h3>
+          <p>Press a shortcut from anywhere on your Mac. A quick popup appears, you type, and you're done.</p>
+          <img src="/assets/images/accomplished/hotkey-popup.png" alt="Accomplished global hotkey popup for quick accomplishment entry" class="entry-card__mockup">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       6. PRODUCT SHOWCASE (alternating text + screenshot)
+       ============================================================ -->
+  <section class="section fade-in">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Product Preview</p>
+        <!-- TODO: Replace heading -->
+        <h2 class="section-heading">A closer look</h2>
+      </div>
+
+      <!-- Row 1: Accomplishment entry (text left, screenshot right) -->
+      <!-- TODO: Replace screenshot placeholder with real image -->
+      <div class="showcase-row fade-in">
+        <div class="showcase-text">
+          <!-- TODO: Replace heading and description -->
+          <h3>Capture accomplishments as they happen</h3>
+          <p>Log what you got done with a quick entry popup or directly in the app. Your accomplishments build into a timeline you can browse and search — no more trying to reconstruct your week from memory.</p>
+        </div>
+        <div class="showcase-image">
+          <img src="/assets/images/accomplished/app-quick-entry.png" alt="Accomplished app with Add Accomplishment dialog open over a populated timeline" class="showcase-screenshot">
+        </div>
+      </div>
+
+      <!-- Row 2: Summaries (screenshot left, text right) -->
+      <!-- TODO: Replace screenshot placeholder with real image -->
+      <div class="showcase-row fade-in">
+        <div class="showcase-text">
+          <!-- TODO: Replace heading and description -->
+          <h3>Turn a week of work into a clear summary</h3>
+          <p>Generate polished summaries from your raw entries. Get a concise weekly update ready to paste into Slack, email, or your team's standup notes — in seconds, not minutes.</p>
+        </div>
+        <div class="showcase-image">
+          <img src="/assets/images/accomplished/weekly-summary.png" alt="Accomplished weekly summary view showing generated summary and daily entries grouped by day" class="showcase-screenshot">
+        </div>
+      </div>
+
+      <!-- Row 3: Reports (text left, screenshot right) -->
+      <!-- TODO: Replace screenshot placeholder with real image -->
+      <div class="showcase-row fade-in">
+        <div class="showcase-text">
+          <!-- TODO: Replace heading and description -->
+          <h3>Generate resume bullets and review-ready reports</h3>
+          <p>When it's time for your annual review or a resume update, your work is already documented. Generate impact-focused bullet points from months of logged accomplishments — no scrambling required.</p>
+        </div>
+        <div class="showcase-image">
+          <div class="screenshot-placeholder screenshot-placeholder--window">
+            <span style="position: relative; z-index: 1;">TODO: Screenshot of resume bullets / report view</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       7. AI / SUMMARIES VALUE SECTION
+       ============================================================ -->
+  <section class="section section--alt fade-in">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Summaries</p>
+        <!-- TODO: Replace heading -->
+        <h2 class="section-heading">From quick notes to polished updates</h2>
+        <!-- TODO: Replace subheading -->
+        <p class="section-subheading">You jot down the raw wins. Accomplished turns them into something you can actually send.</p>
+      </div>
+
+      <!-- TODO: Replace example entries and summary with real content -->
+      <div class="transform-demo fade-in">
+        <div class="transform-panel transform-panel--input">
+          <div class="transform-panel__header">Your entries</div>
+          <div class="transform-panel__body">
+            <ul>
+              <li>Fixed the crash on launch when user has no saved preferences</li>
+              <li>Reviewed and merged Ana's PR for the new export feature</li>
+              <li>Wrote unit tests for the summary generation module</li>
+              <li>Had a productive 1:1 with manager, aligned on Q2 goals</li>
+              <li>Investigated and documented the API rate limiting issue</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="transform-arrow">→</div>
+
+        <div class="transform-panel transform-panel--output">
+          <div class="transform-panel__header">Generated summary</div>
+          <div class="transform-panel__body">
+            <p><strong>This week:</strong> Resolved a critical launch crash related to user preferences, improving app stability. Supported the team by reviewing and merging the new export feature. Expanded test coverage for the summary generation module. Aligned on Q2 priorities with my manager. Investigated API rate limiting and created documentation for the team.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       8. USE CASES
+       ============================================================ -->
+  <section class="section fade-in">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Use Cases</p>
+        <!-- TODO: Replace heading -->
+        <h2 class="section-heading">Useful every day, essential when it counts</h2>
+      </div>
+
+      <div class="grid-4">
+        <!-- TODO: Update use case cards with final copy -->
+        <div class="card use-case-card fade-in">
+          <h3>Daily Reflection</h3>
+          <p>End each day knowing exactly what you accomplished. Build a habit of recognizing your own progress.</p>
+        </div>
+
+        <div class="card use-case-card fade-in">
+          <h3>Standups</h3>
+          <p>Walk into every standup prepared. No more "I worked on stuff" — share specifics with confidence.</p>
+        </div>
+
+        <div class="card use-case-card fade-in">
+          <h3>Performance Reviews</h3>
+          <p>Months of work, summarized. Never scramble to remember what you did when review season hits.</p>
+        </div>
+
+        <div class="card use-case-card fade-in">
+          <h3>Resume Updates</h3>
+          <p>Keep a running record of impact. When it's time to update your resume, the hard part is already done.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       9. FAQ
+       ============================================================ -->
+  <section class="section section--alt fade-in" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">FAQ</p>
+        <h2 class="section-heading">Questions &amp; answers</h2>
+      </div>
+
+      <div class="faq-list">
+        <!-- TODO: Update all FAQ answers with final copy -->
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Is this macOS only?
+            <span class="faq-question__icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer__inner">
+              <!-- TODO: Update FAQ answer -->
+              <p>Yes, Accomplished is a native macOS app. There are no current plans for iOS or other platforms, but that may change based on demand.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Does it use AI?
+            <span class="faq-question__icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer__inner">
+              <!-- TODO: Update FAQ answer -->
+              <p>Yes, Accomplished uses AI to generate summaries from your logged entries. Your raw entries are processed to create polished, readable summaries for standups, reviews, and more.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Is my data private?
+            <span class="faq-question__icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer__inner">
+              <!-- TODO: Update FAQ answer — specify data storage approach -->
+              <p>TODO: Describe your data privacy approach. Where is data stored? Is it local-only? Is anything sent to a server? What happens with AI processing?</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Can I export my summaries?
+            <span class="faq-question__icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer__inner">
+              <!-- TODO: Update FAQ answer -->
+              <p>Yes. You can copy summaries to your clipboard or export them. Paste them into Slack, email, docs, or wherever you need them.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Who is this for?
+            <span class="faq-question__icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer__inner">
+              <!-- TODO: Update FAQ answer -->
+              <p>Anyone who does knowledge work and wants to keep track of what they accomplished. Software engineers, designers, managers, freelancers — if you've ever blanked during a standup or scrambled before a review, this is for you.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            How do I join the beta?
+            <span class="faq-question__icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer__inner">
+              <p>Join via <a href="https://testflight.apple.com/join/RFNnHUvw">TestFlight</a>. You'll need a Mac running macOS 14 or later and the TestFlight app installed.</p>
+              <!-- TODO: Update macOS version requirement -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       10. FINAL CTA
+       ============================================================ -->
+  <section class="section fade-in">
+    <div class="container">
+      <div class="final-cta">
+        <!-- TODO: Replace final CTA copy -->
+        <h2>Start remembering what you got done</h2>
+        <p>Accomplished is in beta and free to try. Join the TestFlight to get early access.</p>
+        <div class="hero__ctas">
+          <a href="https://testflight.apple.com/join/RFNnHUvw" class="btn btn--primary">Join the TestFlight</a>
+          <!-- TODO: Add secondary CTA if needed (e.g., email signup, learn more) -->
+          <!-- <a href="#" class="btn btn--secondary">TODO: Secondary CTA</a> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       11. FOOTER
+       ============================================================ -->
+  <footer class="site-footer">
+    <p class="site-footer__name">Accomplished</p>
+    <p class="site-footer__copy">&copy; 2025 Jeff Rames. All rights reserved.</p>
+    <div class="site-footer__links">
+      <!-- TODO: Add privacy policy URL -->
+      <a href="#">Privacy</a>
+      <!-- TODO: Add contact page or email -->
+      <a href="#">Contact</a>
+      <!-- TODO: Add social links -->
+      <a href="https://mastodon.social/@jefframes" rel="me">Mastodon</a>
+      <a href="https://bsky.app/profile/jefframes.com">Bluesky</a>
+      <!-- TODO: Add any other links (GitHub, blog, etc.) -->
+    </div>
+  </footer>
+
+
+  <!-- ============================================================
+       MINIMAL JS — FAQ accordion + scroll fade-in
+       ============================================================ -->
+  <script>
+    // FAQ accordion
+    document.querySelectorAll('.faq-question').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var item = this.parentElement;
+        var isOpen = item.classList.contains('is-open');
+
+        // Close all items
+        document.querySelectorAll('.faq-item').forEach(function(i) {
+          i.classList.remove('is-open');
+          i.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+        });
+
+        // Open clicked item (if it wasn't already open)
+        if (!isOpen) {
+          item.classList.add('is-open');
+          this.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+
+    // Scroll fade-in (IntersectionObserver)
+    if ('IntersectionObserver' in window) {
+      var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1 });
+
+      document.querySelectorAll('.fade-in').forEach(function(el) {
+        observer.observe(el);
+      });
+    } else {
+      // Fallback: show everything
+      document.querySelectorAll('.fade-in').forEach(function(el) {
+        el.classList.add('is-visible');
+      });
+    }
+  </script>
+
+</body>
+</html>
