@@ -59,15 +59,15 @@
     .marker { font-family: var(--marker); }
     .mono { font-family: var(--mono); letter-spacing: 1px; }
 
-    /* ===== CTA button — TestFlight blue ===== */
+    /* ===== CTA button ===== */
     .cta { display: inline-flex; align-items: center; gap: 10px; text-decoration: none;
-      background: var(--blue); color: #fff; padding: 13px 24px; border-radius: 14px;
+      background: var(--ink); color: #fff; padding: 12px 20px; border-radius: 12px;
       font-weight: 600; font-size: 1.02rem; box-shadow: 3px 4px 0 rgba(44,33,24,.28);
       transition: transform .12s ease, box-shadow .12s ease; }
     .cta:hover { transform: translateY(-2px); box-shadow: 4px 7px 0 rgba(44,33,24,.30); }
-    .cta svg { width: 22px; height: 22px; fill: #fff; }
-    .cta small { display: block; font-size: .64rem; line-height: 1; opacity: .85; font-weight: 500; }
-    .cta strong { display: block; font-size: 1.02rem; line-height: 1.15; }
+    .cta svg { width: 20px; height: 20px; fill: #fff; }
+    .cta small { display: block; font-size: .64rem; line-height: 1; opacity: .74; font-weight: 500; }
+    .cta strong { display: block; font-size: 1rem; line-height: 1.15; }
     .cta.ghost { background: transparent; color: var(--blue); box-shadow: none; padding: 13px 8px; }
     .cta.ghost:hover { transform: none; text-decoration: underline; }
 
@@ -295,7 +295,7 @@
         <!-- TODO: swap "#" for the public TestFlight link when ready -->
         <a class="cta" data-goatcounter-click="testflight" href="#" rel="noopener">
           <svg viewBox="0 0 24 24"><path d="M12 2L2 19h20L12 2zm0 4.5L18.2 17H5.8L12 6.5z"/></svg>
-          <span><small>Join the</small><strong>TestFlight beta</strong></span>
+          <span><small>via TestFlight</small><strong>Join beta</strong></span>
         </a>
       </div>
     </div>
@@ -311,7 +311,7 @@
       <div class="hero-cta">
         <a class="cta" data-goatcounter-click="testflight" href="#" rel="noopener">
           <svg viewBox="0 0 24 24"><path d="M12 2L2 19h20L12 2zm0 4.5L18.2 17H5.8L12 6.5z"/></svg>
-          <span><small>Join the</small><strong>TestFlight beta</strong></span>
+          <span><small>via TestFlight</small><strong>Join beta</strong></span>
         </a>
         <span class="freebie">free to start · no subscription, ever →</span>
       </div>
@@ -321,7 +321,7 @@
         <img src="assets/app/app-icon.png" alt="" />
         <div class="ship-tag"><div class="to">BOX 01 · TO:</div><div class="room">Kitchen</div></div>
       </div>
-      <div class="phone-peek"><img src="assets/screenshots/01-boxlist.png" alt="Box Tracker box list" /></div>
+      <div class="phone-peek"><img src="assets/screenshots/01-boxlist.png?v=20260811b" alt="Box Tracker box list" /></div>
     </div>
   </header>
 
@@ -340,7 +340,7 @@
   <!-- FEATURES -->
   <section id="features" class="band band-kraft">
     <div class="feature">
-      <div class="shot"><div class="device-top" style="aspect-ratio: 1320 / 1560"><img class="scr" src="assets/screenshots/01-boxlist.png" alt="Every box in one list, with room and contents" /></div></div>
+      <div class="shot"><div class="device-top" style="aspect-ratio: 1320 / 1560"><img class="scr" src="assets/screenshots/01-boxlist.png?v=20260811b" alt="Every box in one list, with room and contents" /></div></div>
       <div><p class="tag">EVERYTHING, ONE LIST</p><h3>Every box, every room</h3><p>One running list of every box in your move — its number, its room, and a peek at what's inside. No more guessing which box the can opener is in.</p></div>
     </div>
   </section>
@@ -352,7 +352,7 @@
              <source src="assets/video/search-demo.webm" type="video/webm" />
              <source src="assets/video/search-demo.mp4"  type="video/mp4" />
            </video>  (keep it the only animated screen so the page stays calm) -->
-      <div class="shot"><div class="device-top" style="aspect-ratio: 1320 / 1180"><img class="scr" src="assets/screenshots/02-search.png" alt="Search results highlighting the matched item" /></div></div>
+      <div class="shot"><div class="device-top" style="aspect-ratio: 1320 / 1180"><img class="scr" src="assets/screenshots/02-search.png?v=20260811b" alt="Search results highlighting the matched item" /></div></div>
       <div><p class="tag">INSTANT LOOKUP</p><h3>Search finds anything<span class="pro-pill">Pro</span></h3><p>Type "lamp" and Box Tracker shows every box it's in, with the match highlighted. It searches items, rooms, and tags — even across a whole house of boxes.</p></div>
     </div>
   </section>
@@ -396,14 +396,14 @@
 
   <section class="band band-paper">
     <div class="feature">
-      <div class="shot"><div class="device-top" style="aspect-ratio: 1320 / 1380"><img class="scr" src="assets/screenshots/05-detail.png" alt="Box detail with items, a Fragile tag, photo and QR code" /></div></div>
+      <div class="shot"><div class="device"><img src="assets/screenshots/05-detail.png?v=20260811b" alt="Box detail with items, a Fragile tag, photo and QR code" /></div></div>
       <div><p class="tag">DETAILS THAT STICK</p><h3>Tag it. Photo it. Done.</h3><p>List every item, flag the fragile ones, and snap a photo so you remember what's really in there. Each box gets its own QR code for instant lookup later.</p></div>
     </div>
   </section>
 
   <section class="band band-blue flip">
     <div class="feature">
-      <div class="shot"><div class="device"><img src="assets/screenshots/03-unpack.png" alt="Unpack mode checklist showing 5 of 10 boxes unpacked" /></div></div>
+      <div class="shot"><div class="device"><img src="assets/screenshots/03-unpack.png?v=20260811b" alt="Unpack mode checklist showing 5 of 10 boxes unpacked" /></div></div>
       <div><p class="tag">UNPACK MODE</p><h3>Unpack without the chaos<span class="pro-pill">Pro</span></h3><p>Flip on Unpack Mode and check boxes off as you open them. A simple "5 of 10 unpacked" keeps the whole move moving — and tells you what's still out in the truck.</p></div>
     </div>
   </section>
@@ -425,7 +425,7 @@
         </div>
         <p class="note">Pay once and keep it for every move — no subscription, no renewal, nothing expiring mid-move. Other moving apps charge $20 or more <em>per year</em>; Box Tracker Pro costs less than half that, one time.</p>
       </div>
-      <div class="shot-col"><div class="device"><img src="assets/screenshots/04-paywall.png" alt="Unlock Pro — pay once, use anytime" /></div></div>
+      <div class="shot-col"><div class="device"><img src="assets/screenshots/04-paywall.png?v=20260811b" alt="Unlock Pro — pay once, use anytime" /></div></div>
     </div>
   </section>
 
@@ -447,7 +447,7 @@
     <p>// FREE TO START · $9.99 PRO, ONCE · NO SUBSCRIPTION //</p>
     <a class="cta" data-goatcounter-click="testflight" href="#" rel="noopener">
       <svg viewBox="0 0 24 24"><path d="M12 2L2 19h20L12 2zm0 4.5L18.2 17H5.8L12 6.5z"/></svg>
-      <span><small>Join the</small><strong>TestFlight beta</strong></span>
+      <span><small>via TestFlight</small><strong>Join beta</strong></span>
     </a>
   </section>
 
