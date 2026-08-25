@@ -137,7 +137,7 @@
     .demo { padding: 92px 0 34px; }
     .demo-frame {
       position: relative;
-      min-height: 530px;
+      min-height: 680px;
       display: grid;
       grid-template-columns: .9fr 1.1fr;
       align-items: center;
@@ -154,11 +154,16 @@
     .demo-status { display: inline-flex; align-items: center; gap: 12px; color: #f4f4f4; font-size: .88rem; font-weight: 680; }
     .play-mark { width: 48px; height: 48px; display: grid; place-items: center; border-radius: 50%; background: white; }
     .play-mark::before { content: ""; width: 0; height: 0; margin-left: 3px; border-top: 7px solid transparent; border-bottom: 7px solid transparent; border-left: 11px solid var(--ink); }
-    .demo-visual { position: relative; align-self: stretch; min-height: 530px; }
+    .demo-visual { position: relative; align-self: stretch; min-height: 680px; }
     .demo-visual::before { content: ""; position: absolute; width: 560px; height: 560px; left: 50%; top: 50%; border-radius: 50%; background: rgba(212, 147, 72, .24); filter: blur(55px); transform: translate(-50%, -50%); }
-    .demo-phone { position: absolute; width: 310px; left: 50%; top: 66px; padding: 8px; border-radius: 43px; background: #08090a; box-shadow: 0 34px 80px rgba(0,0,0,.42); transform: translateX(-50%) rotate(2deg); }
-    .demo-phone img { border-radius: 35px; }
-    .demo-caption { position: absolute; z-index: 3; right: 26px; bottom: 22px; padding: 8px 12px; border-radius: 999px; background: rgba(255,255,255,.10); color: #d9dadd; font-size: .72rem; backdrop-filter: blur(10px); }
+    .demo-video-shell { position: absolute; overflow: hidden; width: 286px; left: 50%; top: 24px; padding: 8px; border-radius: 43px; background: #08090a; box-shadow: 0 34px 80px rgba(0,0,0,.42); transform: translateX(-50%) rotate(1deg); }
+    .demo-video-shell video { width: 100%; aspect-ratio: 443 / 960; display: block; border-radius: 35px; background: #08090a; object-fit: cover; }
+    .demo-video-play { position: absolute; inset: 8px; display: grid; place-items: center; padding: 0; border: 0; border-radius: 35px; background: transparent; cursor: pointer; }
+    .demo-video-play[hidden] { display: none; }
+    .demo-video-play span { width: 72px; height: 72px; display: grid; place-items: center; border-radius: 50%; background: white; box-shadow: 0 12px 32px rgba(0,0,0,.28); transition: transform .18s ease, box-shadow .18s ease; }
+    .demo-video-play span::before { content: ""; width: 0; height: 0; margin-left: 5px; border-top: 11px solid transparent; border-bottom: 11px solid transparent; border-left: 17px solid var(--ink); }
+    .demo-video-play:hover span { transform: scale(1.06); box-shadow: 0 15px 38px rgba(0,0,0,.34); }
+    .demo-video-play:focus-visible { outline: 3px solid #e4aa68; outline-offset: -12px; }
 
     .section { padding: 112px 0; }
     .section-head { max-width: 700px; margin: 0 auto 56px; text-align: center; }
@@ -184,6 +189,10 @@
     .feature-card.scan p { color: #b9bdc4; }
     .feature-card.scan .tag { color: #e4aa68; }
     .feature-card.unpack { background: #eaf3fc; }
+    .feature-card.voice { color: white; background: linear-gradient(155deg, #24262a 0%, #111214 72%); }
+    .feature-card.voice p { color: #b9bdc4; }
+    .feature-card.voice .tag { color: #e4aa68; }
+    .feature-card.ipad { grid-column: span 2; background: linear-gradient(150deg, #fbf8f3 0%, #eee7dc 100%); }
     .shot-crop { position: absolute; left: 50%; bottom: -250px; width: min(285px, 86%); padding: 8px; border-radius: 40px; background: #0c0d0e; box-shadow: var(--shadow); transform: translateX(-50%); }
     .shot-crop img { border-radius: 34px; }
     .scan .shot-crop {
@@ -192,6 +201,31 @@
       box-shadow: 0 26px 60px rgba(0, 0, 0, .46), 0 0 0 1px rgba(255, 255, 255, .18);
       opacity: 1;
     }
+    .scan-device {
+      position: absolute;
+      width: min(220px, 62%);
+      padding: 7px;
+      border-radius: 35px;
+      box-shadow: 0 24px 55px rgba(0, 0, 0, .48);
+    }
+    .scan-device img { border-radius: 28px; }
+    .scan-camera {
+      left: 3%;
+      bottom: -120px;
+      background: linear-gradient(145deg, #aeb4bc, #747b84);
+      transform: rotate(-4deg);
+    }
+    .scan-result {
+      z-index: 2;
+      right: 3%;
+      bottom: -155px;
+      background: linear-gradient(145deg, #f6f7f8, #9da3aa);
+      transform: rotate(4deg);
+    }
+    .voice-device { position: absolute; width: min(260px, 78%); left: 50%; top: 225px; padding: 7px; border-radius: 38px; background: #050506; box-shadow: 0 28px 65px rgba(0,0,0,.5); transform: translateX(-50%); }
+    .voice-device video { width: 100%; aspect-ratio: 1206 / 2622; display: block; border-radius: 31px; background: #050506; object-fit: cover; }
+    .ipad-device { position: absolute; left: 34px; right: 34px; top: 215px; padding: 9px; border-radius: 34px; background: #111214; box-shadow: 0 28px 65px rgba(45,36,25,.22); }
+    .ipad-device img { border-radius: 26px; }
     .pro { display: inline-block; margin-left: 8px; padding: 3px 8px; border-radius: 999px; background: var(--blue); color: white; font-size: .65rem; font-weight: 760; letter-spacing: .08em; text-transform: uppercase; vertical-align: 5px; }
 
     .pricing-layout { display: grid; grid-template-columns: .85fr 1.15fr; gap: 70px; align-items: center; }
@@ -238,8 +272,9 @@
       .demo-frame { grid-template-columns: 1fr; }
       .demo-copy { padding: 48px 48px 16px; text-align: center; }
       .demo-copy p { margin-left: auto; margin-right: auto; }
-      .demo-visual { min-height: 470px; }
+      .demo-visual { min-height: 650px; }
       .feature-grid { grid-template-columns: 1fr; }
+      .feature-card.ipad { grid-column: auto; }
       .feature-card { min-height: 620px; }
       .shot-crop { width: 285px; bottom: -250px; }
       .pricing-layout { grid-template-columns: 1fr; gap: 40px; }
@@ -264,11 +299,10 @@
       .proof-item { padding: 12px 0 0; border-top: 1px solid var(--line); border-left: 0; text-align: center; }
       .section, .showcase { padding: 82px 0; }
       .demo { padding: 64px 0 20px; }
-      .demo-frame { min-height: 720px; }
+      .demo-frame { min-height: 910px; }
       .demo-copy { padding: 42px 26px 10px; }
-      .demo-visual { min-height: 430px; }
-      .demo-phone { width: 245px; top: 38px; }
-      .demo-caption { right: 14px; bottom: 14px; }
+      .demo-visual { min-height: 610px; }
+      .demo-video-shell { width: min(260px, 76vw); top: 20px; }
       .section-head { margin-bottom: 38px; }
       .steps { grid-template-columns: 1fr; }
       .step { min-height: 0; }
@@ -276,6 +310,7 @@
       .feature-card { min-height: 590px; padding: 28px; }
       .feature-card h3 { font-size: 1.65rem; }
       .shot-crop { width: min(255px, 88%); bottom: -235px; }
+      .ipad-device { left: 22px; right: 22px; top: 235px; }
       .price-card { padding: 34px 25px; }
       .final-card { padding: 62px 22px; }
       footer { flex-direction: column; align-items: center; text-align: center; }
@@ -322,8 +357,8 @@
       </div>
       <div class="hero-art" aria-label="Box Tracker app showing a moving box inventory">
         <div class="hero-glow"></div>
-        <div class="phone hero-phone-list"><img src="assets/screenshots/01-boxlist.png?v=20260811c" alt="A list of numbered moving boxes and their contents" /></div>
-        <div class="phone hero-phone-search"><img src="assets/screenshots/02-search-book.png?v=20260812a" alt="Search results matching a Books tag, Notebooks, and Cookbooks" /></div>
+        <div class="phone hero-phone-list"><img src="assets/screenshots/01-boxlist-current.png?v=20260824" alt="A list of numbered moving boxes and their contents" /></div>
+        <div class="phone hero-phone-search"><img src="assets/screenshots/02-search-current.png?v=20260824" alt="Search results matching cable items and a Cables tag" /></div>
       </div>
     </header>
 
@@ -341,12 +376,17 @@
         <div class="demo-copy">
           <p class="eyebrow">See it in action</p>
           <h2>From empty box to easy find.</h2>
-          <p>A short walkthrough can show the whole flow—add a box, label it, search for an item, and check it off when you unpack.</p>
-          <div class="demo-status"><span class="play-mark" aria-hidden="true"></span><span>60-second product demo</span></div>
+          <p>See the whole flow—add a box, label it, search for an item, scan it, and check it off when you unpack.</p>
+          <div class="demo-status"><span class="play-mark" aria-hidden="true"></span><span>28-second App Store preview</span></div>
         </div>
-        <div class="demo-visual" aria-label="Placeholder for the Box Tracker product demo">
-          <div class="demo-phone"><img src="assets/screenshots/05-detail.png?v=20260811c" alt="Box Tracker box details screen" /></div>
-          <span class="demo-caption">Demo video goes here</span>
+        <div class="demo-visual">
+          <div class="demo-video-shell">
+            <video id="demo-video" playsinline preload="metadata" poster="assets/video/box-tracker-app-preview-poster.jpg" aria-label="Box Tracker product demo">
+              <source src="assets/video/box-tracker-app-preview.mp4" type="video/mp4" />
+              <a href="assets/video/box-tracker-app-preview.mp4">Watch the Box Tracker product demo</a>
+            </video>
+            <button class="demo-video-play" id="demo-video-play" type="button" aria-label="Play the 28-second Box Tracker preview"><span aria-hidden="true"></span></button>
+          </div>
         </div>
       </div>
     </section>
@@ -358,7 +398,7 @@
         <p>Box Tracker stays out of your way while you pack—and saves you hours when you need to find something later.</p>
       </div>
       <div class="steps">
-        <article class="step"><div class="step-num">01</div><h3>Pack a box</h3><p>Add its room and jot down what goes inside as you pack.</p></article>
+        <article class="step"><div class="step-num">01</div><h3>Pack a box</h3><p>Add its room, then type or speak each item as you pack.</p></article>
         <article class="step"><div class="step-num">02</div><h3>Give it a label</h3><p>Print its QR code, add a photo, and flag anything fragile.</p></article>
         <article class="step"><div class="step-num">03</div><h3>Find it fast</h3><p>Search for any item or scan the label right from your phone.</p></article>
         <article class="step"><div class="step-num">04</div><h3>Unpack calmly</h3><p>Check off boxes room by room and always know what remains.</p></article>
@@ -370,26 +410,43 @@
         <div class="section-head left">
           <p class="eyebrow">Built for the whole move</p>
           <h2>Useful when everything else is in boxes.</h2>
-          <p>Three focused tools help you stay organized from the first roll of tape to the last empty box.</p>
+          <p>Smart tools help you stay organized from the first roll of tape to the last empty box.</p>
         </div>
         <div class="feature-grid">
           <article class="feature-card search">
             <span class="tag">Instant lookup</span>
-            <h3>Find the lamp before you find the lamp box.<span class="pro">Pro</span></h3>
+            <h3>Find the cable before you find the cable box.<span class="pro">Pro</span></h3>
             <p>Search items, rooms, and tags across your entire move. Box Tracker highlights the exact match so there’s no digging or guessing.</p>
-            <div class="shot-crop"><img src="assets/screenshots/02-search.png?v=20260811c" alt="Search results showing the matching item inside a box" /></div>
+            <div class="shot-crop"><img src="assets/screenshots/02-search-current.png?v=20260824" alt="Search results showing two cable item matches and a Cables tag match" /></div>
           </article>
           <article class="feature-card scan">
             <span class="tag">QR labels</span>
             <h3>Point. Scan. Know what’s inside.</h3>
             <p>Every box gets its own QR code. Scan it to jump directly to its contents.</p>
-            <div class="shot-crop"><img src="assets/screenshots/05-detail.png?v=20260811c" alt="Box details with items, photo, and QR code" /></div>
+            <div class="scan-device scan-camera"><img src="assets/screenshots/03-scanner-current.png?v=20260824" alt="Camera scanning a QR label on a moving box" /></div>
+            <div class="scan-device scan-result"><img src="assets/screenshots/04-scanned-detail-current.png?v=20260824" alt="The scanned box open to its item details" /></div>
           </article>
           <article class="feature-card unpack">
             <span class="tag">Unpack mode</span>
             <h3>See progress, one box at a time.<span class="pro">Pro</span></h3>
             <p>Check boxes off as you unpack and see exactly what is still waiting.</p>
-            <div class="shot-crop"><img src="assets/screenshots/03-unpack.png?v=20260811c" alt="Unpack checklist showing completed and remaining boxes" /></div>
+            <div class="shot-crop"><img src="assets/screenshots/05-unpack-current.png?v=20260824" alt="Unpack checklist showing completed and remaining boxes" /></div>
+          </article>
+          <article class="feature-card voice">
+            <span class="tag">Voice entry</span>
+            <h3>Hands full? Just say what’s inside.</h3>
+            <p>Box Tracker turns your voice into searchable items as you pack.</p>
+            <div class="voice-device">
+              <video id="voice-entry-video" muted loop playsinline preload="metadata" poster="assets/video/voice-entry-poster.jpg" aria-hidden="true">
+                <source src="assets/video/voice-entry.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </article>
+          <article class="feature-card ipad">
+            <span class="tag">Made for iPad</span>
+            <h3>A real workspace—not a stretched iPhone app.</h3>
+            <p>Browse every box in the sidebar while its contents stay open and editable beside it.</p>
+            <div class="ipad-device"><img src="assets/screenshots/06-ipad-current.png?v=20260824" alt="Box Tracker’s two-column iPad interface showing a box list and editable box details" /></div>
           </article>
         </div>
       </div>
@@ -444,5 +501,26 @@
     <span>© 2026 Box Tracker · Made by Jeff Rames</span>
     <span class="footer-links"><a href="#">TestFlight</a><a href="privacy/">Privacy</a></span>
   </footer>
+  <script>
+    const demoVideo = document.getElementById("demo-video");
+    const demoVideoPlay = document.getElementById("demo-video-play");
+    const voiceEntryVideo = document.getElementById("voice-entry-video");
+
+    demoVideoPlay.addEventListener("click", async () => {
+      demoVideo.controls = true;
+      demoVideoPlay.hidden = true;
+
+      try {
+        await demoVideo.play();
+      } catch {
+        demoVideo.controls = false;
+        demoVideoPlay.hidden = false;
+      }
+    });
+
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      voiceEntryVideo.play().catch(() => {});
+    }
+  </script>
 </body>
 </html>
