@@ -88,6 +88,11 @@
     .button.small { min-height: 40px; border-radius: 12px; padding: 0 17px; font-size: .9rem; }
     .button.light { color: var(--ink); background: white; box-shadow: none; }
 
+    .app-store-badge { display: inline-flex; align-items: center; transition: transform .15s ease, opacity .15s ease; }
+    .app-store-badge:hover { transform: translateY(-1px); opacity: .84; }
+    .app-store-badge img { height: 48px; width: auto; display: block; }
+    .app-store-badge.small img { height: 36px; }
+
     .hero {
       min-height: 740px;
       display: grid;
@@ -100,10 +105,10 @@
     .eyebrow { margin: 0 0 18px; color: var(--warm-deep); font-size: .78rem; font-weight: 760; letter-spacing: .12em; text-transform: uppercase; }
     h1 { max-width: 660px; margin: 0; font-size: clamp(3.55rem, 6vw, 5.7rem); line-height: .96; letter-spacing: -.068em; }
     .lede { max-width: 570px; margin: 28px 0 0; color: #4f5155; font-size: 1.23rem; line-height: 1.55; }
-    .hero-actions { display: flex; align-items: center; gap: 18px; margin-top: 34px; }
-    .text-link { color: var(--ink); font-size: .92rem; font-weight: 700; text-decoration: none; border-bottom: 1px solid #b8b5ae; }
+    .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 18px 26px; margin-top: 34px; }
+    .text-link { color: var(--ink); font-size: .92rem; font-weight: 700; text-decoration: none; border-bottom: 1px solid #b8b5ae; white-space: nowrap; }
     .text-link:hover { border-bottom-color: var(--ink); }
-    .price-note { color: var(--muted); font-size: .9rem; line-height: 1.35; }
+    .price-note { margin: 18px 0 0; color: var(--muted); font-size: .9rem; line-height: 1.35; }
     .price-note strong { display: block; color: var(--ink); }
     .trust-row { display: flex; flex-wrap: wrap; gap: 10px 22px; margin-top: 30px; color: var(--muted); font-size: .84rem; font-weight: 620; }
     .trust-row span::before { content: "✓"; margin-right: 7px; color: var(--warm-deep); }
@@ -341,7 +346,7 @@
           <a href="#pricing">Pricing</a>
           <a href="#faq">FAQ</a>
         </div>
-        <a class="button small" data-goatcounter-click="app-store" href="https://apps.apple.com/us/app/moving-box-tracker-find-items/id6762944912">View on the App Store</a>
+        <a class="app-store-badge small" data-goatcounter-click="app-store" href="https://apps.apple.com/us/app/moving-box-tracker-find-items/id6762944912"><img src="assets/app/appstore-badge.svg" alt="View on the App Store" /></a>
       </div>
     </div>
   </nav>
@@ -353,10 +358,10 @@
         <h1>Know what’s in every box.</h1>
         <p class="lede">Pack, label, and find everything without opening a single box. Box Tracker turns moving-day chaos into one simple, searchable list.</p>
         <div class="hero-actions">
-          <a class="button" data-goatcounter-click="app-store" href="https://apps.apple.com/us/app/moving-box-tracker-find-items/id6762944912">Download on the App Store</a>
+          <a class="app-store-badge" data-goatcounter-click="app-store" href="https://apps.apple.com/us/app/moving-box-tracker-find-items/id6762944912"><img src="assets/app/appstore-badge.svg" alt="Download on the App Store" /></a>
           <a class="text-link" href="#demo">Watch the demo</a>
-          <span class="price-note"><strong>Genuinely useful for free</strong>Upgrade once, only if you need Pro</span>
         </div>
+        <p class="price-note"><strong>Genuinely useful for free</strong>Upgrade once, only if you need Pro</p>
         <div class="trust-row">
           <span>Unlimited boxes</span>
           <span>iCloud sharing</span>
@@ -517,7 +522,7 @@
       <div class="final-card">
         <h2>Move in. Not into chaos.</h2>
         <p>Start organizing your move for free.</p>
-        <a class="button light" data-goatcounter-click="app-store" href="https://apps.apple.com/us/app/moving-box-tracker-find-items/id6762944912">Download on the App Store</a>
+        <a class="app-store-badge" data-goatcounter-click="app-store" href="https://apps.apple.com/us/app/moving-box-tracker-find-items/id6762944912"><img src="assets/app/appstore-badge-white.svg" alt="Download on the App Store" /></a>
       </div>
     </section>
   </main>
