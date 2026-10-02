@@ -59,3 +59,12 @@ Images for a post go in `assets/images/YYYY-MM-DD-post-slug/`.
 ## Build Exclusions
 
 The `_config.yml` excludes from the Jekyll build: README.md, Gemfile, Gemfile.lock, node_modules/, vendor/, .sass-cache/, .jekyll-cache/. Add any new non-content files to this list.
+
+## movingboxtracker.com
+
+`box-tracker/` is also served at https://movingboxtracker.com by the Cloudflare Worker in
+`_workers/movingboxtracker/` (a pass-through to `www.jefframes.com/box-tracker/`). Edit the
+pages here as usual; the Worker only needs `npm run deploy` when its own code changes. Keep
+links inside `box-tracker/` relative so they work on both domains, and point `canonical` /
+`og:url` at movingboxtracker.com. The printable PDFs come from
+`_tools/box_tracker_printables.py`.

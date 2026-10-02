@@ -1,0 +1,15 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  // Serves movingboxtracker.com from the Box Tracker pages published by GitHub Pages at
+  // www.jefframes.com/box-tracker/. The GitHub-hosted URLs stay live, so links already
+  // shared (Shipaton, App Store Connect, printed material) keep working.
+  "name": "movingboxtracker-site",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-30",
+  "workers_dev": false,
+  "routes": [
+    { "pattern": "movingboxtracker.com", "custom_domain": true },
+    { "pattern": "www.movingboxtracker.com", "custom_domain": true }
+  ],
+  "observability": { "enabled": true }
+}
