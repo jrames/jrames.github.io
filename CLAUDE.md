@@ -66,5 +66,17 @@ The `_config.yml` excludes from the Jekyll build: README.md, Gemfile, Gemfile.lo
 `_workers/movingboxtracker/` (a pass-through to `www.jefframes.com/box-tracker/`). Edit the
 pages here as usual; the Worker only needs `npm run deploy` when its own code changes. Keep
 links inside `box-tracker/` relative so they work on both domains, and point `canonical` /
-`og:url` at movingboxtracker.com. The printable PDFs come from
-`_tools/box_tracker_printables.py`.
+`og:url` at movingboxtracker.com. The printable PDFs and their preview JPGs come from
+`_tools/box_tracker_printables.py` (`--previews` renders the JPGs).
+
+SEO pages, each with a free download, an app promo, and the shared "More free moving help"
+links: `printable-moving-labels/`, `moving-inventory-list/`, `how-to-label-moving-boxes/`,
+`moving-checklist/`, and `pcs-move-inventory/`. The four newer pages share
+`box-tracker/assets/css/guide.css`. A new page needs a `sitemap.xml` entry, a card in the home
+page's `#guides` section, and a link in every other page's related-guides list.
+
+App Store links carry `pt=119038783` (the ASC provider token) and a per-page campaign:
+`ct=web-home`, `web-printable`, `web-inventory-list`, `web-label-guide`, `web-checklist`,
+`web-pcs`. PDF QR codes use `pdf-*` campaigns (`PROVIDER_TOKEN` in the generator). Apple
+ignores `ct` without `pt`. GoatCounter click names are `app-store-<page>-<placement>` so
+clicks can be read per page.
