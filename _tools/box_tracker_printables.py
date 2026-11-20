@@ -51,6 +51,12 @@ def app_store_link(campaign):
     return APP_STORE_URL + params
 
 
+def link_area(c, url, x, y, w, h):
+    """Make a region tappable. A QR code can't be scanned from the screen it's displayed on,
+    and these PDFs are often read on the phone they were emailed or downloaded to."""
+    c.linkURL(url, (x, y, x + w, y + h), relative=0, thickness=0)
+
+
 def qr_image(url):
     img = qrcode.make(url, border=0, box_size=12)
     return ImageReader(img.get_image())
@@ -157,7 +163,9 @@ def draw_label(c, index, x, y, w, h, radius, cut_lines):
     footer_y = y + pad
     c.setFillColor(MUTED)
     c.setFont("Helvetica", 5.6)
-    c.drawString(left, footer_y, f"Want scannable QR labels? Moving Box Tracker for iPhone · {SITE_URL}")
+    credit = f"Want scannable QR labels? Moving Box Tracker for iPhone · {SITE_URL}"
+    c.drawString(left, footer_y, credit)
+    link_area(c, f"https://{SITE_URL}/", left, footer_y - 2, c.stringWidth(credit, "Helvetica", 5.6), 8)
 
     checks_y = footer_y + 13
     cx = left
@@ -223,7 +231,9 @@ def promo_panel(c, x, y, w, h, campaign, headline, lines):
     c.setStrokeColor(OUTLINE)
     c.roundRect(x, y, w, h, 10, stroke=1, fill=1)
     qr = h - 22
-    c.drawImage(qr_image(app_store_link(campaign)), x + w - qr - 11, y + 11, qr, qr)
+    link = app_store_link(campaign)
+    c.drawImage(qr_image(link), x + w - qr - 11, y + 11, qr, qr)
+    link_area(c, link, x, y, w, h)
     if ICON.exists():
         # Downscale before embedding; the full-size icon alone adds ~600 KB to the PDF.
         icon = Image.open(ICON).convert("RGB")
@@ -241,7 +251,7 @@ def promo_panel(c, x, y, w, h, campaign, headline, lines):
     c.drawString(tx, y + h - 28, headline)
     c.setFont("Helvetica", 9.5)
     c.setFillColor(MUTED)
-    for i, line in enumerate(lines + (f"Scan the code or visit {SITE_URL}",)):
+    for i, line in enumerate(lines + (f"Scan or tap the code, or visit {SITE_URL}",)):
         c.drawString(tx, y + h - 45 - i * 13, line)
 
 
@@ -727,7 +737,9 @@ def organization_guide(path):
     c.setFillColor(HexColor("#17191c"))
     c.roundRect(margin, promo_y, page_w - 2 * margin, promo_h, 15, stroke=0, fill=1)
     qr_size = 86
-    c.drawImage(qr_image(app_store_link("pdf-organizing-guide")), page_w - margin - qr_size - 13, promo_y + 13, qr_size, qr_size)
+    guide_link = app_store_link("pdf-organizing-guide")
+    c.drawImage(qr_image(guide_link), page_w - margin - qr_size - 13, promo_y + 13, qr_size, qr_size)
+    link_area(c, guide_link, margin, promo_y, page_w - 2 * margin, promo_h)
     if ICON.exists():
         icon = Image.open(ICON).convert("RGB")
         icon.thumbnail((144, 144))
@@ -740,7 +752,7 @@ def organization_guide(path):
     wrapped_text(c, "Moving Box Tracker for iPhone keeps every box, photo, and item searchable. Print a QR label, scan a box to see its contents, and share the move privately with your household.", margin + 16, promo_y + 45, page_w - 2 * margin - qr_size - 45, size=8.8, leading=11, color=HexColor("#c6c8cc"))
     c.setFillColor(HexColor("#e4aa68"))
     c.setFont("Helvetica-Bold", 8)
-    c.drawString(margin + 16, promo_y + 16, "Scan to view on the App Store - free for unlimited boxes")
+    c.drawString(margin + 16, promo_y + 16, "Scan or tap to view on the App Store - free for unlimited boxes")
 
     c.setFillColor(MUTED)
     c.setFont("Helvetica", 5.6)
