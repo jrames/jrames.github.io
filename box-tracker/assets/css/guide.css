@@ -82,6 +82,7 @@ a.download:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
 .download p { margin: 6px 0 14px; color: var(--muted); font-size: .92rem; }
 .download .get { margin-top: auto; color: var(--warm-deep); font-weight: 700; font-size: .92rem; }
 .download .badge { display: inline-block; margin-left: 6px; padding: 1px 8px; border-radius: 99px; background: var(--warm-soft); color: var(--warm-deep); font-size: .72rem; font-weight: 760; letter-spacing: .04em; vertical-align: 2px; }
+.download.wide { grid-column: span 2; }
 .alt-size { margin: 4px 0 14px; font-size: .88rem; color: var(--muted); }
 .alt-size a { color: var(--warm-deep); font-weight: 650; }
 
@@ -124,7 +125,7 @@ tr:last-child td { border-bottom: 0; }
 .promo p { color: #b9bdc4; margin: 16px 0 26px; }
 .promo img.shot { width: min(100%, 300px); margin: 0 auto; border-radius: 28px; box-shadow: 0 30px 60px rgba(0,0,0,.4); }
 
-.related { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.related { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .related a { display: flex; flex-direction: column; gap: 6px; padding: 22px; border: 1px solid var(--line); border-radius: var(--radius-md); background: var(--surface); text-decoration: none; transition: transform .15s ease, box-shadow .15s ease; }
 .related a:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
 .related a span { color: var(--muted); font-size: .9rem; }
@@ -153,6 +154,7 @@ footer a { text-decoration: none; }
   .nav-links { display: none; }
   .hero { padding-top: 44px; }
   .downloads, .tips, .weeks, .related { grid-template-columns: 1fr; }
+  .download.wide { grid-column: auto; }
   .section { padding: 48px 0; }
   footer { flex-direction: column; align-items: center; text-align: center; }
   .footer-links { justify-content: center; }
