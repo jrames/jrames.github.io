@@ -1,0 +1,29 @@
+{
+  "betaURL": "",
+  "films": [
+    { "id": "Q105598", "title": "Die Hard", "year": 1988 },
+    { "id": "Q949879", "title": "Elf", "year": 2003 },
+    { "id": "Q105031", "title": "Home Alone", "year": 1990 },
+    { "id": "Q204191", "title": "It's a Wonderful Life", "year": 1946 },
+    { "id": "Q1421476", "title": "National Lampoon's Christmas Vacation", "year": 1989, "slug": "christmas-vacation" },
+    { "id": "Q190588", "title": "Love Actually", "year": 2003 },
+    { "id": "Q478748", "title": "The Holiday", "year": 2006 },
+    { "id": "Q556933", "title": "A Christmas Story", "year": 1983 },
+    { "id": "Q241958", "title": "Gremlins", "year": 1984 },
+    { "id": "Q862197", "title": "The Polar Express", "year": 2004 },
+    { "id": "Q714721", "title": "The Muppet Christmas Carol", "year": 1992 },
+    { "id": "Q322328", "title": "The Nightmare Before Christmas", "year": 1993 },
+    { "id": "Q535395", "title": "Scrooged", "year": 1988 },
+    { "id": "Q67208596", "title": "Klaus", "year": 2019 },
+    { "id": "Q1570133", "title": "White Christmas", "year": 1954 }
+  ],
+  "lists": [
+    {
+      "slug": "christmas-movie-cocktails",
+      "title": "Christmas Movie Cocktails",
+      "description": "A real cocktail for every Christmas movie, from Die Hard to Elf to It's a Wonderful Life, with full recipes.",
+      "intro": "One drink for each holiday classic, picked to match the film's mood, era and colors. Every one is a real, tested recipe. Tap a film for its full lineup.",
+      "films": ["Q105598", "Q949879", "Q105031", "Q204191", "Q1421476", "Q190588", "Q478748", "Q556933", "Q241958", "Q862197", "Q714721", "Q322328", "Q535395", "Q67208596", "Q1570133"]
+    }
+  ]
+}
