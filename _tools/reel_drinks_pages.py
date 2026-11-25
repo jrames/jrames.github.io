@@ -71,7 +71,7 @@ def load_answers(films, catalog_version, refresh):
 
 
 def lineup(answer, recipes):
-    """The film's drinks as the app's ideal lineup shows them: signatures first, then the model's picks."""
+    """The film's drinks as the app's ideal lineup shows them (signatures, then the model's picks), except that a straight-pour signature follows the first cocktail."""
     cuts = {cut["classic"]: cut for cut in answer.get("cuts", [])}
     drinks, seen = [], set()
     for signature in answer.get("signatures", []):
@@ -85,6 +85,12 @@ def lineup(answer, recipes):
         if pick["id"] in recipes and pick["id"] not in seen:
             seen.add(pick["id"])
             drinks.append({"recipe": recipes[pick["id"]], "name": pick["name"], "blurb": pick["blurb"]})
+    # The app leads with on-screen drinks, but a straight pour (a glass of brandy) is a weak opener for a page
+    # meant to sell the app, so the site leads with a cocktail and shows the pour right after it.
+    pours = [d for d in drinks if d.get("signature") and d["recipe"].get("signatureOnly")]
+    rest = [d for d in drinks if d not in pours]
+    if pours and rest:
+        drinks = rest[:1] + pours + rest[1:]
     for drink in drinks:
         cut = cuts.get(drink["recipe"]["id"])
         if cut and cut["recipe"] in recipes and not any(d in seen for d in cut.get("duplicates", [])):
