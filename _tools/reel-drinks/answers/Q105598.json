@@ -6,7 +6,7 @@
  "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T17:40:51.774Z",
+ "generatedAt": "2026-11-25T20:39:42.740Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2318,7 +2318,7 @@
   {
    "id": "new-york-sour",
    "name": "Plaza After Midnight",
-   "blurb": "That red wine top is for the elevator shafts, the bloodless snow, and one long bad night in downtown L.A."
+   "blurb": "Whiskey sour with red wine floated on top, for a Christmas Eve office party in L.A. that ends in broken glass."
   },
   {
    "id": "old-fashioned",
