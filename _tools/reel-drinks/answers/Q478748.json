@@ -1,12 +1,12 @@
 {
  "format": 1,
  "movieID": "Q478748",
- "catalogVersion": "2e929962596f",
+ "catalogVersion": "ed8b37082135",
  "matchingVersion": 1,
  "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T21:14:15.845Z",
+ "generatedAt": "2026-11-25T22:43:13.913Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -465,6 +465,11 @@
     0,
     2
    ]
+  ],
+  [
+   "brandy-pour",
+   7.8,
+   []
   ],
   [
    "brandy-alexander",
@@ -1236,6 +1241,13 @@
    ]
   ],
   [
+   "kamikaze",
+   42.4,
+   [
+    0
+   ]
+  ],
+  [
    "ken-burns-effect",
    11.6,
    []
@@ -1850,6 +1862,13 @@
    []
   ],
   [
+   "rum-collins",
+   32.7,
+   [
+    0
+   ]
+  ],
+  [
    "russian-spring-punch",
    51.6,
    [
@@ -1996,6 +2015,14 @@
    ]
   ],
   [
+   "smoking-bishop",
+   78.4,
+   [
+    3,
+    0
+   ]
+  ],
+  [
    "society-street",
    9.4,
    []
@@ -2093,6 +2120,13 @@
   [
    "tequila-matador",
    12.5,
+   [
+    0
+   ]
+  ],
+  [
+   "tequila-slammer",
+   32.7,
    [
     0
    ]
@@ -2441,7 +2475,16 @@
    ]
   ]
  ],
- "signatures": [],
+ "signatures": [
+  {
+   "id": "brandy-pour",
+   "name": "Brandy",
+   "association": "film",
+   "onScreen": true,
+   "character": "Amanda Woods and Graham Simpkins",
+   "sceneNote": "Brandy is offered after Graham arrives unexpectedly at Iris's cottage."
+  }
+ ],
  "picks": [
   {
    "id": "french-75",

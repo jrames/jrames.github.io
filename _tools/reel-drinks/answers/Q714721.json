@@ -1,12 +1,12 @@
 {
  "format": 1,
  "movieID": "Q714721",
- "catalogVersion": "2e929962596f",
+ "catalogVersion": "ed8b37082135",
  "matchingVersion": 1,
  "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T21:14:16.230Z",
+ "generatedAt": "2026-11-25T22:43:16.009Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -1130,6 +1130,13 @@
    ]
   ],
   [
+   "kamikaze",
+   34,
+   [
+    0
+   ]
+  ],
+  [
    "ken-burns-effect",
    4,
    []
@@ -1704,6 +1711,14 @@
    []
   ],
   [
+   "rum-collins",
+   49,
+   [
+    0,
+    1
+   ]
+  ],
+  [
    "russian-spring-punch",
    42,
    [
@@ -1829,6 +1844,15 @@
    ]
   ],
   [
+   "smoking-bishop",
+   124.3,
+   [
+    3,
+    4,
+    0
+   ]
+  ],
+  [
    "southside",
    22,
    [
@@ -1903,6 +1927,13 @@
    30.3,
    [
     2,
+    0
+   ]
+  ],
+  [
+   "tequila-slammer",
+   30,
+   [
     0
    ]
   ],
@@ -2198,7 +2229,15 @@
    ]
   ]
  ],
- "signatures": [],
+ "signatures": [
+  {
+   "id": "smoking-bishop",
+   "name": "Smoking Bishop",
+   "association": "novel",
+   "onScreen": false,
+   "sceneNote": "Smoking Bishop is mentioned in Dickens’s A Christmas Carol."
+  }
+ ],
  "picks": [
   {
    "id": "mulled-claret",

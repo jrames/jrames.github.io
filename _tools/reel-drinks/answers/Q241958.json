@@ -1,12 +1,12 @@
 {
  "format": 1,
  "movieID": "Q241958",
- "catalogVersion": "2e929962596f",
+ "catalogVersion": "ed8b37082135",
  "matchingVersion": 1,
  "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T21:14:12.045Z",
+ "generatedAt": "2026-11-25T22:43:12.881Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -1385,6 +1385,14 @@
    ]
   ],
   [
+   "kamikaze",
+   57,
+   [
+    0,
+    2
+   ]
+  ],
+  [
    "ken-burns-effect",
    14.9,
    []
@@ -2061,6 +2069,13 @@
    []
   ],
   [
+   "rum-collins",
+   26,
+   [
+    0
+   ]
+  ],
+  [
    "russian-spring-punch",
    30,
    [
@@ -2224,6 +2239,14 @@
    ]
   ],
   [
+   "smoking-bishop",
+   71.3,
+   [
+    3,
+    0
+   ]
+  ],
+  [
    "society-street",
    14.9,
    []
@@ -2337,6 +2360,14 @@
    10.3,
    [
     0
+   ]
+  ],
+  [
+   "tequila-slammer",
+   45,
+   [
+    0,
+    2
    ]
   ],
   [

@@ -1,12 +1,12 @@
 {
  "format": 1,
  "movieID": "Q1421476",
- "catalogVersion": "2e929962596f",
+ "catalogVersion": "ed8b37082135",
  "matchingVersion": 1,
  "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T21:14:14.850Z",
+ "generatedAt": "2026-11-25T22:56:46.746Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -391,6 +391,11 @@
   [
    "boulevardier",
    35,
+   []
+  ],
+  [
+   "bourbon-pour",
+   13.6,
    []
   ],
   [
@@ -1193,6 +1198,14 @@
    ]
   ],
   [
+   "kamikaze",
+   65,
+   [
+    0,
+    1
+   ]
+  ],
+  [
    "ken-burns-effect",
    15.6,
    []
@@ -1799,6 +1812,13 @@
    []
   ],
   [
+   "rum-collins",
+   34,
+   [
+    0
+   ]
+  ],
+  [
    "russian-spring-punch",
    40,
    [
@@ -1940,6 +1960,14 @@
    ]
   ],
   [
+   "smoking-bishop",
+   74.4,
+   [
+    2,
+    0
+   ]
+  ],
+  [
    "society-street",
    15.6,
    []
@@ -2035,6 +2063,14 @@
    15.4,
    [
     0
+   ]
+  ],
+  [
+   "tequila-slammer",
+   53,
+   [
+    0,
+    1
    ]
   ],
   [
@@ -2373,7 +2409,16 @@
    ]
   ]
  ],
- "signatures": [],
+ "signatures": [
+  {
+   "id": "bourbon-pour",
+   "name": "Tennessee Whiskey",
+   "association": "film",
+   "onScreen": true,
+   "character": "Clark Griswold Sr.",
+   "sceneNote": "Clark's father credits Tennessee whiskey when his son asks how he survived family Christmases."
+  }
+ ],
  "picks": [
   {
    "id": "mulled-claret",
