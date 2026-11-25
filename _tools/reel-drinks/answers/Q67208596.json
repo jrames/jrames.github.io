@@ -6,7 +6,7 @@
  "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T17:44:32.395Z",
+ "generatedAt": "2026-11-25T21:14:13.793Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2735,78 +2735,78 @@
  "picks": [
   {
    "id": "egg-nog",
-   "name": "Snowy Attic Letters",
-   "blurb": "Custard-thick and sweet, like sorting good deeds by lamplight while the whole town pretends not to need help."
+   "name": "One Letter, One Toy",
+   "blurb": "Brandy, rum, egg and milk, rich and generous, for children learning that one letter can bring a toy."
   },
   {
    "id": "hot-brandy-sling",
-   "name": "Harbor Bell Evening",
-   "blurb": "Brandy warmed straight through the chill, for the moment when the sleigh bells start sounding over the dockside roofs."
+   "name": "Frozen Post Office",
+   "blurb": "Brandy, sugar and hot water for a frozen island post office where nobody has sent a letter in years."
   },
   {
    "id": "french-75",
-   "name": "Midnight Rooftop Run",
-   "blurb": "Bubbles and lemon keep this one moving fast, just like a snowy dash across chimney tops and down narrow streets."
+   "name": "Six Thousand Letters",
+   "blurb": "Gin, lemon and bubbles for a rich, lazy postal cadet sent north with a quota of six thousand letters."
   },
   {
    "id": "mulled-claret",
-   "name": "Market Square Lanterns",
-   "blurb": "Spiced red wine brings the whole square indoors, where everyone is thawing out and still acting suspicious."
+   "name": "Two Feuding Clans",
+   "blurb": "Red wine, sugar and spice for a town split into two families that have feuded for generations."
   },
   {
    "id": "tom-and-jerry",
-   "name": "Workroom Hearth Bowl",
-   "blurb": "Creamy rum and spice suit a hand-built winter miracle, especially when the night turns into one long repair job."
+   "name": "Workshop Full of Toys",
+   "blurb": "Hot rum, brandy and batter for a cabin in the woods with a room full of handmade toys."
   },
   {
    "id": "pina-colada",
-   "name": "Polar Sleigh Surprise",
-   "blurb": "Creamy and playful, with enough tropical nonsense to cheer up a town that forgot how to smile."
+   "name": "Teacher's Escape Fund",
+   "blurb": "Rum, coconut and pineapple for a schoolteacher saving every coin to get off the island for good."
   },
   {
    "id": "penicillin",
-   "name": "Frozen Dockside Smoke",
-   "blurb": "Honey, ginger, and a little peat cut through the cold like a stubborn lantern on an empty pier."
+   "name": "Quiet Woodsman",
+   "blurb": "Smoky Scotch, honey and ginger for a quiet giant of a woodsman still grieving the wife he lost."
   },
   {
    "id": "ramos-fizz",
-   "name": "Snow Globe Parlor",
-   "blurb": "Foamy gin and orange blossom make everything look polished, even when the shop floor is chaos and sawdust."
+   "name": "Schoolhouse Fish Shop",
+   "blurb": "Gin, cream and egg white for a schoolhouse turned fish shop, until the children come back wanting to write."
   },
   {
    "id": "hot-toddy",
-   "name": "Late Chimney Check",
-   "blurb": "Honeyed whiskey is what you want after a night of rooftops, ropes, and regrettable weather choices."
+   "name": "Coal for the Naughty",
+   "blurb": "Bourbon, honey and hot water, warm for the good kids, with coal waiting for the naughty."
   },
   {
    "id": "planters-punch",
-   "name": "Postbag At Dusk",
-   "blurb": "Dark rum keeps this punch practical, which is more than can be said for the mail route at first light."
+   "name": "Grinning Ferryman",
+   "blurb": "Dark rum, lime and sugar for a ferryman who laughs at every newcomer he drops off on the island."
   },
   {
    "id": "corpse-reviver-2",
-   "name": "Blue Envelope Return",
-   "blurb": "Bright citrus and a sly absinthe edge wake you up fast, like finding one last note after the room goes quiet."
+   "name": "Midnight Chimney Run",
+   "blurb": "Gin, Lillet and absinthe, sharp enough for midnight deliveries, sliding toys down chimneys before anyone wakes."
   },
   {
    "id": "moscow-mule",
-   "name": "Sledge Runner",
-   "blurb": "Ginger bite and lime snap through the frost, all steel nerves and skidding runners on packed snow."
+   "name": "Sleigh Across the Snow",
+   "blurb": "Vodka, ginger beer and lime, fast and cold, for a sleigh racing across the snow with a cargo of toys."
   },
   {
    "id": "whiskey-sour",
-   "name": "Town Hall Standoff",
-   "blurb": "Sharp, no-nonsense whiskey for a room full of stubborn people who only thaw after the argument ends."
+   "name": "Feud Thaws Out",
+   "blurb": "Whiskey and lemon, sour turned sweet, for two feuding families whose children make friends anyway."
   },
   {
    "id": "brandy-and-soda",
-   "name": "Winter Harbor Window",
-   "blurb": "Clean and simple, with enough sparkle to keep you watching the snow instead of the clock."
+   "name": "Sled for Margu",
+   "blurb": "Brandy and soda, plain and kind, for a little girl who speaks a different language and still gets her sled."
   },
   {
    "id": "mojito",
-   "name": "Green Workshop Sprig",
-   "blurb": "Mint lifts the whole thing off the table, useful when the only thing greener than the garlands is the town’s attitude."
+   "name": "Staying for Good",
+   "blurb": "Mint and lime, fresh and bright, for a postman who stays on the island for good."
   }
  ],
  "cuts": [

@@ -6,7 +6,7 @@
  "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T17:44:10.810Z",
+ "generatedAt": "2026-11-25T21:14:15.331Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2741,78 +2741,78 @@
  "picks": [
   {
    "id": "manhattan",
-   "name": "Midnight Manhattan",
-   "blurb": "Rye and vermouth cut through the Christmas-Eve cynicism like a producer’s tie on deadline."
+   "name": "Network Boss",
+   "blurb": "Rye and sweet vermouth for a TV network boss who fires an employee the week of Christmas without blinking."
   },
   {
    "id": "paper-plane",
-   "name": "Studio Exit Stairwell",
-   "blurb": "Bourbon, amaro, and Aperol keep this one sharp for the fluorescent maze behind the cameras."
+   "name": "Live Christmas Eve Broadcast",
+   "blurb": "Bourbon, amaro and Aperol in exact balance, for a live Christmas Eve broadcast that goes badly off script."
   },
   {
    "id": "mulled-claret",
-   "name": "Christmas Eve Curbside",
-   "blurb": "Warm spiced wine belongs beside the curb snow and the city steam when the night gets mean."
+   "name": "Claire's Shelter",
+   "blurb": "Red wine, sugar and spice for an old girlfriend who spends Christmas running a homeless shelter."
   },
   {
    "id": "new-york-sour",
-   "name": "Upper West Rooftop",
-   "blurb": "The red wine float lands like a hard-earned soft spot after too many cold New York hours."
+   "name": "Mouse with Antlers",
+   "blurb": "Bourbon sour with a red wine float for a mouse with tiny antlers and a boss who suggests staples."
   },
   {
    "id": "bloody-mary",
-   "name": "Morning After Broadcast",
-   "blurb": "Tomato, pepper, and hot sauce hit like an all-night call sheet and a studio headache."
+   "name": "Cab Ride to the Past",
+   "blurb": "Vodka, tomato and hot sauce for a ghost who picks you up in a cab and drives you back decades."
   },
   {
    "id": "sazerac",
-   "name": "Ghostly Boardroom Night",
-   "blurb": "This rye number comes with absinthe swagger, for anyone who needs the office to stop feeling haunted."
+   "name": "Mentor from the Grave",
+   "blurb": "Rye, absinthe and bitters for an old boss who visits from the grave still dressed for golf."
   },
   {
    "id": "moscow-mule",
-   "name": "Cab Ride Through Midtown",
-   "blurb": "Ginger beer snaps harder than the traffic outside, which is saying something on Christmas Eve."
+   "name": "Fairy with a Toaster",
+   "blurb": "Vodka, ginger beer and lime with a sting, for a fairy ghost who hits hard and often."
   },
   {
    "id": "hanky-panky",
-   "name": "Control Room Wink",
-   "blurb": "Gin, vermouth, and Fernet keep the sweetness on a short leash, like a wisecrack in a power meeting."
+   "name": "Working Late on Christmas Eve",
+   "blurb": "Gin, vermouth and Fernet for an assistant kept late on Christmas Eve, with a family waiting at home."
   },
   {
    "id": "tom-and-jerry",
-   "name": "Lobby Snowfall Bowl",
-   "blurb": "Creamy batter and rum turn the lobby chill into something you can actually sit through."
+   "name": "Brother's Standing Invite",
+   "blurb": "Hot rum, brandy and batter for the brother who invites him to Christmas dinner every year and gets turned down."
   },
   {
    "id": "second-serve",
-   "name": "Church Basket Detour",
-   "blurb": "A little sherry and soda take the edge off the city’s hard corners without going soft on you."
+   "name": "Fired Before Christmas",
+   "blurb": "Amaro, sherry and soda for a fired executive who spends the holiday drinking and planning his return."
   },
   {
    "id": "jack-rose",
-   "name": "Elevator Ride Down",
-   "blurb": "Apple brandy and grenadine make the descent sweeter, even when the building’s full of bad decisions."
+   "name": "Scariest Holiday Promo",
+   "blurb": "Apple brandy and grenadine for a holiday promo so frightening it gives a viewer a heart attack."
   },
   {
    "id": "the-dead-rabbit",
-   "name": "Rooftop Resurrection",
-   "blurb": "Mezcal smoke and raspberry foam bring a little miracle to the cold air above the avenue."
+   "name": "Ghost of the Future",
+   "blurb": "Mezcal, raspberry and egg white, smoky and grim, for a faceless ghost whose tour ends at a crematorium."
   },
   {
    "id": "bourbon-and-cola",
-   "name": "Late Shift Desk Drink",
-   "blurb": "Bourbon and cola are blunt, brown, and weirdly comforting for a night spent pretending to be in charge."
+   "name": "Yes-Men Upstairs",
+   "blurb": "Bourbon and cola, blunt and brown, for an executive suite where everyone says yes to the boss."
   },
   {
    "id": "last-word",
-   "name": "Green Room Finale",
-   "blurb": "Chartreuse gives the finale a green snap, because even miracles should arrive with attitude."
+   "name": "Taking Over the Broadcast",
+   "blurb": "Gin, green Chartreuse and lime for a boss who takes over his own broadcast to talk about Christmas."
   },
   {
    "id": "penicillin",
-   "name": "Aftershock on Fifth",
-   "blurb": "Smoky Scotch and ginger hang on like a long Christmas night you thought would never end."
+   "name": "The Boy Speaks Up",
+   "blurb": "Smoky Scotch, honey and ginger for a quiet little boy who finally speaks up at the end of the show."
   }
  ],
  "cuts": [

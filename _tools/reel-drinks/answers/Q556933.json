@@ -6,7 +6,7 @@
  "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T17:42:43.015Z",
+ "generatedAt": "2026-11-25T21:14:00.361Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2377,78 +2377,78 @@
  "picks": [
   {
    "id": "mulled-claret",
-   "name": "Front-Window Snowfall",
-   "blurb": "Warm spice and red wine for a December street under Indiana snow; take your mittens off for one careful sip."
+   "name": "Hohman Snowfall",
+   "blurb": "Red wine, sugar and spice for a snowed-in Indiana street in the 1940s and a kid with one wish."
   },
   {
    "id": "hot-brandy-sling",
-   "name": "Parlor Lamp Heat",
-   "blurb": "Brandy and hot water keep the frost off while the family room turns into a small, loud battlefield."
+   "name": "Furnace Fight",
+   "blurb": "Brandy, sugar and hot water for a father at war with a basement furnace that never stays lit."
   },
   {
    "id": "whiskey-sour",
-   "name": "Basement Air Gun",
-   "blurb": "Sharp lemon cuts through the sweetness, like a kid aiming too hard and learning consequences the hard way."
+   "name": "Frozen Flagpole",
+   "blurb": "Whiskey and lemon with a sharp bite, like a tongue frozen to a schoolyard flagpole."
   },
   {
    "id": "white-russian",
-   "name": "Kitchen Table Breakfast",
-   "blurb": "Creamy and stubbornly sweet, this one belongs near the kitchen sink after the morning opens gifts and chaos."
+   "name": "Pink Bunny Suit",
+   "blurb": "Vodka, coffee liqueur and cream, soft and sweet as the pink bunny suit from an aunt who thinks he's still four."
   },
   {
    "id": "tom-and-jerry",
-   "name": "Christmas Eve Batter",
-   "blurb": "Foamy, spiced, and old-fashioned enough to belong to a night when the adults need a little mercy."
+   "name": "Present Behind the Desk",
+   "blurb": "Hot rum, brandy and batter for Christmas morning, wrapping paper knee-deep and one last present behind the desk."
   },
   {
    "id": "manhattan",
-   "name": "Suits On Main Street",
-   "blurb": "Rye, vermouth, and bitters bring grown-up winter polish to a town where every errand becomes a mission."
+   "name": "Crate Marked Fragile",
+   "blurb": "Rye and sweet vermouth for a father unpacking a prize lamp from a crate and setting it in the front window."
   },
   {
    "id": "new-york-sour",
-   "name": "Department Store Santa",
-   "blurb": "Bourbon under a red wine cap, because even the mall Santa line deserves a bit of drama."
+   "name": "Down the Santa Slide",
+   "blurb": "Bourbon sour with red wine floated on top, for a department store Santa who sends kids down the slide by boot."
   },
   {
    "id": "moscow-mule",
-   "name": "Frozen Porch Steps",
-   "blurb": "Ginger bite and lime snap like boots on icy boards when the house is half holiday, half hazard."
+   "name": "Flat Tire Detour",
+   "blurb": "Vodka, ginger beer and lime for a roadside tire change and a hubcap full of lug nuts dropped in the snow."
   },
   {
    "id": "cape-codder",
-   "name": "Mailbox Red Ribbon",
-   "blurb": "Cranberry tartness keeps this bright and simple, like a wrapped package hung up on a tree branch."
+   "name": "Neighbor's Dogs",
+   "blurb": "Vodka and cranberry, the only thing left on the table after the neighbor's dogs got the turkey."
   },
   {
    "id": "jack-rose",
-   "name": "Tree Lot Find",
-   "blurb": "Apple brandy brings a red, wintry snap that suits pine needles, cold air, and one very determined Christmas setup."
+   "name": "Christmas Dinner Out",
+   "blurb": "Apple brandy and grenadine for Christmas dinner at the one restaurant open, the duck carved at the table."
   },
   {
    "id": "penicillin",
-   "name": "Backyard Snowbank",
-   "blurb": "Honey and ginger soften the Scotch, which is handy when the weather outside is doing its worst."
+   "name": "Yellow-Eyed Bully",
+   "blurb": "Smoky Scotch, honey and ginger for the day a kid finally stands up to the bully with yellow eyes."
   },
   {
    "id": "americano",
-   "name": "Downtown Window Display",
-   "blurb": "Bitter, fizzy, and old-world in the right way, it belongs with glowing storefronts and bundled-up errands."
+   "name": "Secret Decoder Pin",
+   "blurb": "Campari, vermouth and soda, a little bitter, for a radio decoder pin that spells out a disappointing message."
   },
   {
    "id": "ramos-fizz",
-   "name": "Living Room Blizzard",
-   "blurb": "White, foamy, and fussy enough to feel like a family holiday that somehow still works."
+   "name": "Snowsuit Bundle",
+   "blurb": "Gin, cream and egg white, as puffy as a little brother bundled so tight he can't put his arms down."
   },
   {
    "id": "bourbon-collins",
-   "name": "Cedar Chest Afternoon",
-   "blurb": "Bourbon and lemon stay bright while the soda keeps things light, like a snowy day with too much time inside."
+   "name": "Christmas Wish Theme",
+   "blurb": "Bourbon, lemon and soda for a school theme about the one present he wants, graded in a daydream with an A-plus-plus."
   },
   {
    "id": "orange-whip",
-   "name": "Toy Counter Daydream",
-   "blurb": "Creamy orange sweetness goes full Christmas morning, which is exactly the sort of nonsense this house deserves."
+   "name": "Lamp-Breaking Accident",
+   "blurb": "Orange, rum, vodka and cream, sweet and a little guilty, for the night a certain lamp gets broken by accident."
   }
  ],
  "cuts": []

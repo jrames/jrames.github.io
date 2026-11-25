@@ -6,7 +6,7 @@
  "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T17:42:14.386Z",
+ "generatedAt": "2026-11-25T21:14:14.195Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2398,78 +2398,78 @@
  "picks": [
   {
    "id": "mulled-claret",
-   "name": "London Window Lights",
-   "blurb": "Steam and spice suit rainy December streets, and this one warms faster than a flat after the decorations go up."
+   "name": "Heathrow Arrivals Gate",
+   "blurb": "Red wine, sugar and spice for the arrivals gate at Heathrow, where everyone is hugging somebody."
   },
   {
    "id": "french-75",
-   "name": "West End Toast",
-   "blurb": "Bubbles and lemon keep the party moving, even when the evening keeps slipping from merry to melancholy."
+   "name": "Musicians in the Pews",
+   "blurb": "Gin, lemon and bubbles for a church wedding where hidden musicians stand up in the pews."
   },
   {
    "id": "brandy-alexander",
-   "name": "After-The-Party Cream",
-   "blurb": "Brandy and cocoa soften the sharp edges, like the last hour at a Christmas gathering when nobody wants to leave."
+   "name": "Necklace in the Coat",
+   "blurb": "Brandy, cacao and cream for a necklace found in a coat pocket and a different gift under the tree."
   },
   {
    "id": "new-york-sour",
-   "name": "Airport Goodbye Lantern",
-   "blurb": "That red wine float looks properly dramatic, which is handy for a story full of departures and second thoughts."
+   "name": "Outrunning Airport Security",
+   "blurb": "Bourbon sour under a red wine float, for a boy outrunning airport security to say goodbye properly."
   },
   {
    "id": "gin-tonic",
-   "name": "Mews Street Night",
-   "blurb": "Clean gin and tonic keep things brisk, like a winter walk past London terraces with your collar up."
+   "name": "Cards at the Door",
+   "blurb": "Gin, tonic and lime, quiet and clear, for a confession written on cards and held up at the front door."
   },
   {
    "id": "cosmopolitan",
-   "name": "Office Bauble Red",
-   "blurb": "Cranberry brings the holiday color while the citrus stays sharp enough for all those tidy little heartbreaks."
+   "name": "Downing Street Dance",
+   "blurb": "Vodka, orange liqueur, cranberry and lime for a prime minister dancing alone through Downing Street."
   },
   {
    "id": "mojito",
-   "name": "Tree Lot Green",
-   "blurb": "Mint and lime cut through the sweetness, which is useful when the season insists on being cheerful."
+   "name": "Pages in the Lake",
+   "blurb": "Mint and lime, fresh and green, for a writer at a French lakeside cottage, his pages blowing into the water."
   },
   {
    "id": "manhattan",
-   "name": "Train Platform Pause",
-   "blurb": "Rye and vermouth bring a formal edge, like waiting under station lights with too much unsaid."
+   "name": "Shameless Christmas Single",
+   "blurb": "Rye and sweet vermouth for an aging rock star who admits on the radio his Christmas single is rubbish."
   },
   {
    "id": "cape-codder",
-   "name": "Gift Wrap Cranberry",
-   "blurb": "Simple, tart, and bright red, this one goes down easy during the wrapping-paper chaos."
+   "name": "Nativity Play Lobster",
+   "blurb": "Vodka and cranberry, bright red, for a school nativity play with a lobster in the cast."
   },
   {
    "id": "penicillin",
-   "name": "Snowy Pavement Smoke",
-   "blurb": "Honey and ginger take the chill off, while the peated Scotch adds a little ache for the lonely bits."
+   "name": "Office Party Slow Dance",
+   "blurb": "Smoky Scotch, honey and ginger for an office party where a shy woman finally dances with the man she's loved for years."
   },
   {
    "id": "paloma",
-   "name": "Advent Window Pink",
-   "blurb": "Grapefruit keeps the sweetness from getting smug, and the salt gives it a proper London-weather snap."
+   "name": "Proposal in Portuguese",
+   "blurb": "Tequila, grapefruit and salt for a writer learning Portuguese in secret to propose in front of her whole town."
   },
   {
    "id": "ramos-fizz",
-   "name": "Piano In White",
-   "blurb": "Creamy bubbles and orange blossom feel a bit overbuilt, which is exactly right for a room full of hopeful romantic disasters."
+   "name": "Polite Stand-Ins",
+   "blurb": "Gin, cream and egg white, shy and fluffy, for two film stand-ins making polite small talk between very awkward takes."
   },
   {
    "id": "americano",
-   "name": "Corner Pub Cheer",
-   "blurb": "Campari and soda stay lively without overcommitting, handy for a night that keeps changing its mind."
+   "name": "Standing Up to the President",
+   "blurb": "Campari, vermouth and soda, bitter with a backbone, for a prime minister finally standing up to a visiting president."
   },
   {
    "id": "blood-and-sand",
-   "name": "Red Curtain Reel",
-   "blurb": "Cherry and orange make this one velvet-smooth, with just enough bittersweet bite for the quieter scenes."
+   "name": "Drums at the School Concert",
+   "blurb": "Scotch, cherry and orange for a boy learning drums to play behind one girl at the school concert."
   },
   {
    "id": "aged-rum-soda",
-   "name": "Late-Train Lantern",
-   "blurb": "Dark rum and soda are easygoing but not dull, a sensible companion for winter streets after the lights come on."
+   "name": "Off to Wisconsin",
+   "blurb": "Dark rum and soda, easy and optimistic, for a caterer flying to Wisconsin, sure his accent will do the work."
   }
  ],
  "cuts": [

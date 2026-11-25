@@ -6,7 +6,7 @@
  "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T17:41:56.994Z",
+ "generatedAt": "2026-11-25T21:14:14.850Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2377,78 +2377,78 @@
  "picks": [
   {
    "id": "mulled-claret",
-   "name": "Tree Lot Lights",
-   "blurb": "Warm spices and red wine suit the snowy yard chaos; keep one hand on the mug and the other on the ladder."
+   "name": "No Saw Tree Hunt",
+   "blurb": "Red wine, sugar and spice for a family tree hunt deep in the woods with no saw and a huge tree."
   },
   {
    "id": "tom-and-jerry",
-   "name": "Dining Room Batter",
-   "blurb": "Foamy, sweet, and a little old-school, just like that overworked holiday house that never stops taking on more."
+   "name": "Overcooked Turkey",
+   "blurb": "Hot rum, brandy and batter, rich enough to make up for a turkey that collapses at the first cut."
   },
   {
    "id": "hot-brandy-sling",
-   "name": "Piano Room Hearth",
-   "blurb": "Brandy and hot water bring a calm spark to the family-room wreckage, if only for one civilized minute."
+   "name": "Locked in the Attic",
+   "blurb": "Brandy, sugar and hot water for a dad stuck in the attic watching old home movies in whatever clothes he found."
   },
   {
    "id": "moscow-mule",
-   "name": "Garage Snow Shovel",
-   "blurb": "Ginger beer cuts through all that winter mess, with enough bite to wake up the whole cul-de-sac."
+   "name": "Greased Saucer Sled",
+   "blurb": "Vodka, ginger beer and lime, very fast, for a saucer sled coated in kitchen lubricant."
   },
   {
    "id": "cape-codder",
-   "name": "Red Wrapping Paper",
-   "blurb": "Cranberry keeps it tart and bright, like the decorations that outnumber the sane decisions by a mile."
+   "name": "Lights That Won't Light",
+   "blurb": "Vodka and cranberry, bright red, for a house covered in twenty-five thousand lights that refuse to come on."
   },
   {
    "id": "whiskey-sour",
-   "name": "Basement Fuse Box",
-   "blurb": "This one starts cheerful and ends with a jolt, which is about right for a house full of bad timing."
+   "name": "Switch in the Garage",
+   "blurb": "Bourbon, lemon and egg white for the switch in the garage that finally lights up the whole house."
   },
   {
    "id": "new-york-sour",
-   "name": "Attic Christmas Box",
-   "blurb": "That red wine float looks dressed for the season, while the bourbon underneath keeps the whole family debate from getting too sweet."
+   "name": "RV in the Driveway",
+   "blurb": "Bourbon sour with a red wine float for a surprise cousin who parks his RV in the driveway indefinitely."
   },
   {
    "id": "manhattan",
-   "name": "Country Club Neighbor",
-   "blurb": "Rye and vermouth make a sharp little nightcap for anyone still pretending the evening is under control."
+   "name": "The Bonus Envelope",
+   "blurb": "Rye and sweet vermouth for a bonus envelope holding a jelly subscription instead of the pool money."
   },
   {
    "id": "ramos-fizz",
-   "name": "Snowy Living Room",
-   "blurb": "Creamy, foamy, and absurdly elaborate, it’s as overbuilt as a holiday display with one too many extension cords."
+   "name": "Backyard Pool Daydream",
+   "blurb": "Gin, cream and egg white, light and dreamy, for a backyard pool that exists only in a daydream."
   },
   {
    "id": "french-75",
-   "name": "Front Porch Sparkler",
-   "blurb": "Bubbles make the whole thing feel festive, while the gin keeps it polished enough for the in-laws."
+   "name": "Neighbors Next Door",
+   "blurb": "Gin, lemon and bubbles, sleek and smug, for the young couple next door who keep getting caught in the crossfire."
   },
   {
    "id": "mojito",
-   "name": "Green Garland Twist",
-   "blurb": "Fresh mint and lime cut through all the sugar overload, like a sane person in a house of blinking lights."
+   "name": "Squirrel in the Tree",
+   "blurb": "Mint and lime, fresh and green, for a tree brought indoors with a squirrel still living in it."
   },
   {
    "id": "white-russian",
-   "name": "Basement Recliner Night",
-   "blurb": "Creamy coffee takes the edge off after a long evening of family damage control and too much punch."
+   "name": "Aunt Bethany's Presents",
+   "blurb": "Vodka, coffee liqueur and cream for an elderly aunt whose wrapped presents include, somehow, her cat."
   },
   {
    "id": "bellini",
-   "name": "Wrapping Station Peach",
-   "blurb": "Light, sparkling, and a little too easy to drink, it goes down like holiday optimism before the power bill arrives."
+   "name": "Both Sets of Grandparents",
+   "blurb": "Peach and bubbles for both sets of grandparents arriving at once, every one with an opinion."
   },
   {
    "id": "americano",
-   "name": "Mantelpiece Tonic",
-   "blurb": "Bitter and bubbly, it keeps the sweetness from running away with the night, which the neighborhood never quite manages."
+   "name": "Uncle's Lit Cigar",
+   "blurb": "Campari, vermouth and soda for an uncle's cigar and a very dry Christmas tree."
   },
   {
    "id": "espresso-martini",
-   "name": "Late Gift Haul",
-   "blurb": "Coffee liqueur and espresso keep you upright through the last round of chaos, right when the tape should probably be rewound."
+   "name": "Boss with a Bow",
+   "blurb": "Vodka, coffee liqueur and espresso for the night the boss arrives at the door tied up with a bow."
   }
  ],
  "cuts": []

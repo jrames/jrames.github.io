@@ -6,7 +6,7 @@
  "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T17:43:17.154Z",
+ "generatedAt": "2026-11-25T21:14:17.118Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2566,78 +2566,78 @@
  "picks": [
   {
    "id": "tom-and-jerry",
-   "name": "Train Car Custard",
-   "blurb": "Eggnog's rowdy cousin warms you from the platform to the caboose, with enough spice for every frosted window."
+   "name": "Dancing Waiters",
+   "blurb": "Hot rum, brandy and batter for dancing waiters pouring hot chocolate in the dining car."
   },
   {
    "id": "hot-buttered-rum",
-   "name": "Cabin Heat Stop",
-   "blurb": "Butter and rum steam up like the dining car after midnight, when the snow outside starts acting dramatic."
+   "name": "Train Outside the House",
+   "blurb": "Dark rum and butter for a steam train stopping outside the house on Christmas Eve."
   },
   {
    "id": "hot-toddy",
-   "name": "Bell-Quiet Break",
-   "blurb": "Honeyed whiskey suits the hush between stations, when the white world outside keeps moving and nobody wants to."
+   "name": "Fire on the Train Roof",
+   "blurb": "Bourbon, honey and hot water for a campfire on top of a moving train and a stranger who might be a ghost."
   },
   {
    "id": "japanese-highball",
-   "name": "Silver Track Night",
-   "blurb": "This lean whisky lift keeps the ride crisp, like moonlight on rails and every polished seatback."
+   "name": "Frozen Lake Crossing",
+   "blurb": "Whisky, soda and lemon, cold and clear, for a train skating across a frozen lake."
   },
   {
    "id": "bees-knees",
-   "name": "Ticket Pocket Treat",
-   "blurb": "Honey and lemon make a bright little reward for the kid still clutching that ticket like it matters."
+   "name": "Punched Ticket",
+   "blurb": "Gin, honey and lemon for a golden ticket punched with letters that only make sense at the end."
   },
   {
    "id": "moscow-mule",
-   "name": "Frosted Window Kick",
-   "blurb": "Ginger beer snaps like ice on the glass, while the vodka keeps the whole trip brisk and awake."
+   "name": "Steepest Downhill Grade",
+   "blurb": "Vodka, ginger beer and lime for the steepest downhill grade in the world, taken at full speed."
   },
   {
    "id": "irish-whiskey-ginger-lime",
-   "name": "Snowbank Platform",
-   "blurb": "Lime and ginger cut through the cold as neatly as boots through fresh snow beside the tracks."
+   "name": "Caribou on the Tracks",
+   "blurb": "Irish whiskey, ginger ale and lime for a train stopped dead by a herd of caribou on the tracks."
   },
   {
    "id": "aged-rum-ginger-lime",
-   "name": "Caboose Lantern Run",
-   "blurb": "Dark rum with ginger ale brings amber warmth, the sort you want after racing past blue-black trees."
+   "name": "Runaway Ticket",
+   "blurb": "Dark rum, ginger ale and lime for a ticket that slips out a window and takes the long way back."
   },
   {
    "id": "golden-dream",
-   "name": "Snow Globe Dessert",
-   "blurb": "Creamy orange and herb sweetness land like a sugar-dusted finale, ridiculous in the best holiday way."
+   "name": "North Pole at Midnight",
+   "blurb": "Galliano, orange liqueur, orange and cream for a crowded square at the North Pole waiting for midnight."
   },
   {
    "id": "sazerac",
-   "name": "Engineer’s Nightcap",
-   "blurb": "Rye, bitters, and absinthe feel sharp enough for the engine room, even if you're only watching from home."
+   "name": "Know-It-All Passenger",
+   "blurb": "Rye, absinthe and bitters, sharp and certain, for the know-it-all kid who has an answer for everything."
   },
   {
    "id": "old-fashioned",
-   "name": "Conductor's Corner",
-   "blurb": "A straight bourbon build keeps things proper and sturdy, like a grown-up answering the call of the whistle."
+   "name": "Conductor's Schedule",
+   "blurb": "Bourbon, sugar and bitters, punctual and proper, for a conductor who keeps the train on schedule no matter what."
   },
   {
    "id": "hot-brandy-sling",
-   "name": "Amber Lamp Stop",
-   "blurb": "Brandy and hot water bring plain old warmth, the kind that makes snowy windows look less bossy."
+   "name": "Alone in the Last Car",
+   "blurb": "Brandy, sugar and hot water for the shy boy riding alone in the last car."
   },
   {
    "id": "mulled-claret",
-   "name": "Midnight Cocoa Red",
-   "blurb": "Spiced wine leans festive and a little old-world, perfect for a night when the dark gets cheerful."
+   "name": "One Silver Bell",
+   "blurb": "Red wine, sugar and spice for the first gift of Christmas: a single sleigh bell from Santa's reindeer."
   },
   {
    "id": "canchanchara",
-   "name": "North Pole Sip",
-   "blurb": "Honey, lime, and rum keep it simple and bright, like a bell that still sounds believable."
+   "name": "Hole in the Pocket",
+   "blurb": "Rum, honey and lime for a bell lost through a hole in a bathrobe pocket."
   },
   {
    "id": "whiskey-sour",
-   "name": "Blue Seat Moment",
-   "blurb": "Lemon keeps this one clean and bright, a sharp little pause before the train plunges back into winter."
+   "name": "Bell Only Believers Hear",
+   "blurb": "Whiskey and lemon for a bell that rings for believers and goes silent for everyone else."
   }
  ],
  "cuts": []

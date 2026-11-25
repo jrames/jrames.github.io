@@ -6,7 +6,7 @@
  "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T20:39:42.740Z",
+ "generatedAt": "2026-11-25T21:14:00.852Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2322,73 +2322,73 @@
   },
   {
    "id": "old-fashioned",
-   "name": "Christmas Party Floor",
-   "blurb": "Bourbon keeps the whole mess upright, like a tie loosened after the office party went sideways."
+   "name": "Tower Christmas Party",
+   "blurb": "Bourbon, sugar and bitters for an office Christmas party high up a new L.A. tower, just before the uninvited guests arrive."
   },
   {
    "id": "manhattan",
-   "name": "Skyscraper Lobby Lights",
-   "blurb": "Rye and vermouth bring sharp edges for the marble corridors and all that glass under holiday decorations."
+   "name": "Barefoot New York Cop",
+   "blurb": "Rye and sweet vermouth for a New York cop making fists with his toes in an executive washroom."
   },
   {
    "id": "boulevardier",
-   "name": "Vent Shaft Smoke",
-   "blurb": "Campari gives this one a bruised bite, handy for every crawl through concrete, dust, and bad decisions."
+   "name": "Vent Shaft Crawl",
+   "blurb": "Bourbon, Campari and vermouth, bitter and cramped, for crawling through an air duct by the light of a lighter."
   },
   {
    "id": "sazerac",
-   "name": "Thirty-Eighth Floor",
-   "blurb": "Absinthe and rye cut clean as broken windows when the night keeps climbing higher."
+   "name": "Broken Glass Floor",
+   "blurb": "Rye, absinthe and bitters, sharp as the broken glass a barefoot man has to cross anyway."
   },
   {
    "id": "negroni",
-   "name": "Radio Silence Break",
-   "blurb": "Gin, Campari, and vermouth stay stern while the building turns into a Christmas wreck."
+   "name": "Cop on the Radio",
+   "blurb": "Gin, Campari and vermouth for a long night talking on a stolen radio to the one cop outside who believes you."
   },
   {
    "id": "moscow-mule",
-   "name": "Garage Floor Frost",
-   "blurb": "Ginger beer snaps like a cold concrete landing, and that lime keeps the whole thing moving fast."
+   "name": "Limo Driver Downstairs",
+   "blurb": "Vodka, ginger beer and lime for a limo driver stuck in the garage all night, missing almost everything."
   },
   {
    "id": "bloody-mary",
-   "name": "Desk Drawer Remedy",
-   "blurb": "Tomato, spice, and salt come on like a busted lip after too many hours trapped inside."
+   "name": "Washroom First Aid",
+   "blurb": "Vodka, tomato and hot sauce for picking glass out of bare feet over a washroom sink in the middle of a siege."
   },
   {
    "id": "tom-and-jerry",
-   "name": "Holiday Office Ransack",
-   "blurb": "Hot batter and rum warm the bones while the tower fills with smoke, panic, and shredded wrapping paper."
+   "name": "Hostages in Party Clothes",
+   "blurb": "Hot rum, brandy and batter for a holiday party turned hostage situation, everyone still in their party clothes."
   },
   {
    "id": "j-tonys-kold-brew-americano",
-   "name": "Night Shift Coffee",
-   "blurb": "Coffee and Campari taste like fluorescent lights, radio chatter, and a Christmas Eve with no mercy."
+   "name": "Probably a False Alarm",
+   "blurb": "Campari, vermouth and cold coffee for a patrol sergeant sent to check out a false alarm on Christmas Eve."
   },
   {
    "id": "red-morning-light",
-   "name": "Rooftop Dawn Watch",
-   "blurb": "Coffee-chocolate notes hit like the first weak light after a long siege on the top floors."
+   "name": "Fire Hose Jump",
+   "blurb": "Scotch, Campari and coffee liqueur, dark and bitter, for jumping off a roof tied to a fire hose as it blows."
   },
   {
    "id": "blood-and-sand",
-   "name": "Broken Ornament Box",
-   "blurb": "Cherry and orange soften the Scotch just enough for a holiday gone sharp around the edges."
+   "name": "Thief in a Good Suit",
+   "blurb": "Scotch, cherry and orange, smooth and expensive, for a thief in a tailored suit posing as something grander."
   },
   {
    "id": "vieux-carre",
-   "name": "Service Corridor Stash",
-   "blurb": "Rye, cognac, and bitters carry more heat than the air ducts, which is saying something."
+   "name": "Bearer Bond Vault",
+   "blurb": "Rye, cognac and Bénédictine, layered and locked tight, for a vault of bearer bonds that needs a hacker and a power cut."
   },
   {
    "id": "winterized-negroni",
-   "name": "Ventilation Crawlspace",
-   "blurb": "Peated Scotch adds a smoky edge that hangs around like dust in the ducts and a bad plan."
+   "name": "Elevator Shaft Hang",
+   "blurb": "Gin, Campari and peated Scotch, smoky and steep, for hanging in an elevator shaft by a rifle strap."
   },
   {
    "id": "paper-plane",
-   "name": "Parking Garage Escape",
-   "blurb": "Bourbon and amaro give this sour a sprinting finish, same energy as a getaway through the concrete levels."
+   "name": "Last Trick Taped On",
+   "blurb": "Bourbon, amaro and Aperol, balanced to the end, for a last trick taped to a bare back."
   }
  ],
  "cuts": [

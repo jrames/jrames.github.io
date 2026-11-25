@@ -6,7 +6,7 @@
  "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T17:43:53.966Z",
+ "generatedAt": "2026-11-25T21:14:16.671Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -1138,78 +1138,78 @@
  "picks": [
   {
    "id": "el-diablo",
-   "name": "Spiral Hill Twilight",
-   "blurb": "Crème de cassis turns the whole thing purple, like moonlight on the hill before the sleigh takes off."
+   "name": "Spiral Hill Moon",
+   "blurb": "Tequila, cassis and ginger beer, dark purple, for a curling hill under a full moon and a king tired of Halloween."
   },
   {
    "id": "hot-brandy-sling",
-   "name": "Pumpkin Patch Lanterns",
-   "blurb": "Brandy and hot water keep it simple, like lantern light flickering through the patch after the dogs start digging."
+   "name": "Doors in the Trees",
+   "blurb": "Brandy, sugar and hot water for a forest clearing of trees with holiday doors carved into them."
   },
   {
    "id": "hot-oaxacan-penicillin",
-   "name": "Snowman Border Crossing",
-   "blurb": "Mezcal and ginger bring smoke and bite, which is exactly what you want when the holiday gets hijacked."
+   "name": "Sleigh Shot Down",
+   "blurb": "Tequila, mezcal, ginger and honey, hot and smoky, for a borrowed sleigh shot out of the sky."
   },
   {
    "id": "mulled-claret",
-   "name": "Town Square December",
-   "blurb": "Red wine and mulling spice warm up the whole square, even when the decorations are more bone than ribbon."
+   "name": "Explaining Christmas",
+   "blurb": "Red wine, sugar and spice for a town meeting where Christmas gets explained and everyone still hears Halloween."
   },
   {
    "id": "hot-buttered-rum",
-   "name": "Lock, Stock, And Firewood",
-   "blurb": "Butter and rum make a chewy little winter punch, like a workshop stocked by somebody with too much enthusiasm."
+   "name": "Three Little Kidnappers",
+   "blurb": "Dark rum and butter for three masked trick-or-treaters sent to kidnap a man in a red suit."
   },
   {
    "id": "egg-nog",
-   "name": "Christmas Tree Swap",
-   "blurb": "Creamy and pale as wrapped presents, this one leans into the polite side of the holiday before the ghouls show up."
+   "name": "Presents That Bite",
+   "blurb": "Brandy, rum, egg and milk, sweet on top, for Christmas presents that bite, hiss and swallow the tree."
   },
   {
    "id": "corpse-reviver-2",
-   "name": "Moonlit Graveyard Walk",
-   "blurb": "Gin and absinthe keep it brisk and ghostly, handy for a stroll past headstones when the singing starts getting strange."
+   "name": "Graveyard Lament",
+   "blurb": "Gin, Lillet and absinthe, pale and haunting, for a lonely song in the graveyard after the Halloween party."
   },
   {
    "id": "ramos-fizz",
-   "name": "Candy Cane Machine",
-   "blurb": "Egg white foam and orange blossom go all bright-white, like a toy shop built by a lunatic with excellent taste."
+   "name": "First Snowfall",
+   "blurb": "Gin, cream and egg white, soft and white, for a skeleton seeing snow for the first time."
   },
   {
    "id": "blood-and-sand",
-   "name": "Mayor's Parade Night",
-   "blurb": "Cherry, orange, and Scotch bring a bruised-red sweetness, which suits any procession that keeps changing its mind."
+   "name": "Two-Faced Mayor",
+   "blurb": "Scotch, cherry and orange for a mayor whose head turns from a happy face to a panicked one."
   },
   {
    "id": "bramble",
-   "name": "Winter Rooftop Chase",
-   "blurb": "Berry liqueur leaves a dark-red trail, the sort of drink you want while dodging trouble across the rooftops."
+   "name": "Stitched Back Together",
+   "blurb": "Gin and blackberry, dark and resourceful, for a rag doll who stitches herself back together after every escape."
   },
   {
    "id": "white-russian",
-   "name": "Workshop After Midnight",
-   "blurb": "Cream softens the coffee kick, as if the night crew finally sat down after building one last impossible present."
+   "name": "Spiked Soup",
+   "blurb": "Vodka, coffee liqueur and cream for a bowl of soup laced with sleeping herbs, served to a mad scientist."
   },
   {
    "id": "singapore-sling",
-   "name": "Christmas Town Curtain",
-   "blurb": "Pineapple and cherry make it loud and shiny, like the first overdecorated room after the gate opens."
+   "name": "Roulette Lair",
+   "blurb": "Gin, cherry, pineapple and a crowd of other things, for a villain made of bugs who runs a casino of traps."
   },
   {
    "id": "kir",
-   "name": "Wreaths And Windowpanes",
-   "blurb": "Crème de cassis stains the white wine pink, a neat little nod to all that snow, ribbon, and glassy cheer."
+   "name": "Ghost Dog Leads",
+   "blurb": "White wine and cassis, pale and pink, for a little ghost dog whose bright nose leads the sleigh through fog."
   },
   {
    "id": "tequila-sunrise",
-   "name": "Sleigh Ride Horizon",
-   "blurb": "Orange and grenadine stack up like dawn over the snowfield, bright enough to distract you from the menace."
+   "name": "Coffin Sleigh",
+   "blurb": "Tequila, orange and grenadine for a coffin sleigh pulled by skeleton reindeer into the night."
   },
   {
    "id": "irish-coffee",
-   "name": "Nightmare New Year",
-   "blurb": "Coffee and cream steady the nerves when the calendar flips, because this story never lets the holiday sit still."
+   "name": "Snow on Halloween Town",
+   "blurb": "Irish whiskey, coffee and cream for the night snow finally falls on Halloween Town."
   }
  ],
  "cuts": []

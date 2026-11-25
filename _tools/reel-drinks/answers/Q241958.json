@@ -6,7 +6,7 @@
  "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T17:43:02.833Z",
+ "generatedAt": "2026-11-25T21:14:12.045Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2704,78 +2704,78 @@
  "picks": [
   {
    "id": "tom-and-jerry",
-   "name": "Snowed-In Living Room",
-   "blurb": "Hot, creamy batter for the night the house turns into a chaos engine; drink it before the furniture starts moving."
+   "name": "Snowy Little Town",
+   "blurb": "Hot rum, brandy and batter for a snowy little town where the carolers have no idea what's coming."
   },
   {
    "id": "last-word",
-   "name": "Kitchen Lights Out",
-   "blurb": "Green Chartreuse keeps the holiday mischief sharp, like a tiny creature watching from the shadows with perfect timing."
+   "name": "Three Simple Rules",
+   "blurb": "Gin, green Chartreuse and lime, bright green and easy to get wrong, like three simple rules about a new pet."
   },
   {
    "id": "mulled-claret",
-   "name": "Main Street Snowfall",
-   "blurb": "Spiced red wine warms up the town square while the season goes from postcard pretty to mildly disastrous."
+   "name": "Chinatown Curio Shop",
+   "blurb": "Red wine, sugar and spice for a traveling inventor bringing home a strange little present from a Chinatown shop."
   },
   {
    "id": "bloody-mary",
-   "name": "Basement Cleanup Duty",
-   "blurb": "Savory, peppery vodka is what you want after the mess gets serious and nobody wants to touch the floor."
+   "name": "Mom's Kitchen Defense",
+   "blurb": "Vodka, tomato and hot sauce for a mother defending her kitchen with a blender, a knife and a microwave."
   },
   {
    "id": "negroni",
-   "name": "Toy Store After Hours",
-   "blurb": "Bitter gin and Campari handle the late-night mayhem better than any adult in this movie."
+   "name": "Tavern Takeover",
+   "blurb": "Gin, Campari and vermouth, bitter and steady, for a bartender serving a bar full of smoking, drunken monsters."
   },
   {
    "id": "manhattan",
-   "name": "Father-Son Present Wrapping",
-   "blurb": "Rye, vermouth, and bitters stay composed while the holiday table slowly loses the argument."
+   "name": "Town's Meanest Widow",
+   "blurb": "Rye and sweet vermouth, stern and dry, for the town's richest widow, who gives a tenant behind on rent no extra time."
   },
   {
    "id": "paper-plane",
-   "name": "Garage Door Panic",
-   "blurb": "Bourbon and Aperol bring bright, uneasy energy, like a Christmas present that definitely bites back."
+   "name": "After Midnight Snack",
+   "blurb": "Bourbon, amaro and Aperol for chicken handed out a few minutes past midnight by a broken clock."
   },
   {
    "id": "new-york-sour",
-   "name": "Tree Lot Trouble",
-   "blurb": "A red wine float tops the whiskey like a clean finish on top of a very untidy holiday night."
+   "name": "Diving into the Pool",
+   "blurb": "Bourbon sour under a red wine float, for one creature diving into a swimming pool and the hundreds that climb out."
   },
   {
    "id": "moscow-mule",
-   "name": "Backyard Snow Chase",
-   "blurb": "Ginger beer snaps like icy mischief, and the vodka keeps the whole ridiculous sprint moving."
+   "name": "Snowplow in the Living Room",
+   "blurb": "Vodka, ginger beer and lime for a grumpy neighbor whose own snowplow ends up in his living room."
   },
   {
    "id": "cosmopolitan",
-   "name": "County Fair Lights",
-   "blurb": "Cranberry and lime make the red pop against all that small-town snow and blinking decoration."
+   "name": "Packed Movie Theater",
+   "blurb": "Vodka, orange liqueur, cranberry and lime for a movie theater full of creatures singing along to a cartoon."
   },
   {
    "id": "blood-moon",
-   "name": "Motel Vacancy Sign",
-   "blurb": "Amaro and tonic go weirdly well with fluorescent menace and a night that keeps getting stranger."
+   "name": "Stair Lift Express",
+   "blurb": "Amaro and tonic, bitter and fast, for a mean old woman's stair lift that goes up much faster than planned."
   },
   {
    "id": "orange-whip",
-   "name": "Mall Santa Break",
-   "blurb": "Creamy orange rum softens the edges, because even this holiday mess deserves one brief sugar rush."
+   "name": "Reason to Hate Christmas",
+   "blurb": "Orange, rum, vodka and cream, too sweet on purpose, for a bartender with a very sad reason to dislike Christmas."
   },
   {
    "id": "clover-leaf",
-   "name": "Green Hallway Shadows",
-   "blurb": "Foamy gin turns bright and slippery, like something fast darting past the stair rail at midnight."
+   "name": "Store After Closing",
+   "blurb": "Gin, berry liqueur and egg white for a closed department store at night, one creature left hiding among the toys."
   },
   {
    "id": "sazerac",
-   "name": "Police Station Briefing",
-   "blurb": "Rye, absinthe, and Peychaud's bring a severe little swagger to the grown-up explanation nobody asked for."
+   "name": "Shopkeeper Who Wouldn't Sell",
+   "blurb": "Rye, absinthe and bitters, old and severe, for a shopkeeper who refuses to sell and turns out to be right."
   },
   {
    "id": "americano",
-   "name": "Wrapped Gift Counter",
-   "blurb": "Campari and soda stay bubbly and sharp, which is exactly the kind of adult beverage this unruly December needs."
+   "name": "Bank Teller's Sketchbook",
+   "blurb": "Campari, vermouth and soda, light and patient, for a bank teller who draws cartoons on the side."
   }
  ],
  "cuts": [

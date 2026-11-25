@@ -6,7 +6,7 @@
  "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T17:44:51.688Z",
+ "generatedAt": "2026-11-25T21:14:17.609Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2305,78 +2305,78 @@
  "picks": [
   {
    "id": "egg-nog",
-   "name": "Ski Lodge Finale",
-   "blurb": "Creamy enough for a curtain call after the snow, with brandy doing the heavy lifting like a polished ballroom floor."
+   "name": "Snow at Last",
+   "blurb": "Brandy, rum, egg and milk for the finale, when the back doors open and the snow has finally come."
   },
   {
    "id": "hot-brandy-sling",
-   "name": "Train Platform Warmth",
-   "blurb": "Brandy and hot water thaw cold fingers fast, the way a station platform does when the night gets honest."
+   "name": "Christmas Eve, 1944",
+   "blurb": "Brandy, sugar and hot water for an army Christmas Eve show in 1944, with shells landing nearby."
   },
   {
    "id": "mulled-claret",
-   "name": "Ribboned Window Lights",
-   "blurb": "Spiced red wine carries the color of wrapped gifts and the patience of a winter evening that ends in a kiss."
+   "name": "Vermont Inn Without Snow",
+   "blurb": "Red wine, sugar and spice for a Vermont inn at Christmas with green hills, no snow and no guests."
   },
   {
    "id": "tom-and-jerry",
-   "name": "Parlor Piano Heat",
-   "blurb": "Foamy and sweet, it’s the kind of old-time comfort that belongs beside a crackling fire and a tap-dancing grin."
+   "name": "Midnight Snack Duet",
+   "blurb": "Hot rum, brandy and batter for a midnight snack in the empty lounge and a lullaby about counting blessings."
   },
   {
    "id": "irish-coffee",
-   "name": "After-Rehearsal Cocoa",
-   "blurb": "Coffee under cream keeps the brass-band energy up long after the last ornament gets packed away."
+   "name": "General Runs the Inn",
+   "blurb": "Irish whiskey, coffee and cream for a retired general running a struggling inn, too proud to ask for help."
   },
   {
    "id": "french-75",
-   "name": "Snowfall Champagne Toast",
-   "blurb": "Bubbles and gin bring the sharp sparkle of a rooftop snowfall, then disappear before the cold can complain."
+   "name": "Feather Fan Number",
+   "blurb": "Gin, lemon and bubbles for two army buddies miming a sister act with feather fans and rolled-up trousers."
   },
   {
    "id": "manhattan",
-   "name": "Broadway Velvet Curtain",
-   "blurb": "Rye and vermouth give this one tuxedo manners, like a December gala where everyone knows the chorus."
+   "name": "Broadway Headliners",
+   "blurb": "Rye and sweet vermouth for two war buddies turned big Broadway producers, polished from hat to shoes."
   },
   {
    "id": "whiskey-sour",
-   "name": "Ice Rink Kiss",
-   "blurb": "That lemon snap cuts through the sugar the way fresh air cuts across a skating date."
+   "name": "Half a Phone Call",
+   "blurb": "Whiskey and lemon for a housekeeper who overhears half a phone call and gets the wrong idea."
   },
   {
    "id": "kir",
-   "name": "Crimson Gift Tag",
-   "blurb": "Blackcurrant and white wine keep things simple, like the prettiest little present under the tree."
+   "name": "Fake Engagement",
+   "blurb": "White wine and cassis, sweet and a little sneaky, for a fake engagement meant to push two other people together."
   },
   {
    "id": "bellini",
-   "name": "Matinee Matinée",
-   "blurb": "Peach and fizz sound like a warm afternoon in a theater lobby, all satin gloves and polished smiles."
+   "name": "Train to Vermont",
+   "blurb": "Peach and bubbles for an overnight train north and a dining car full of songs about snow."
   },
   {
    "id": "ramos-fizz",
-   "name": "White Curtain Call",
-   "blurb": "Creamy foam and orange blossom turn the whole thing into a stage full of bright costumes and soft applause."
+   "name": "Barn Rehearsals",
+   "blurb": "Gin, cream and egg white, light on its feet, for rehearsals in a barn turned into a stage."
   },
   {
    "id": "aperol-spritz",
-   "name": "Lobby Garland Lights",
-   "blurb": "Bitter orange and bubbles bring a little sparkle to the hotel hallway without ruining the manners."
+   "name": "New York Club Solo",
+   "blurb": "Aperol, bubbles and soda for a singer who quits for a New York club and sings about love gone wrong."
   },
   {
    "id": "clover-club",
-   "name": "Evergreen Bow",
-   "blurb": "Raspberry and gin make a rosy little salute to the green trim and the white tablecloths."
+   "name": "Two Sisters in Blue",
+   "blurb": "Gin, raspberry and egg white, pink and perfectly matched, for two sisters in blue gowns singing about sisters."
   },
   {
    "id": "sweet-vermouth-cocktail",
-   "name": "Midnight Luggage Cart",
-   "blurb": "Straight vermouth keeps it elegant and trim, like a porter gliding past with everybody’s best suit."
+   "name": "The Division Arrives",
+   "blurb": "Sweet vermouth and bitters, simple and proud, for an old division turning up on Christmas Eve to salute their general."
   },
   {
    "id": "cape-codder",
-   "name": "Cranberry Snow Drift",
-   "blurb": "Cranberry tartness gives you that red holiday pop while the vodka keeps the whole thing brisk and unfussy."
+   "name": "Call on National TV",
+   "blurb": "Vodka and cranberry, bright red, for a TV appeal calling every old soldier to Vermont for Christmas Eve."
   }
  ],
  "cuts": [

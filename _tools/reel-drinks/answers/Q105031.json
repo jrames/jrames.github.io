@@ -6,7 +6,7 @@
  "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T17:41:25.396Z",
+ "generatedAt": "2026-11-25T21:14:12.542Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2569,78 +2569,78 @@
  "picks": [
   {
    "id": "mulled-claret",
-   "name": "Snowed-In Windowpanes",
-   "blurb": "Hot red wine and spices warm up a Chicago house when the temperature outside is doing its best to be rude."
+   "name": "Left Behind in Winnetka",
+   "blurb": "Red wine, sugar and spice for a big suburban house the morning after everyone flew to Paris without the youngest."
   },
   {
    "id": "cape-codder",
-   "name": "Red Sweater Mailbox",
-   "blurb": "Cranberry tartness keeps things bright, like that suburban front lawn under fresh snow and too much holiday cheer."
+   "name": "Red Brick House",
+   "blurb": "Vodka and cranberry, as red as the brick house two burglars have picked for Christmas Eve."
   },
   {
    "id": "moscow-mule",
-   "name": "Basement Trolley Dash",
-   "blurb": "Ginger bite and lime snap through the cold the way a mad sprint across an overstuffed house should."
+   "name": "Treehouse Zip Line",
+   "blurb": "Vodka, ginger beer and lime, quick and cold, for a zip line from the top floor to the treehouse."
   },
   {
    "id": "whiskey-sour",
-   "name": "Toy Train Tension",
-   "blurb": "Lemons and whiskey bring a sharp little jolt, which is exactly what your nerves want before the next household ambush."
+   "name": "Grocery Run Alone",
+   "blurb": "Whiskey and lemon for an eight-year-old doing the grocery shopping alone and running off with an unpaid toothbrush."
   },
   {
    "id": "bellini",
-   "name": "Paris Departure Gate",
-   "blurb": "Sparkling wine and peach keep it light for a quick getaway from one airport into another city entirely."
+   "name": "Flight to Paris",
+   "blurb": "Peach and bubbles for a flight to Paris and a mother realizing midway who isn't on board."
   },
   {
    "id": "cuba-libre",
-   "name": "Wet Bandits Escape",
-   "blurb": "Cola and rum roll along easy, then sneak up on you like a bad plan with a lot of momentum."
+   "name": "Faucets Left Running",
+   "blurb": "Rum, cola and lime for a pair of burglars who sign their work by leaving the faucets running."
   },
   {
    "id": "clover-club",
-   "name": "Pinecone Trap Room",
-   "blurb": "Raspberry foam softens the edges, though the first sip still lands with the same ridiculous precision as a booby trap."
+   "name": "Ornaments Under the Window",
+   "blurb": "Gin, raspberry and egg white, pretty and pink, like glass ornaments set under a window for bare feet."
   },
   {
    "id": "manhattan",
-   "name": "Holiday Night Watch",
-   "blurb": "Rye and vermouth come dressed sharp, for the kid who has to act older than the adults around him."
+   "name": "Black-and-White Gangster Bluff",
+   "blurb": "Rye and sweet vermouth for an old black-and-white gangster movie played loud enough to fool the pizza delivery guy."
   },
   {
    "id": "paloma",
-   "name": "Blue House Silence",
-   "blurb": "Grapefruit and tequila stay brisk and bright, which is more than can be said for that suddenly empty house."
+   "name": "Polka Band Van",
+   "blurb": "Tequila, grapefruit and salt for a mother hitching a ride home in a van full of polka musicians."
   },
   {
    "id": "new-york-sour",
-   "name": "Upstairs Loft Ledger",
-   "blurb": "A red wine cap over bourbon gives you a neat split between sweet comfort and the sting of being left alone."
+   "name": "Old Man with the Shovel",
+   "blurb": "Bourbon sour with a red wine float for the scary old neighbor with the snow shovel, who turns out to be kind."
   },
   {
    "id": "corpse-reviver-2",
-   "name": "Kitchen Counter Scheme",
-   "blurb": "Gin, lemon, and absinthe wake everything up fast, useful when the adults are somewhere else and trouble isn't."
+   "name": "Swinging Paint Cans",
+   "blurb": "Gin, Lillet and absinthe, a wake-up call like paint cans swung down the stairs on ropes."
   },
   {
    "id": "jack-rose",
-   "name": "Wrapped Parcel Panic",
-   "blurb": "Apple brandy and grenadine bring a shiny red sweetness that sneaks in right before the next disaster drops."
+   "name": "Cord in the Laundry Room",
+   "blurb": "Apple brandy and grenadine for a dangling cord in the laundry room and the iron on the other end."
   },
   {
    "id": "tom-collins",
-   "name": "Driveway Snow Track",
-   "blurb": "Gin, lemon, and soda keep moving cleanly, like a sled run that starts with confidence and ends in chaos."
+   "name": "Christmas Eve Choir",
+   "blurb": "Gin, lemon and soda for a church choir rehearsing on Christmas Eve and an unexpected talk in the pews."
   },
   {
    "id": "kingston-club",
-   "name": "Christmas Tree Fort",
-   "blurb": "Pineapple, honey, and Drambuie make a sweet, stubborn shelter for anyone plotting from behind the branches."
+   "name": "Battle Plan Room by Room",
+   "blurb": "Drambuie, pineapple and Fernet, sweet with a sneaky bitter edge, for a kid's battle plan, every trap mapped room by room."
   },
   {
    "id": "americano",
-   "name": "Suburban Porch Patrol",
-   "blurb": "Campari and vermouth stay lightly bitter and fizzy, for the grown-up who should probably be home instead of wandering."
+   "name": "Mac and Cheese for One",
+   "blurb": "Campari, vermouth and soda, light and grown-up, for a kid eating macaroni and cheese alone, very pleased with himself."
   }
  ],
  "cuts": []

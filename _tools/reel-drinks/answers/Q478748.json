@@ -6,7 +6,7 @@
  "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T17:42:28.024Z",
+ "generatedAt": "2026-11-25T21:14:15.845Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2445,78 +2445,78 @@
  "picks": [
   {
    "id": "french-75",
-   "name": "Christmas Lights On Laurel",
-   "blurb": "Bubbles and gin make everything brighter, like a winter night strung with lights and bad decisions in Los Angeles."
+   "name": "Two-Week House Swap",
+   "blurb": "Gin, lemon and bubbles for two strangers trading houses for Christmas, an English cottage for a mansion."
   },
   {
    "id": "mulled-claret",
-   "name": "Snowed-In Nights",
-   "blurb": "Warm red wine and spice are for when the holidays land hard and the windows stay foggy all evening."
+   "name": "Lane Too Narrow",
+   "blurb": "Red wine, sugar and spice for a snowy English cottage at the end of a lane too narrow for a car."
   },
   {
    "id": "ramos-fizz",
-   "name": "Beverly Hills Morning",
-   "blurb": "Creamy foam and orange flower water turn brunch into a polished little escape, even if your life is a mess."
+   "name": "Life as a Trailer",
+   "blurb": "Gin, cream and egg white, fluffy and dramatic, for a woman who narrates her own life like a movie trailer."
   },
   {
    "id": "mimosa",
-   "name": "Brunch Table Confession",
-   "blurb": "Orange and sparkling wine keep things sunny while everybody pretends the family calendar is under control."
+   "name": "Widower's Napkin Trick",
+   "blurb": "Orange juice and bubbles for a widowed dad who entertains his daughters with a napkin on his face."
   },
   {
    "id": "cosmopolitan",
-   "name": "Westside Gift Wrap",
-   "blurb": "Cranberry and citrus bring the slick red-white polish of a shopping run that somehow turns romantic."
+   "name": "Too Much House",
+   "blurb": "Vodka, orange liqueur, cranberry and lime for a Los Angeles house so big a guest from Surrey feels tiny."
   },
   {
    "id": "bellini",
-   "name": "Sunlit Driveway Toast",
-   "blurb": "Peach and fizz are easygoing enough for a driveway chat that starts guarded and ends hopeful."
+   "name": "Knock at the Door",
+   "blurb": "Peach and bubbles for a late-night knock: the owner's brother, a little drunk, needing the couch."
   },
   {
    "id": "new-york-sour",
-   "name": "White Picket Surprise",
-   "blurb": "That red wine float lands like a neat little plot twist, sweet at first and sharper underneath."
+   "name": "Engagement Announcement",
+   "blurb": "Bourbon sour with a red wine float for an office party where your ex announces his engagement to someone else."
   },
   {
    "id": "whiskey-sour",
-   "name": "Wrapped-Up Heart",
-   "blurb": "Lemon and whiskey give you the clean snap of someone finally saying what they mean."
+   "name": "Screenwriter Next Door",
+   "blurb": "Whiskey and lemon, sharp and kind, for a retired screenwriter who tells his young neighbor to star in her own life."
   },
   {
    "id": "paloma",
-   "name": "Palm Tree Detour",
-   "blurb": "Grapefruit and tequila keep things bright for the stretch of California where even errands look romantic."
+   "name": "Humming in the Aisles",
+   "blurb": "Tequila, grapefruit and salt for a film composer humming movie themes down the aisles of a video store."
   },
   {
    "id": "tom-collins",
-   "name": "Garage Light Break",
-   "blurb": "Gin, lemon, and soda stay crisp and uncomplicated, like a quick breather before the next heartfelt conversation."
+   "name": "Walking to the Tribute",
+   "blurb": "Gin, lemon and soda for an old writer walking onstage to his own tribute without the walker."
   },
   {
    "id": "mojito",
-   "name": "Backyard String Lights",
-   "blurb": "Mint and lime make this one cheerfully green, the kind of drink that belongs under patio lights."
+   "name": "Tent in the Bedroom",
+   "blurb": "Mint and lime for two little girls in a bedroom tent who love meeting their dad's new friend."
   },
   {
    "id": "sazerac",
-   "name": "Late-Night Drive",
-   "blurb": "Rye and absinthe bring just enough bite for a polished night out that refuses to get sentimental."
+   "name": "Dry Eyes Since Fifteen",
+   "blurb": "Rye, absinthe and bitters, dry-eyed and sharp, for a woman who hasn't cried since she was fifteen."
   },
   {
    "id": "paper-plane",
-   "name": "Airport Turnaround",
-   "blurb": "Aperol and amaro give you sweet-bitter lift, like a last-minute change that somehow saves the evening."
+   "name": "Turn the Cab Around",
+   "blurb": "Bourbon, amaro and Aperol, bitter then sweet, for a cab told to turn around on the way to the airport."
   },
   {
    "id": "kir",
-   "name": "Wrapped Present Smile",
-   "blurb": "Crème de cassis turns plain white wine into something quietly flirty, which is more dangerous than it sounds."
+   "name": "Old Movie Homework",
+   "blurb": "White wine and cassis for evenings of old movies with a retired writer and his list of heroines with gumption."
   },
   {
    "id": "moscow-mule",
-   "name": "Kitchen Counter Escape",
-   "blurb": "Ginger beer and lime keep the vodka brisk while you plot a fresh start between the ornaments and takeout."
+   "name": "New Year's at Rosehill",
+   "blurb": "Vodka, ginger beer and lime for New Year's Eve at the cottage, everyone dancing at once."
   }
  ],
  "cuts": []

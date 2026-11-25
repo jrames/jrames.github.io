@@ -6,7 +6,7 @@
  "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T17:41:41.945Z",
+ "generatedAt": "2026-11-25T21:14:13.209Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2984,78 +2984,78 @@
  "picks": [
   {
    "id": "mulled-claret",
-   "name": "Main Street Snowfall",
-   "blurb": "Red wine and spices warm the town square while everybody pretends their troubles are just weather."
+   "name": "Bedford Falls Christmas Eve",
+   "blurb": "Red wine, sugar and spice for snow falling on Bedford Falls and a man running down the main street shouting Merry Christmas."
   },
   {
    "id": "gold-rush",
-   "name": "Potterville Porch Light",
-   "blurb": "Honeyed bourbon softens the edges, because this story keeps asking whether one good night can save a whole life."
+   "name": "Honeymoon Money",
+   "blurb": "Bourbon, honey and lemon for honeymoon money handed over to keep a bank run from closing the Building and Loan."
   },
   {
    "id": "tom-and-jerry",
-   "name": "Bailey Home Kitchen",
-   "blurb": "Hot, foamy, and old-fashioned, this one belongs with a crowded family table and too many coats on chairs."
+   "name": "Loose Banister Knob",
+   "blurb": "Hot rum, brandy and batter for a drafty old house where the banister knob comes off in your hand."
   },
   {
    "id": "whiskey-sour",
-   "name": "Bridge Over Water",
-   "blurb": "A bright bourbon sour gives the night a little courage, then leaves you staring at the river longer than planned."
+   "name": "Stranger Jumps First",
+   "blurb": "Bourbon, lemon and a little sugar for a man on a bridge on Christmas Eve and the stranger who jumps in first."
   },
   {
    "id": "old-fashioned",
-   "name": "Savings And Loan Desk",
-   "blurb": "Straight bourbon, sugar, and bitters for the man who keeps choosing responsibility over easy money."
+   "name": "Building and Loan Desk",
+   "blurb": "Bourbon, sugar and bitters for a man who keeps giving up college and travel to run his father's Building and Loan."
   },
   {
    "id": "new-york-sour",
-   "name": "Big City Departure",
-   "blurb": "That wine float looks like a train window at dusk, all ambition up top and regret underneath."
+   "name": "Pottersville Main Street",
+   "blurb": "Bourbon sour with a red wine float, for the same main street turned into a strip of bars and pawnshops."
   },
   {
    "id": "manhattan",
-   "name": "Broadway Terminal Farewell",
-   "blurb": "Rye and vermouth bring the sharp edges of New York, where every goodbye sounds smarter than it feels."
+   "name": "Mr. Potter's Office",
+   "blurb": "Rye and sweet vermouth, rich and cold, for the richest man in town, who wants the last thing he doesn't own."
   },
   {
    "id": "tom-collins",
-   "name": "Snowbank Shuffle",
-   "blurb": "Bubbly gin keeps the mood light when the sidewalks are icy and everyone is trying not to panic."
+   "name": "Gym Floor Pool",
+   "blurb": "Gin, lemon and soda, light and fizzy, for a high school dance where the gym floor opens onto a swimming pool."
   },
   {
    "id": "bees-knees",
-   "name": "Donna Reed Smile",
-   "blurb": "Honey and lemon soften the gin, the way a good house can turn a rough day into something survivable."
+   "name": "Rock Through the Window",
+   "blurb": "Gin, honey and lemon for throwing rocks at an old house to make wishes, then living in it."
   },
   {
    "id": "moscow-mule",
-   "name": "Nickel Arcade Lights",
-   "blurb": "Ginger beer snaps like cold streetlights, which is exactly what you want when the evening gets complicated."
+   "name": "Misplaced Deposit",
+   "blurb": "Vodka, ginger beer and lime, sharp with panic, for an uncle who misplaces the bank deposit on Christmas Eve."
   },
   {
    "id": "white-russian",
-   "name": "Quiet Living Room",
-   "blurb": "Cream and coffee make this one softer than the rest, like settling in after the argument has already passed."
+   "name": "Petals in His Pocket",
+   "blurb": "Vodka, coffee liqueur and cream, soft and pale, for a few flower petals found back in a pocket."
   },
   {
    "id": "bitter-giuseppe",
-   "name": "Banker’s Reminder",
-   "blurb": "Amaro and vermouth keep things dry and a little stern, which is useful when the town starts counting pennies."
+   "name": "Angel Without Wings",
+   "blurb": "Amaro, vermouth and lemon, bitter then bright, for an angel who still has to earn his wings."
   },
   {
    "id": "aperol-spritz",
-   "name": "Dance Hall December",
-   "blurb": "Bubbles and orange lift the whole room, even when the ceiling says winter and the dance floor says stay awhile."
+   "name": "Kid Brother's Homecoming",
+   "blurb": "Aperol, bubbles and soda for a younger brother coming home a war hero, the whole town at the station."
   },
   {
    "id": "sazerac",
-   "name": "Rooftop Snowline",
-   "blurb": "Rye, bitters, and absinthe bring a sharper finish, like looking out over town and finally understanding the stakes."
+   "name": "Drugstore Prescription",
+   "blurb": "Rye, absinthe and bitters, sharp and serious, for a grieving druggist's mistake that a boy catches in time."
   },
   {
    "id": "ciderhouse-mule",
-   "name": "Holiday Parade Route",
-   "blurb": "Sparkling wine with berry and ginger turns the cold walk home into something almost celebratory, at least for one block."
+   "name": "Living Room Full of Friends",
+   "blurb": "Vodka, berries, ginger and bubbles for a living room full of friends emptying their pockets into a basket."
   }
  ],
  "cuts": []

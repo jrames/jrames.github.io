@@ -6,7 +6,7 @@
  "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T17:43:38.015Z",
+ "generatedAt": "2026-11-25T21:14:16.230Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2202,78 +2202,78 @@
  "picks": [
   {
    "id": "mulled-claret",
-   "name": "Christmas Eve Parlour",
-   "blurb": "Red wine, citrus, and spice warm the room like a draughty London hearth after the ghost stories start."
+   "name": "The Prize Turkey",
+   "blurb": "Red wine, sugar and spice for a reformed miser buying the prize turkey for his clerk's family."
   },
   {
    "id": "hot-brandy-sling",
-   "name": "Counting House Hearth",
-   "blurb": "Brandy and hot water bring old-world comfort; it’s for every frosty window and stern ledger in the story."
+   "name": "One More Lump of Coal",
+   "blurb": "Brandy, sugar and hot water for a clerk asking for one more lump of coal in a freezing counting house."
   },
   {
    "id": "egg-nog",
-   "name": "Feast Table Finale",
-   "blurb": "Creamy and pale as fresh snow, this one sweetens the final reunion without losing a bit of holiday melancholy."
+   "name": "A Very Small Goose",
+   "blurb": "Brandy, rum, egg and milk for a small family dinner where everyone shares a very small goose."
   },
   {
    "id": "manhattan",
-   "name": "Foggy Stairwell Night",
-   "blurb": "Rye and vermouth keep things sharp, like a candlelit hallway where regret finally gets its turn."
+   "name": "Partners in Chains",
+   "blurb": "Rye and sweet vermouth, heavy and dark, for two dead partners rattling the chains they forged in life."
   },
   {
    "id": "rob-roy",
-   "name": "Old Ledger Pages",
-   "blurb": "Scotch and sweet vermouth give a dusky, bookish bite, sturdy enough for Victorian gloom and brass-buttoned manners."
+   "name": "Counting House Ledgers",
+   "blurb": "Scotch, sweet vermouth and bitters, stern and dusty, for a counting house where the ledgers matter more than the clerks."
   },
   {
    "id": "gin-tonic",
-   "name": "Snowy Street Lanterns",
-   "blurb": "Gin and tonic stay brisk and bright, like a sleigh ride past gaslamps and striped shop awnings."
+   "name": "The Floating Ghost",
+   "blurb": "Gin, tonic and lime, pale and weightless, for a small floating ghost who shows a miser his lonely schooldays."
   },
   {
    "id": "mojito",
-   "name": "Green Cratchit Ribbon",
-   "blurb": "Mint, lime, and soda cut through the winter heaviness with a cheerful little green flourish."
+   "name": "Mountain of Christmas Food",
+   "blurb": "Mint and lime, fresh and generous, for a giant, laughing ghost sitting on a mountain of Christmas food."
   },
   {
    "id": "kir",
-   "name": "Parlor Curtain Sampler",
-   "blurb": "White wine with cassis slips in a dark fruit note, like velvet trim against fresh stockings."
+   "name": "Belle Says Goodbye",
+   "blurb": "White wine and cassis, pretty and a little sad, for the fiancée who left when money came first."
   },
   {
    "id": "bellini",
-   "name": "Tiny Choir Sparklers",
-   "blurb": "Peach and bubbles keep it light on its feet, the sort of drink for carols and second chances."
+   "name": "Warehouse Dance Floor",
+   "blurb": "Peach and bubbles for a warehouse cleared for dancing at a kind old employer's Christmas party."
   },
   {
    "id": "whiskey-sour",
-   "name": "Gravestone Garden Chill",
-   "blurb": "Lemon and whiskey give a tart, wintry snap, as bracing as stepping outside into bare churchyard air."
+   "name": "The Silent Ghost",
+   "blurb": "Whiskey and lemon, sour and silent, for a hooded ghost who points and never speaks."
   },
   {
    "id": "hot-toddy",
-   "name": "Bells At Midnight",
-   "blurb": "Honeyed whiskey turns soft and soothing, which is exactly what you want after a chilly night walk."
+   "name": "Crutch in the Corner",
+   "blurb": "Bourbon, honey and hot water, gentle and warm, for an empty stool and a crutch in a future that can still change."
   },
   {
    "id": "bloody-mary",
-   "name": "Market Stall Morning",
-   "blurb": "Tomato, spice, and salt bring a bracing breakfast punch, like a brisk walk through a London market."
+   "name": "Window Flung Open",
+   "blurb": "Vodka, tomato and spice for a miser waking up, flinging open the window and asking what day it is."
   },
   {
    "id": "ramos-fizz",
-   "name": "Snowfall Windowpanes",
-   "blurb": "Creamy foam and orange blossom make a fanciful white topper, almost too pretty for the grumpy bits."
+   "name": "Raise for the Clerk",
+   "blurb": "Gin, cream and egg white, light and lifted, for a clerk who expects trouble and gets a raise."
   },
   {
    "id": "new-york-sour",
-   "name": "Sleigh Track Sunset",
-   "blurb": "Red wine over bourbon gives you bittersweet layers, like daylight fading while the carols keep going."
+   "name": "Untended Grave",
+   "blurb": "Bourbon sour with a red wine float, dark underneath, for an untended grave with a familiar name on the stone."
   },
   {
    "id": "pimms-cup",
-   "name": "Mince Pie Plate",
-   "blurb": "Fruit, herbs, and bubbles add a playful ribbon of color, as if winter snuck in a summer memory."
+   "name": "Charity Collectors",
+   "blurb": "Fruit cup, lemon and soda, bright and generous, for charity collectors sent away one night and welcomed the next."
   }
  ],
  "cuts": [
