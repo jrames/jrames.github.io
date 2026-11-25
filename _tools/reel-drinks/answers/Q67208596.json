@@ -3,10 +3,10 @@
  "movieID": "Q67208596",
  "catalogVersion": "2e929962596f",
  "matchingVersion": 1,
- "pickVersion": "3",
+ "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T05:26:15.112Z",
+ "generatedAt": "2026-11-25T17:44:32.395Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2735,79 +2735,88 @@
  "picks": [
   {
    "id": "egg-nog",
-   "name": "Old-School Holiday Comfort",
-   "blurb": "Its creamy, nostalgic sweetness matches the film’s cozy winter warmth and old-fashioned charm."
-  },
-  {
-   "id": "mulled-claret",
-   "name": "Snowfall in a Glass",
-   "blurb": "The spiced red wine feels right for a story that leans into hearthside color, cold air, and holiday glow."
-  },
-  {
-   "id": "hot-toddy",
-   "name": "Quiet Night Watch",
-   "blurb": "This gentle, honeyed warmer fits the film’s bittersweet tenderness and snowy hush."
-  },
-  {
-   "id": "tom-and-jerry",
-   "name": "Cartoon-Weekender Classic",
-   "blurb": "The frothy, spiced richness echoes the playful, hand-crafted holiday spirit and classic-era feel."
+   "name": "Snowy Attic Letters",
+   "blurb": "Custard-thick and sweet, like sorting good deeds by lamplight while the whole town pretends not to need help."
   },
   {
    "id": "hot-brandy-sling",
-   "name": "Firelight and Footsteps",
-   "blurb": "Simple, warming brandy suits the film’s brisk winter mood and old-world setting."
+   "name": "Harbor Bell Evening",
+   "blurb": "Brandy warmed straight through the chill, for the moment when the sleigh bells start sounding over the dockside roofs."
   },
   {
    "id": "french-75",
-   "name": "Candlelit Celebration",
-   "blurb": "Its crisp sparkle gives the story a bright, festive lift without losing the wintry elegance."
+   "name": "Midnight Rooftop Run",
+   "blurb": "Bubbles and lemon keep this one moving fast, just like a snowy dash across chimney tops and down narrow streets."
+  },
+  {
+   "id": "mulled-claret",
+   "name": "Market Square Lanterns",
+   "blurb": "Spiced red wine brings the whole square indoors, where everyone is thawing out and still acting suspicious."
+  },
+  {
+   "id": "tom-and-jerry",
+   "name": "Workroom Hearth Bowl",
+   "blurb": "Creamy rum and spice suit a hand-built winter miracle, especially when the night turns into one long repair job."
+  },
+  {
+   "id": "pina-colada",
+   "name": "Polar Sleigh Surprise",
+   "blurb": "Creamy and playful, with enough tropical nonsense to cheer up a town that forgot how to smile."
+  },
+  {
+   "id": "penicillin",
+   "name": "Frozen Dockside Smoke",
+   "blurb": "Honey, ginger, and a little peat cut through the cold like a stubborn lantern on an empty pier."
   },
   {
    "id": "ramos-fizz",
-   "name": "Snowdrift Sparkle",
-   "blurb": "The soft white foam and citrus brightness mirror the film’s snowy palette and playful energy."
+   "name": "Snow Globe Parlor",
+   "blurb": "Foamy gin and orange blossom make everything look polished, even when the shop floor is chaos and sawdust."
+  },
+  {
+   "id": "hot-toddy",
+   "name": "Late Chimney Check",
+   "blurb": "Honeyed whiskey is what you want after a night of rooftops, ropes, and regrettable weather choices."
+  },
+  {
+   "id": "planters-punch",
+   "name": "Postbag At Dusk",
+   "blurb": "Dark rum keeps this punch practical, which is more than can be said for the mail route at first light."
+  },
+  {
+   "id": "corpse-reviver-2",
+   "name": "Blue Envelope Return",
+   "blurb": "Bright citrus and a sly absinthe edge wake you up fast, like finding one last note after the room goes quiet."
+  },
+  {
+   "id": "moscow-mule",
+   "name": "Sledge Runner",
+   "blurb": "Ginger bite and lime snap through the frost, all steel nerves and skidding runners on packed snow."
   },
   {
    "id": "whiskey-sour",
-   "name": "Sweet-Sour Resolve",
-   "blurb": "Its balanced bite and soft finish suit the film’s mix of mischief, heart, and melancholy."
+   "name": "Town Hall Standoff",
+   "blurb": "Sharp, no-nonsense whiskey for a room full of stubborn people who only thaw after the argument ends."
   },
   {
-   "id": "brandy-rickey",
-   "name": "A Winter Highball",
-   "blurb": "Bright lime and clean bubbles keep the mood lively while still feeling classic and restrained."
+   "id": "brandy-and-soda",
+   "name": "Winter Harbor Window",
+   "blurb": "Clean and simple, with enough sparkle to keep you watching the snow instead of the clock."
   },
   {
-   "id": "tom-collins",
-   "name": "Clean Lines, Bright Laughs",
-   "blurb": "This crisp, easygoing fizz fits the film’s playful tone and simple, old-fashioned silhouette."
-  },
-  {
-   "id": "scotch-rickey",
-   "name": "Cold-Air Elegance",
-   "blurb": "Its lean, smoky-leaning profile feels tailored to a wintry, classic-era story with a bittersweet edge."
-  },
-  {
-   "id": "greyhound",
-   "name": "Icy Brightness",
-   "blurb": "The stripped-down citrus feel matches the film’s white-and-blue winter look and unfussy warmth."
-  },
-  {
-   "id": "cuba-libre",
-   "name": "Cozy Crowd-Pleaser",
-   "blurb": "Its easy sweetness and dark cola note bring a snug, approachable holiday feel."
-  },
-  {
-   "id": "paloma",
-   "name": "Red-and-White Lift",
-   "blurb": "The grapefruit sparkle adds a clean, playful brightness that echoes the film’s vivid festive colors."
-  },
-  {
-   "id": "americano",
-   "name": "Old-World Evening",
-   "blurb": "Its light bitterness and soda-fresh finish suit the film’s classic, slightly wistful holiday atmosphere."
+   "id": "mojito",
+   "name": "Green Workshop Sprig",
+   "blurb": "Mint lifts the whole thing off the table, useful when the only thing greener than the garlands is the town’s attitude."
   }
  ],
- "cuts": []
+ "cuts": [
+  {
+   "classic": "corpse-reviver-2",
+   "recipe": "corpse-reviver-2--no-blue-s2",
+   "duplicates": [],
+   "name": "Harbor Letter",
+   "note": "Its bright, crisp look fits the film's wintry glow and hopeful end-of-day mood.",
+   "how": "Blue curaçao replaces orange liqueur; served up with lemon peel."
+  }
+ ]
 }

@@ -3,10 +3,10 @@
  "movieID": "Q535395",
  "catalogVersion": "2e929962596f",
  "matchingVersion": 1,
- "pickVersion": "3",
+ "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T05:25:59.744Z",
+ "generatedAt": "2026-11-25T17:44:10.810Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2741,78 +2741,78 @@
  "picks": [
   {
    "id": "manhattan",
-   "name": "Midnight in the City",
-   "blurb": "A sharp, tailored pour that fits the film’s New York attitude and its polished-but-wounded holiday edge."
-  },
-  {
-   "id": "mulled-claret",
-   "name": "Window Frost and Warm Spice",
-   "blurb": "Hot wine and mulling spices bring the right wintry glow for a story that keeps sliding between warmth and chill."
+   "name": "Midnight Manhattan",
+   "blurb": "Rye and vermouth cut through the Christmas-Eve cynicism like a producer’s tie on deadline."
   },
   {
    "id": "paper-plane",
-   "name": "Bitter Little Miracle",
-   "blurb": "Its bright citrus and herbal bite match the movie’s dark playfulness and fast, wry energy."
+   "name": "Studio Exit Stairwell",
+   "blurb": "Bourbon, amaro, and Aperol keep this one sharp for the fluorescent maze behind the cameras."
+  },
+  {
+   "id": "mulled-claret",
+   "name": "Christmas Eve Curbside",
+   "blurb": "Warm spiced wine belongs beside the curb snow and the city steam when the night gets mean."
   },
   {
    "id": "new-york-sour",
-   "name": "Snow on the Roofline",
-   "blurb": "The red wine float gives it a festive look that suits the film’s bittersweet holiday mood."
-  },
-  {
-   "id": "penicillin",
-   "name": "Cold Night, Warm Finish",
-   "blurb": "Smoky ginger heat feels like a bracing antidote to all the wintry regret and redemption."
-  },
-  {
-   "id": "americano",
-   "name": "Holiday Lights After Dark",
-   "blurb": "Light, bitter, and sparkling, it has the easygoing nighttime feel of a city wrapped in red and green lights."
-  },
-  {
-   "id": "tom-and-jerry",
-   "name": "Old-School Fireplace Reset",
-   "blurb": "Creamy, hot, and nostalgic, it leans into the retro holiday comfort beneath the movie’s sharper edges."
+   "name": "Upper West Rooftop",
+   "blurb": "The red wine float lands like a hard-earned soft spot after too many cold New York hours."
   },
   {
    "id": "bloody-mary",
-   "name": "Brisk Morning Recovery",
-   "blurb": "Savory and red, it suits the film’s blunt humor and the bleary-after-the-party feeling of the season."
+   "name": "Morning After Broadcast",
+   "blurb": "Tomato, pepper, and hot sauce hit like an all-night call sheet and a studio headache."
   },
   {
    "id": "sazerac",
-   "name": "A Harder Kind of Cheer",
-   "blurb": "Its austere herbal snap gives the pairing a lean, elegant bitterness that fits the film’s tougher streak."
+   "name": "Ghostly Boardroom Night",
+   "blurb": "This rye number comes with absinthe swagger, for anyone who needs the office to stop feeling haunted."
   },
   {
    "id": "moscow-mule",
-   "name": "Snowbank Spark",
-   "blurb": "Bright lime, ginger, and fizz give this a crisp winter kick that keeps the mood lively."
+   "name": "Cab Ride Through Midtown",
+   "blurb": "Ginger beer snaps harder than the traffic outside, which is saying something on Christmas Eve."
   },
   {
-   "id": "last-word",
-   "name": "Green Room Glow",
-   "blurb": "The herbal green profile feels festive and slightly mischievous, like the movie’s playful fantasy streak."
+   "id": "hanky-panky",
+   "name": "Control Room Wink",
+   "blurb": "Gin, vermouth, and Fernet keep the sweetness on a short leash, like a wisecrack in a power meeting."
   },
   {
-   "id": "sweet-vermouth-cocktail",
-   "name": "Quiet Corner at Closing Time",
-   "blurb": "Simple, red, and a little melancholy, it mirrors the film’s softer, more reflective moments."
-  },
-  {
-   "id": "bourbon-and-cola",
-   "name": "Late-Night Rewind",
-   "blurb": "Straightforward and familiar, it has the easy, populist energy of a holiday crowd-pleaser."
+   "id": "tom-and-jerry",
+   "name": "Lobby Snowfall Bowl",
+   "blurb": "Creamy batter and rum turn the lobby chill into something you can actually sit through."
   },
   {
    "id": "second-serve",
-   "name": "Second Chance in a Tall Glass",
-   "blurb": "Bubbly, lightly bitter, and holiday-red, it suits the story’s mix of renewal and ruefulness."
+   "name": "Church Basket Detour",
+   "blurb": "A little sherry and soda take the edge off the city’s hard corners without going soft on you."
   },
   {
-   "id": "orange-whip",
-   "name": "Neon Snowcone Nostalgia",
-   "blurb": "Creamy and brightly colored, it nods to the film’s retro look while keeping the tone playful and sweet."
+   "id": "jack-rose",
+   "name": "Elevator Ride Down",
+   "blurb": "Apple brandy and grenadine make the descent sweeter, even when the building’s full of bad decisions."
+  },
+  {
+   "id": "the-dead-rabbit",
+   "name": "Rooftop Resurrection",
+   "blurb": "Mezcal smoke and raspberry foam bring a little miracle to the cold air above the avenue."
+  },
+  {
+   "id": "bourbon-and-cola",
+   "name": "Late Shift Desk Drink",
+   "blurb": "Bourbon and cola are blunt, brown, and weirdly comforting for a night spent pretending to be in charge."
+  },
+  {
+   "id": "last-word",
+   "name": "Green Room Finale",
+   "blurb": "Chartreuse gives the finale a green snap, because even miracles should arrive with attitude."
+  },
+  {
+   "id": "penicillin",
+   "name": "Aftershock on Fifth",
+   "blurb": "Smoky Scotch and ginger hang on like a long Christmas night you thought would never end."
   }
  ],
  "cuts": [
@@ -2820,8 +2820,8 @@
    "classic": "manhattan",
    "recipe": "black-manhattan",
    "duplicates": [],
-   "name": "Snowy Ledger",
-   "note": "Its darker, more aromatic profile suits the film's wintry, bittersweet mood.",
+   "name": "Ledger Light",
+   "note": "Its darker, gentler bitterness fits the wintry, bittersweet mood and feels right for a long night indoors.",
    "how": "Averna replaces vermouth, with aromatic and orange bitters."
   }
  ]

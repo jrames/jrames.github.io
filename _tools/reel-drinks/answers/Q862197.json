@@ -3,10 +3,10 @@
  "movieID": "Q862197",
  "catalogVersion": "2e929962596f",
  "matchingVersion": 1,
- "pickVersion": "3",
+ "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T05:25:06.654Z",
+ "generatedAt": "2026-11-25T17:43:17.154Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2566,78 +2566,78 @@
  "picks": [
   {
    "id": "tom-and-jerry",
-   "name": "Train-Window Hot Batter",
-   "blurb": "A creamy, old-school winter warmer that matches the film’s snug, glowing holiday mood."
+   "name": "Train Car Custard",
+   "blurb": "Eggnog's rowdy cousin warms you from the platform to the caboose, with enough spice for every frosted window."
   },
   {
    "id": "hot-buttered-rum",
-   "name": "Platform-Side Comfort",
-   "blurb": "Spiced and mellow, it feels like a blanket of warmth against the cold, blue-white night."
+   "name": "Cabin Heat Stop",
+   "blurb": "Butter and rum steam up like the dining car after midnight, when the snow outside starts acting dramatic."
   },
   {
    "id": "hot-toddy",
-   "name": "Conductor’s Cabin Sip",
-   "blurb": "Honeyed heat gives it the same reassuring, snow-day comfort as the film’s coziest moments."
-  },
-  {
-   "id": "hot-brandy-sling",
-   "name": "Lantern-Glow Warmer",
-   "blurb": "Simple and amber-hued, it suits the story’s candlelit, wintry glow without getting too heavy."
-  },
-  {
-   "id": "mulled-claret",
-   "name": "Snowfall in a Glass",
-   "blurb": "Its spiced red-wine warmth fits the festive, cozy atmosphere and the sense of a holiday evening in motion."
-  },
-  {
-   "id": "irish-whiskey-ginger-lime",
-   "name": "Cold-Platform Highball",
-   "blurb": "Light, fizzy, and bright, it keeps the winter setting lively instead of weighty."
+   "name": "Bell-Quiet Break",
+   "blurb": "Honeyed whiskey suits the hush between stations, when the white world outside keeps moving and nobody wants to."
   },
   {
    "id": "japanese-highball",
-   "name": "Snowdrift Highball",
-   "blurb": "Clean and crisp, it mirrors the film’s polished modern look and cool blue-white palette."
-  },
-  {
-   "id": "moscow-mule",
-   "name": "Bell-Stop Brightener",
-   "blurb": "The ginger snap and lively fizz make it playful enough for a journey full of wonder."
-  },
-  {
-   "id": "gin-gin-mule",
-   "name": "Frosted Mint Ride",
-   "blurb": "Fresh mint and ginger give this a brisk, wintry lift that feels playful and polished."
+   "name": "Silver Track Night",
+   "blurb": "This lean whisky lift keeps the ride crisp, like moonlight on rails and every polished seatback."
   },
   {
    "id": "bees-knees",
-   "name": "Snowglobe Sweetness",
-   "blurb": "Its honeyed citrus is cheerful and elegant, like a small burst of warmth in the cold."
+   "name": "Ticket Pocket Treat",
+   "blurb": "Honey and lemon make a bright little reward for the kid still clutching that ticket like it matters."
   },
   {
-   "id": "whiskey-sour",
-   "name": "Ticket to Brightness",
-   "blurb": "Classic, tart, and straightforward, it echoes the film’s clean, upbeat momentum."
+   "id": "moscow-mule",
+   "name": "Frosted Window Kick",
+   "blurb": "Ginger beer snaps like ice on the glass, while the vodka keeps the whole trip brisk and awake."
   },
   {
-   "id": "golden-dream",
-   "name": "Warm Light at the Station",
-   "blurb": "Creamy citrus and soft gold color fit the amber glows and gentle fantasy tone."
-  },
-  {
-   "id": "greyhound",
-   "name": "Cold Glass, Clear Sky",
-   "blurb": "Sharp citrus and a pale color keep the mood brisk, simple, and wintry."
+   "id": "irish-whiskey-ginger-lime",
+   "name": "Snowbank Platform",
+   "blurb": "Lime and ginger cut through the cold as neatly as boots through fresh snow beside the tracks."
   },
   {
    "id": "aged-rum-ginger-lime",
-   "name": "Midnight Coach Highball",
-   "blurb": "Its easy spice and fizz suit a story that’s cozy but always moving forward."
+   "name": "Caboose Lantern Run",
+   "blurb": "Dark rum with ginger ale brings amber warmth, the sort you want after racing past blue-black trees."
+  },
+  {
+   "id": "golden-dream",
+   "name": "Snow Globe Dessert",
+   "blurb": "Creamy orange and herb sweetness land like a sugar-dusted finale, ridiculous in the best holiday way."
+  },
+  {
+   "id": "sazerac",
+   "name": "Engineer’s Nightcap",
+   "blurb": "Rye, bitters, and absinthe feel sharp enough for the engine room, even if you're only watching from home."
+  },
+  {
+   "id": "old-fashioned",
+   "name": "Conductor's Corner",
+   "blurb": "A straight bourbon build keeps things proper and sturdy, like a grown-up answering the call of the whistle."
+  },
+  {
+   "id": "hot-brandy-sling",
+   "name": "Amber Lamp Stop",
+   "blurb": "Brandy and hot water bring plain old warmth, the kind that makes snowy windows look less bossy."
+  },
+  {
+   "id": "mulled-claret",
+   "name": "Midnight Cocoa Red",
+   "blurb": "Spiced wine leans festive and a little old-world, perfect for a night when the dark gets cheerful."
   },
   {
    "id": "canchanchara",
-   "name": "Little Lantern Cooler",
-   "blurb": "Honey, lime, and a soft, rustic feel make it a quiet winter companion with just enough sparkle."
+   "name": "North Pole Sip",
+   "blurb": "Honey, lime, and rum keep it simple and bright, like a bell that still sounds believable."
+  },
+  {
+   "id": "whiskey-sour",
+   "name": "Blue Seat Moment",
+   "blurb": "Lemon keeps this one clean and bright, a sharp little pause before the train plunges back into winter."
   }
  ],
  "cuts": []

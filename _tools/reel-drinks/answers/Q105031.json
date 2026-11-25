@@ -3,10 +3,10 @@
  "movieID": "Q105031",
  "catalogVersion": "2e929962596f",
  "matchingVersion": 1,
- "pickVersion": "3",
+ "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T05:23:18.002Z",
+ "generatedAt": "2026-11-25T17:41:25.396Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2569,90 +2569,79 @@
  "picks": [
   {
    "id": "mulled-claret",
-   "name": "Snowed-In House Party",
-   "blurb": "Warm spice and red wine fit the cozy, wintry feeling of a home-bound holiday afternoon."
-  },
-  {
-   "id": "whiskey-sour",
-   "name": "Kitchen-Table Comfort",
-   "blurb": "Its simple, tart profile feels like a sturdy American classic for a nostalgic, playful evening."
+   "name": "Snowed-In Windowpanes",
+   "blurb": "Hot red wine and spices warm up a Chicago house when the temperature outside is doing its best to be rude."
   },
   {
    "id": "cape-codder",
-   "name": "Cranberry on the Mantel",
-   "blurb": "Bright red and easygoing, it matches the film's candy-color holiday look without getting fussy."
-  },
-  {
-   "id": "jack-rose",
-   "name": "Holiday Ribbon Red",
-   "blurb": "Apple and lemon give it a sweet-tart sparkle that suits the film's festive, retro mood."
-  },
-  {
-   "id": "manhattan",
-   "name": "After-Dinner Grown-Up Pour",
-   "blurb": "Rye and vermouth bring a classic city polish that nods to the story's old-school American feel."
-  },
-  {
-   "id": "bourbon-collins",
-   "name": "Porchlight and Snow",
-   "blurb": "Its bright fizz keeps the mood light while the bourbon gives it a warm, cozy backbone."
+   "name": "Red Sweater Mailbox",
+   "blurb": "Cranberry tartness keeps things bright, like that suburban front lawn under fresh snow and too much holiday cheer."
   },
   {
    "id": "moscow-mule",
-   "name": "Cold Night, Warm Ginger",
-   "blurb": "The crisp ginger snap feels right for a chilly setting and an energetic, mischievous pace."
+   "name": "Basement Trolley Dash",
+   "blurb": "Ginger bite and lime snap through the cold the way a mad sprint across an overstuffed house should."
   },
   {
-   "id": "tom-collins",
-   "name": "Bright Windowpane Sip",
-   "blurb": "Clear, lemony, and sparkling, it has the clean, cheerful simplicity of a vintage family comedy."
-  },
-  {
-   "id": "sea-breeze",
-   "name": "Red Sweater Cooler",
-   "blurb": "Cranberry and grapefruit add a tart, wintry brightness that echoes the film's red-and-white palette."
-  },
-  {
-   "id": "kir",
-   "name": "Soft Holiday Glow",
-   "blurb": "A little cassis in white wine gives an easy sweetness that feels relaxed and festive."
-  },
-  {
-   "id": "americano",
-   "name": "Front-Porch Aperitif",
-   "blurb": "Bubbly and lightly bitter, it brings a grown-up holiday lift without crowding the cozy tone."
-  },
-  {
-   "id": "clover-club",
-   "name": "Peppermint-Box Pink",
-   "blurb": "Its berry-forward color and foam make it feel playful, pretty, and a little bit mischievous."
+   "id": "whiskey-sour",
+   "name": "Toy Train Tension",
+   "blurb": "Lemons and whiskey bring a sharp little jolt, which is exactly what your nerves want before the next household ambush."
   },
   {
    "id": "bellini",
-   "name": "Present-Opening Sparkle",
-   "blurb": "Peach and bubbles keep the drink soft, celebratory, and sweet in a very approachable way."
+   "name": "Paris Departure Gate",
+   "blurb": "Sparkling wine and peach keep it light for a quick getaway from one airport into another city entirely."
   },
   {
    "id": "cuba-libre",
-   "name": "Radio-Set Throwback",
-   "blurb": "Cola and lime give it a nostalgic, easygoing snap that suits the film's retro American flavor."
+   "name": "Wet Bandits Escape",
+   "blurb": "Cola and rum roll along easy, then sneak up on you like a bad plan with a lot of momentum."
   },
   {
-   "id": "mojito",
-   "name": "Green Garland Cooler",
-   "blurb": "Fresh mint and lime bring a bright green accent that keeps the wintry sweetness feeling lively."
+   "id": "clover-club",
+   "name": "Pinecone Trap Room",
+   "blurb": "Raspberry foam softens the edges, though the first sip still lands with the same ridiculous precision as a booby trap."
+  },
+  {
+   "id": "manhattan",
+   "name": "Holiday Night Watch",
+   "blurb": "Rye and vermouth come dressed sharp, for the kid who has to act older than the adults around him."
+  },
+  {
+   "id": "paloma",
+   "name": "Blue House Silence",
+   "blurb": "Grapefruit and tequila stay brisk and bright, which is more than can be said for that suddenly empty house."
+  },
+  {
+   "id": "new-york-sour",
+   "name": "Upstairs Loft Ledger",
+   "blurb": "A red wine cap over bourbon gives you a neat split between sweet comfort and the sting of being left alone."
+  },
+  {
+   "id": "corpse-reviver-2",
+   "name": "Kitchen Counter Scheme",
+   "blurb": "Gin, lemon, and absinthe wake everything up fast, useful when the adults are somewhere else and trouble isn't."
+  },
+  {
+   "id": "jack-rose",
+   "name": "Wrapped Parcel Panic",
+   "blurb": "Apple brandy and grenadine bring a shiny red sweetness that sneaks in right before the next disaster drops."
+  },
+  {
+   "id": "tom-collins",
+   "name": "Driveway Snow Track",
+   "blurb": "Gin, lemon, and soda keep moving cleanly, like a sled run that starts with confidence and ends in chaos."
+  },
+  {
+   "id": "kingston-club",
+   "name": "Christmas Tree Fort",
+   "blurb": "Pineapple, honey, and Drambuie make a sweet, stubborn shelter for anyone plotting from behind the branches."
+  },
+  {
+   "id": "americano",
+   "name": "Suburban Porch Patrol",
+   "blurb": "Campari and vermouth stay lightly bitter and fizzy, for the grown-up who should probably be home instead of wandering."
   }
  ],
- "cuts": [
-  {
-   "classic": "whiskey-sour",
-   "recipe": "whiskey-sour--new-york",
-   "duplicates": [
-    "new-york-sour"
-   ],
-   "name": "Chicago Window Red",
-   "note": "A bright red finish gives this cozy sour a festive glow.",
-   "how": "A red wine float sits above a full-sized whiskey sour."
-  }
- ]
+ "cuts": []
 }

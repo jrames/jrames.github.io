@@ -3,10 +3,10 @@
  "movieID": "Q949879",
  "catalogVersion": "2e929962596f",
  "matchingVersion": 1,
- "pickVersion": "3",
+ "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T05:22:59.114Z",
+ "generatedAt": "2026-11-25T17:41:09.872Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2656,78 +2656,73 @@
  "picks": [
   {
    "id": "tom-and-jerry",
-   "name": "Holiday mug, over-the-top cheer",
-   "blurb": "Warm, creamy, and a little old-school, this feels like a living-room snow day in a glass."
-  },
-  {
-   "id": "hot-toddy",
-   "name": "Coat-on, lights-on comfort",
-   "blurb": "Honeyed and soothing, it fits the film’s cozy winter glow without getting too heavy."
+   "name": "Snowy Midtown Sipper",
+   "blurb": "Creamy and spiced, like a department-store break room after the city has chewed through your afternoon."
   },
   {
    "id": "mulled-claret",
-   "name": "Spiced window-display warmth",
-   "blurb": "Its red color and cinnamon-forward feel match the bright holiday palette and easygoing charm."
+   "name": "Rockefeller Tree Night",
+   "blurb": "Red wine and mulling spice turn that giant tree lot into something warmer than the sidewalks outside."
   },
   {
    "id": "mojito",
-   "name": "Fresh-snow brightness",
-   "blurb": "Minty, crisp, and green, it brings a playful lift that suits the film’s cheerful energy."
+   "name": "Central Park Snowbanks",
+   "blurb": "Mint and lime keep this bright, the way fresh snow does after the sleigh-bell chaos starts rolling."
   },
   {
    "id": "bees-knees",
-   "name": "Sweet little holiday spark",
-   "blurb": "Honey and citrus give it a soft, friendly sweetness that feels festive without fuss."
+   "name": "Toy Aisle Rescue",
+   "blurb": "Honeyed gin sweetens the hard edges, handy for anyone bouncing from candy canes to chaos."
+  },
+  {
+   "id": "hot-toddy",
+   "name": "Apartment Heater Steam",
+   "blurb": "Honeyed whiskey is your answer when the city wind bites harder than the wrapping paper."
   },
   {
    "id": "bellini",
-   "name": "Brunch with extra twinkle",
-   "blurb": "Light, peachy, and bubbly, it adds a sunny, celebratory note to the wintry setting."
+   "name": "Window Display Glitter",
+   "blurb": "Peachy bubbles sparkle fast, like a store window trying very hard to outshine the block."
+  },
+  {
+   "id": "last-word",
+   "name": "Green Suit Shortcut",
+   "blurb": "Herbal gin and Chartreuse keep the color scheme loud, which is more dignified than half the parade outside."
   },
   {
    "id": "moscow-mule",
-   "name": "City-night zip",
-   "blurb": "Its ginger snap and fizzy finish feel like a brisk walk through bright modern streets."
+   "name": "Sidewalk Snow Shuffle",
+   "blurb": "Ginger beer snaps awake like wet boots on Manhattan slush, no patience required."
   },
   {
    "id": "whiskey-sour",
-   "name": "Clean-cut holiday classic",
-   "blurb": "Simple, tart, and familiar, it has the polished crowd-pleaser energy of a mainstream holiday watch."
+   "name": "Reindeer Stall Jolt",
+   "blurb": "Citrus and bourbon give you a clean, brisk shove, useful when the morning starts in a hurry."
   },
   {
    "id": "gin-gin-mule",
-   "name": "Peppermint-adjacent snap",
-   "blurb": "The mint and ginger keep it brisk and lively, like a candy-cane-colored wink."
+   "name": "Subway Platform Pop",
+   "blurb": "Fresh mint and ginger beer make the wait underground taste less like deadlines and more like mischief."
   },
   {
    "id": "canchanchara",
-   "name": "Honeyed winter small talk",
-   "blurb": "Earthy and easygoing, it brings a mellow sweetness that suits a cozy, good-natured mood."
-  },
-  {
-   "id": "barracuda",
-   "name": "Sparkle under the tree",
-   "blurb": "Its fruity fizz and golden color make it feel festive, bright, and just a little extra."
+   "name": "Cocoa Cart Detour",
+   "blurb": "Rum, lime, and honey go down easy, even if your shopping route has already gone off the rails."
   },
   {
    "id": "hot-brandy-sling",
-   "name": "Old-fashioned candlelight",
-   "blurb": "Simple and warm, it has an easy holiday-night elegance that fits the film’s cozy heart."
+   "name": "Fifth Avenue Warm-Up",
+   "blurb": "Brandy and hot water keep the chill off while the city blinks white around you."
+  },
+  {
+   "id": "aged-rum-ginger-lime",
+   "name": "Christmas Eve Curbside",
+   "blurb": "Ginger and lime make dark rum move briskly, like a cab cutting through the holiday crush."
   },
   {
    "id": "japanese-highball",
-   "name": "Snowfall in a tall glass",
-   "blurb": "Minimal, crisp, and refreshing, it balances all the sweetness with a clean modern finish."
-  },
-  {
-   "id": "greyhound",
-   "name": "Sharp little palate reset",
-   "blurb": "Its bright grapefruit bite keeps the lineup lively and clean, like a fresh breath of cold air."
-  },
-  {
-   "id": "singapore-sling",
-   "name": "Deck the lobby in color",
-   "blurb": "Its mix of fruit, herbs, and cherry-red accents feels playful, festive, and a bit larger than life."
+   "name": "Late Shift Downtown",
+   "blurb": "Clean whisky and soda leave plenty of room for the parade noise outside and your grin inside."
   }
  ],
  "cuts": [
@@ -2737,8 +2732,8 @@
    "duplicates": [
     "new-york-sour"
    ],
-   "name": "Rockefeller Glow",
-   "note": "The red top layer gives the classic sour a festive lift that suits the city's bright holiday bustle.",
+   "name": "Manhattan Garland",
+   "note": "A red cap over the sour gives it a festive look that fits the cozy city cheer.",
    "how": "A red wine float sits above a full-sized whiskey sour."
   }
  ]

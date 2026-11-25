@@ -3,10 +3,10 @@
  "movieID": "Q105598",
  "catalogVersion": "2e929962596f",
  "matchingVersion": 1,
- "pickVersion": "3",
+ "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-10T21:33:47.394Z",
+ "generatedAt": "2026-11-25T17:40:51.774Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2316,79 +2316,79 @@
  "signatures": [],
  "picks": [
   {
-   "id": "manhattan",
-   "name": "After-Hours Steel",
-   "blurb": "Sharp rye and bitter vermouth match the film’s hard-edged, late-night tension and red-toned city glare."
+   "id": "new-york-sour",
+   "name": "Plaza After Midnight",
+   "blurb": "That red wine top is for the elevator shafts, the bloodless snow, and one long bad night in downtown L.A."
   },
   {
    "id": "old-fashioned",
-   "name": "Dust and Brass",
-   "blurb": "Its brown, no-nonsense whiskey profile feels like a bruised, old-school action night."
+   "name": "Christmas Party Floor",
+   "blurb": "Bourbon keeps the whole mess upright, like a tie loosened after the office party went sideways."
+  },
+  {
+   "id": "manhattan",
+   "name": "Skyscraper Lobby Lights",
+   "blurb": "Rye and vermouth bring sharp edges for the marble corridors and all that glass under holiday decorations."
   },
   {
    "id": "boulevardier",
-   "name": "Holiday Gunmetal",
-   "blurb": "Bourbon, Campari, and vermouth bring a bitter, classy bite that fits the wintry menace."
+   "name": "Vent Shaft Smoke",
+   "blurb": "Campari gives this one a bruised bite, handy for every crawl through concrete, dust, and bad decisions."
   },
   {
    "id": "sazerac",
-   "name": "Cold Glass Resolve",
-   "blurb": "Lean rye and anise bite give it the sharp, merciless snap of a tense siege story."
+   "name": "Thirty-Eighth Floor",
+   "blurb": "Absinthe and rye cut clean as broken windows when the night keeps climbing higher."
   },
   {
-   "id": "vieux-carre",
-   "name": "City Block Shadows",
-   "blurb": "The layered rye-and-cognac depth suits the film’s gritty, adult, retro mood."
-  },
-  {
-   "id": "new-york-sour",
-   "name": "Red Warning Light",
-   "blurb": "The wine float gives this whiskey sour a bruised red look that echoes the film’s danger and urgency."
-  },
-  {
-   "id": "bloody-mary",
-   "name": "Spare No One",
-   "blurb": "Its spicy, savory kick feels like a hangover cure for a long, violent Christmas Eve."
-  },
-  {
-   "id": "mulled-claret",
-   "name": "Winter Heat Lamp",
-   "blurb": "Warm wine and mulling spice bring the rare cozy edge that still feels wintry and tense."
-  },
-  {
-   "id": "tom-and-jerry",
-   "name": "Lobby Heat",
-   "blurb": "This hot, creamy classic leans into old-fashioned holiday comfort while keeping the season’s chill outside."
-  },
-  {
-   "id": "rob-roy",
-   "name": "Business-Class Bruise",
-   "blurb": "Scotch and vermouth give a smoky, polished edge that fits the film’s suited, hard-boiled vibe."
-  },
-  {
-   "id": "paper-plane",
-   "name": "Paper Cuts and Pressure",
-   "blurb": "Bright citrus over bourbon and amaro keeps the drink taut, modern, and impatient under pressure."
+   "id": "negroni",
+   "name": "Radio Silence Break",
+   "blurb": "Gin, Campari, and vermouth stay stern while the building turns into a Christmas wreck."
   },
   {
    "id": "moscow-mule",
-   "name": "Ginger Snapback",
-   "blurb": "The ginger bite and cold, fizzy build mirror the film’s sharp pace and icy nerve."
+   "name": "Garage Floor Frost",
+   "blurb": "Ginger beer snaps like a cold concrete landing, and that lime keeps the whole thing moving fast."
   },
   {
-   "id": "americano",
-   "name": "Neon Break Room",
-   "blurb": "Light, bitter, and effervescent, it suits the film’s uneasy pauses between bursts of action."
+   "id": "bloody-mary",
+   "name": "Desk Drawer Remedy",
+   "blurb": "Tomato, spice, and salt come on like a busted lip after too many hours trapped inside."
   },
   {
-   "id": "bywater",
-   "name": "Smoke in the Vents",
-   "blurb": "Dark rum and herbal spice give it a dense, grimy warmth that fits the movie’s brown, industrial feel."
+   "id": "tom-and-jerry",
+   "name": "Holiday Office Ransack",
+   "blurb": "Hot batter and rum warm the bones while the tower fills with smoke, panic, and shredded wrapping paper."
+  },
+  {
+   "id": "j-tonys-kold-brew-americano",
+   "name": "Night Shift Coffee",
+   "blurb": "Coffee and Campari taste like fluorescent lights, radio chatter, and a Christmas Eve with no mercy."
+  },
+  {
+   "id": "red-morning-light",
+   "name": "Rooftop Dawn Watch",
+   "blurb": "Coffee-chocolate notes hit like the first weak light after a long siege on the top floors."
   },
   {
    "id": "blood-and-sand",
-   "name": "Bruised Ornament",
-   "blurb": "Cherry, orange, and Scotch create a red, wintry cocktail that feels both festive and damaged."
+   "name": "Broken Ornament Box",
+   "blurb": "Cherry and orange soften the Scotch just enough for a holiday gone sharp around the edges."
+  },
+  {
+   "id": "vieux-carre",
+   "name": "Service Corridor Stash",
+   "blurb": "Rye, cognac, and bitters carry more heat than the air ducts, which is saying something."
+  },
+  {
+   "id": "winterized-negroni",
+   "name": "Ventilation Crawlspace",
+   "blurb": "Peated Scotch adds a smoky edge that hangs around like dust in the ducts and a bad plan."
+  },
+  {
+   "id": "paper-plane",
+   "name": "Parking Garage Escape",
+   "blurb": "Bourbon and amaro give this sour a sprinting finish, same energy as a getaway through the concrete levels."
   }
  ],
  "cuts": [
@@ -2396,9 +2396,17 @@
    "classic": "manhattan",
    "recipe": "black-manhattan",
    "duplicates": [],
-   "name": "High-Rise Shadow",
-   "note": "Its deeper, more bitter profile fits the film’s cold, tense mood and dark steel-and-glass setting.",
+   "name": "Tower Shadow",
+   "note": "Its deeper, drier profile suits the film's hard-edged night tension.",
    "how": "Averna replaces vermouth, with aromatic and orange bitters."
+  },
+  {
+   "classic": "negroni",
+   "recipe": "negroni--green-s2",
+   "duplicates": [],
+   "name": "Green Exit",
+   "note": "Its green color and sharp botanicals match the cold holiday palette.",
+   "how": "White bitter, blanc vermouth and green liqueurs turn the Negroni green."
   }
  ]
 }

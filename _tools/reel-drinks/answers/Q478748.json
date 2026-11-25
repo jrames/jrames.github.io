@@ -3,10 +3,10 @@
  "movieID": "Q478748",
  "catalogVersion": "2e929962596f",
  "matchingVersion": 1,
- "pickVersion": "3",
+ "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T05:26:58.533Z",
+ "generatedAt": "2026-11-25T17:42:28.024Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2445,73 +2445,78 @@
  "picks": [
   {
    "id": "french-75",
-   "name": "Sparkling meet-cute energy",
-   "blurb": "Bubbly, elegant, and bright, it matches the film’s polished romantic sparkle without feeling heavy."
-  },
-  {
-   "id": "mimosa",
-   "name": "Brunch-in-the-sun pick",
-   "blurb": "Its sunny citrus lift suits the film’s easygoing, feel-good warmth and daytime glow."
-  },
-  {
-   "id": "tom-collins",
-   "name": "Clean-cut crowd-pleaser",
-   "blurb": "Light, crisp, and breezy, it fits the modern, polished atmosphere and keeps the mood upbeat."
-  },
-  {
-   "id": "cosmopolitan",
-   "name": "City-romance classic",
-   "blurb": "The pink cranberry-citrus profile feels stylish, flirty, and perfectly at home in a glossy modern romance."
-  },
-  {
-   "id": "paloma",
-   "name": "Bright patio sip",
-   "blurb": "Its tart grapefruit snap brings a fresh, lively note that feels relaxed and sunlit."
-  },
-  {
-   "id": "mojito",
-   "name": "Minted holiday refresh",
-   "blurb": "Cool mint and lime give it a fresh, cheerful lift that keeps the sweetness from becoming too heavy."
-  },
-  {
-   "id": "bellini",
-   "name": "Soft-focus sweetness",
-   "blurb": "Peachy sparkle makes it gentle, celebratory, and cozy in the way a warm holiday romance should be."
-  },
-  {
-   "id": "kir",
-   "name": "Simple, pretty, and sweet",
-   "blurb": "Its understated berry sweetness feels intimate and easy, like a quiet date-night pour."
-  },
-  {
-   "id": "new-york-sour",
-   "name": "Romance with a little edge",
-   "blurb": "The red wine float gives a classic, dressed-up look that still feels soft and inviting."
-  },
-  {
-   "id": "whiskey-sour",
-   "name": "Reliable sweater-weather pick",
-   "blurb": "Bright lemon and rounded whiskey keep it familiar, cozy, and nicely balanced for a wintry romance."
-  },
-  {
-   "id": "paper-plane",
-   "name": "Modern love-note pour",
-   "blurb": "Balanced bitters, citrus, and warmth make it feel contemporary, polished, and a little more sophisticated."
-  },
-  {
-   "id": "cape-codder",
-   "name": "Cranberry holiday staple",
-   "blurb": "Its red color and clean cranberry-vodka profile echo the festive palette and easygoing mood."
-  },
-  {
-   "id": "ramos-fizz",
-   "name": "Creamy cloud of cheer",
-   "blurb": "Foamy, soft, and celebratory, it brings a plush holiday feel that matches the film’s cozy sweetness."
+   "name": "Christmas Lights On Laurel",
+   "blurb": "Bubbles and gin make everything brighter, like a winter night strung with lights and bad decisions in Los Angeles."
   },
   {
    "id": "mulled-claret",
-   "name": "Winter-room filler",
-   "blurb": "Warm spice and red wine give it a classic holiday glow that feels snug and welcoming."
+   "name": "Snowed-In Nights",
+   "blurb": "Warm red wine and spice are for when the holidays land hard and the windows stay foggy all evening."
+  },
+  {
+   "id": "ramos-fizz",
+   "name": "Beverly Hills Morning",
+   "blurb": "Creamy foam and orange flower water turn brunch into a polished little escape, even if your life is a mess."
+  },
+  {
+   "id": "mimosa",
+   "name": "Brunch Table Confession",
+   "blurb": "Orange and sparkling wine keep things sunny while everybody pretends the family calendar is under control."
+  },
+  {
+   "id": "cosmopolitan",
+   "name": "Westside Gift Wrap",
+   "blurb": "Cranberry and citrus bring the slick red-white polish of a shopping run that somehow turns romantic."
+  },
+  {
+   "id": "bellini",
+   "name": "Sunlit Driveway Toast",
+   "blurb": "Peach and fizz are easygoing enough for a driveway chat that starts guarded and ends hopeful."
+  },
+  {
+   "id": "new-york-sour",
+   "name": "White Picket Surprise",
+   "blurb": "That red wine float lands like a neat little plot twist, sweet at first and sharper underneath."
+  },
+  {
+   "id": "whiskey-sour",
+   "name": "Wrapped-Up Heart",
+   "blurb": "Lemon and whiskey give you the clean snap of someone finally saying what they mean."
+  },
+  {
+   "id": "paloma",
+   "name": "Palm Tree Detour",
+   "blurb": "Grapefruit and tequila keep things bright for the stretch of California where even errands look romantic."
+  },
+  {
+   "id": "tom-collins",
+   "name": "Garage Light Break",
+   "blurb": "Gin, lemon, and soda stay crisp and uncomplicated, like a quick breather before the next heartfelt conversation."
+  },
+  {
+   "id": "mojito",
+   "name": "Backyard String Lights",
+   "blurb": "Mint and lime make this one cheerfully green, the kind of drink that belongs under patio lights."
+  },
+  {
+   "id": "sazerac",
+   "name": "Late-Night Drive",
+   "blurb": "Rye and absinthe bring just enough bite for a polished night out that refuses to get sentimental."
+  },
+  {
+   "id": "paper-plane",
+   "name": "Airport Turnaround",
+   "blurb": "Aperol and amaro give you sweet-bitter lift, like a last-minute change that somehow saves the evening."
+  },
+  {
+   "id": "kir",
+   "name": "Wrapped Present Smile",
+   "blurb": "Crème de cassis turns plain white wine into something quietly flirty, which is more dangerous than it sounds."
+  },
+  {
+   "id": "moscow-mule",
+   "name": "Kitchen Counter Escape",
+   "blurb": "Ginger beer and lime keep the vodka brisk while you plot a fresh start between the ornaments and takeout."
   }
  ],
  "cuts": []

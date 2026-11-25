@@ -3,10 +3,10 @@
  "movieID": "Q1570133",
  "catalogVersion": "2e929962596f",
  "matchingVersion": 1,
- "pickVersion": "3",
+ "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T05:26:32.093Z",
+ "generatedAt": "2026-11-25T17:44:51.688Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2304,79 +2304,79 @@
  ],
  "picks": [
   {
-   "id": "irish-coffee",
-   "name": "Snowy-night closer",
-   "blurb": "Warm coffee, cream, and whiskey fit the film’s cozy, after-hours glow."
-  },
-  {
    "id": "egg-nog",
-   "name": "Holiday party centerpiece",
-   "blurb": "Rich, pale, and festive, this is the kind of velvet-smooth drink that belongs in a cheerful winter gathering."
+   "name": "Ski Lodge Finale",
+   "blurb": "Creamy enough for a curtain call after the snow, with brandy doing the heavy lifting like a polished ballroom floor."
   },
   {
    "id": "hot-brandy-sling",
-   "name": "Old-school hearth warmer",
-   "blurb": "Its simple brandy sweetness and hot serve suit the film’s midcentury holiday comfort."
-  },
-  {
-   "id": "tom-and-jerry",
-   "name": "Postcarol comfort bowl",
-   "blurb": "Spiced, creamy, and winter-bright, it feels like a classic Christmas season treat."
+   "name": "Train Platform Warmth",
+   "blurb": "Brandy and hot water thaw cold fingers fast, the way a station platform does when the night gets honest."
   },
   {
    "id": "mulled-claret",
-   "name": "Wreath-and-candles pour",
-   "blurb": "The spiced red wine echoes the film’s red-and-green holiday palette and wintry warmth."
+   "name": "Ribboned Window Lights",
+   "blurb": "Spiced red wine carries the color of wrapped gifts and the patience of a winter evening that ends in a kiss."
   },
   {
-   "id": "manhattan",
-   "name": "Smart evening tuxedo",
-   "blurb": "This polished rye cocktail matches the film’s crisp, midcentury lounge sophistication."
+   "id": "tom-and-jerry",
+   "name": "Parlor Piano Heat",
+   "blurb": "Foamy and sweet, it’s the kind of old-time comfort that belongs beside a crackling fire and a tap-dancing grin."
+  },
+  {
+   "id": "irish-coffee",
+   "name": "After-Rehearsal Cocoa",
+   "blurb": "Coffee under cream keeps the brass-band energy up long after the last ornament gets packed away."
   },
   {
    "id": "french-75",
-   "name": "Sparkle under the tree",
-   "blurb": "Bubbly and elegant, it brings a romantic lift that suits the film’s bright, polished mood."
+   "name": "Snowfall Champagne Toast",
+   "blurb": "Bubbles and gin bring the sharp sparkle of a rooftop snowfall, then disappear before the cold can complain."
   },
   {
-   "id": "bellini",
-   "name": "Lighthearted brunch toast",
-   "blurb": "Its sunny fruit-and-bubbles profile keeps the mood airy, festive, and romantic."
-  },
-  {
-   "id": "kir",
-   "name": "Pink-suited holiday toast",
-   "blurb": "Simple, pretty, and wine-based, it feels like an easygoing social sip for a cheerful winter night."
-  },
-  {
-   "id": "mojito",
-   "name": "Fresh snow, green trim",
-   "blurb": "Mint and lime add a clean green accent that plays well against the film’s snowy brightness."
-  },
-  {
-   "id": "cosmopolitan",
-   "name": "Trim and twinkly",
-   "blurb": "Cranberry’s red sparkle and the cocktail’s sleek profile fit the film’s glossy, festive look."
+   "id": "manhattan",
+   "name": "Broadway Velvet Curtain",
+   "blurb": "Rye and vermouth give this one tuxedo manners, like a December gala where everyone knows the chorus."
   },
   {
    "id": "whiskey-sour",
-   "name": "Clean-cut lounge pour",
-   "blurb": "Its bright citrus bite keeps the sweetness in balance, matching the film’s crisp romantic energy."
+   "name": "Ice Rink Kiss",
+   "blurb": "That lemon snap cuts through the sugar the way fresh air cuts across a skating date."
+  },
+  {
+   "id": "kir",
+   "name": "Crimson Gift Tag",
+   "blurb": "Blackcurrant and white wine keep things simple, like the prettiest little present under the tree."
+  },
+  {
+   "id": "bellini",
+   "name": "Matinee Matinée",
+   "blurb": "Peach and fizz sound like a warm afternoon in a theater lobby, all satin gloves and polished smiles."
+  },
+  {
+   "id": "ramos-fizz",
+   "name": "White Curtain Call",
+   "blurb": "Creamy foam and orange blossom turn the whole thing into a stage full of bright costumes and soft applause."
   },
   {
    "id": "aperol-spritz",
-   "name": "Wrapped in ribbon",
-   "blurb": "The vivid color and easy fizz give the pairing a playful holiday-party feel."
+   "name": "Lobby Garland Lights",
+   "blurb": "Bitter orange and bubbles bring a little sparkle to the hotel hallway without ruining the manners."
   },
   {
-   "id": "tom-collins",
-   "name": "Cabin-window refresher",
-   "blurb": "Tall, bright, and uncomplicated, it suits the film’s breezy, optimistic charm."
+   "id": "clover-club",
+   "name": "Evergreen Bow",
+   "blurb": "Raspberry and gin make a rosy little salute to the green trim and the white tablecloths."
   },
   {
-   "id": "paloma",
-   "name": "Cool holiday contrast",
-   "blurb": "Its pale, refreshing citrus profile adds a modern, clean counterpoint to the film’s cozy warmth."
+   "id": "sweet-vermouth-cocktail",
+   "name": "Midnight Luggage Cart",
+   "blurb": "Straight vermouth keeps it elegant and trim, like a porter gliding past with everybody’s best suit."
+  },
+  {
+   "id": "cape-codder",
+   "name": "Cranberry Snow Drift",
+   "blurb": "Cranberry tartness gives you that red holiday pop while the vodka keeps the whole thing brisk and unfussy."
   }
  ],
  "cuts": [
@@ -2386,8 +2386,8 @@
    "duplicates": [
     "new-york-sour"
    ],
-   "name": "Caroling Window Glow",
-   "note": "The red finish feels festive, warm, and elegant beside the movie's cozy mood.",
+   "name": "Train-Window Glow",
+   "note": "Its red finish adds a festive lift to the cozy romance.",
    "how": "A red wine float sits above a full-sized whiskey sour."
   }
  ]

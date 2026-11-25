@@ -3,10 +3,10 @@
  "movieID": "Q204191",
  "catalogVersion": "2e929962596f",
  "matchingVersion": 1,
- "pickVersion": "3",
+ "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T05:23:38.866Z",
+ "generatedAt": "2026-11-25T17:41:41.945Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2984,88 +2984,79 @@
  "picks": [
   {
    "id": "mulled-claret",
-   "name": "Front-Porch Winter",
-   "blurb": "Warm spice and red wine fit the film’s snowy, home-for-the-holidays feeling."
-  },
-  {
-   "id": "old-fashioned",
-   "name": "Small-Town After Hours",
-   "blurb": "Its steady bourbon warmth and bittersweet edge match the film’s humble, midcentury American mood."
-  },
-  {
-   "id": "tom-and-jerry",
-   "name": "Snowday Comfort",
-   "blurb": "This hot, creamy classic feels like a wraparound blanket for the movie’s coziest moments."
-  },
-  {
-   "id": "whiskey-sour",
-   "name": "Good-Hearted Tearjerker",
-   "blurb": "Bright citrus and whiskey give it the same sweet-and-sad balance as the story’s emotional turns."
+   "name": "Main Street Snowfall",
+   "blurb": "Red wine and spices warm the town square while everybody pretends their troubles are just weather."
   },
   {
    "id": "gold-rush",
-   "name": "Warm-Glow Porch Light",
-   "blurb": "Honeyed bourbon keeps the comfort high while the lemon keeps it lively and hopeful."
+   "name": "Potterville Porch Light",
+   "blurb": "Honeyed bourbon softens the edges, because this story keeps asking whether one good night can save a whole life."
+  },
+  {
+   "id": "tom-and-jerry",
+   "name": "Bailey Home Kitchen",
+   "blurb": "Hot, foamy, and old-fashioned, this one belongs with a crowded family table and too many coats on chairs."
+  },
+  {
+   "id": "whiskey-sour",
+   "name": "Bridge Over Water",
+   "blurb": "A bright bourbon sour gives the night a little courage, then leaves you staring at the river longer than planned."
+  },
+  {
+   "id": "old-fashioned",
+   "name": "Savings And Loan Desk",
+   "blurb": "Straight bourbon, sugar, and bitters for the man who keeps choosing responsibility over easy money."
+  },
+  {
+   "id": "new-york-sour",
+   "name": "Big City Departure",
+   "blurb": "That wine float looks like a train window at dusk, all ambition up top and regret underneath."
   },
   {
    "id": "manhattan",
-   "name": "City Lights, Quiet Night",
-   "blurb": "Its polished rye-and-vermouth profile suits the film’s urban edges and grown-up melancholy."
-  },
-  {
-   "id": "golden-dream",
-   "name": "Soft Focus Nostalgia",
-   "blurb": "Creamy, mellow, and gently glowing, it feels like a sentimental memory in a glass."
-  },
-  {
-   "id": "bees-knees",
-   "name": "Bright-Side Cheer",
-   "blurb": "Honey and lemon bring a sweet lift that matches the film’s kindness and optimism."
-  },
-  {
-   "id": "bourbon-collins",
-   "name": "Easy Company",
-   "blurb": "Simple, bright, and friendly, it suits the movie’s plainspoken warmth and everyday charm."
+   "name": "Broadway Terminal Farewell",
+   "blurb": "Rye and vermouth bring the sharp edges of New York, where every goodbye sounds smarter than it feels."
   },
   {
    "id": "tom-collins",
-   "name": "Snowy Afternoon Spritz",
-   "blurb": "Its crisp fizz and lemony lightness echo the film’s clean, wintry clarity."
+   "name": "Snowbank Shuffle",
+   "blurb": "Bubbly gin keeps the mood light when the sidewalks are icy and everyone is trying not to panic."
+  },
+  {
+   "id": "bees-knees",
+   "name": "Donna Reed Smile",
+   "blurb": "Honey and lemon soften the gin, the way a good house can turn a rough day into something survivable."
   },
   {
    "id": "moscow-mule",
-   "name": "Tin-Cup Cheer",
-   "blurb": "The ginger bite and fizzy lift keep things brisk, lively, and a little bit festive."
+   "name": "Nickel Arcade Lights",
+   "blurb": "Ginger beer snaps like cold streetlights, which is exactly what you want when the evening gets complicated."
   },
   {
    "id": "white-russian",
-   "name": "Late-Night Hearth",
-   "blurb": "Creamy coffee notes give it a cozy, contemplative feel that suits the film’s softer scenes."
+   "name": "Quiet Living Room",
+   "blurb": "Cream and coffee make this one softer than the rest, like settling in after the argument has already passed."
   },
   {
-   "id": "canchanchara",
-   "name": "Honeyed Respite",
-   "blurb": "Its simple rum-and-honey comfort makes a gentle match for the movie’s tender-hearted tone."
+   "id": "bitter-giuseppe",
+   "name": "Banker’s Reminder",
+   "blurb": "Amaro and vermouth keep things dry and a little stern, which is useful when the town starts counting pennies."
   },
   {
    "id": "aperol-spritz",
-   "name": "Light Through the Window",
-   "blurb": "A bright, sparkling pour that brings a small burst of cheer to the film’s winter palette."
+   "name": "Dance Hall December",
+   "blurb": "Bubbles and orange lift the whole room, even when the ceiling says winter and the dance floor says stay awhile."
   },
   {
-   "id": "bourbon-and-ginger-ale",
-   "name": "Plainspoken Comfort",
-   "blurb": "This straightforward highball feels honest, familiar, and quietly reassuring, just like the movie’s spirit."
+   "id": "sazerac",
+   "name": "Rooftop Snowline",
+   "blurb": "Rye, bitters, and absinthe bring a sharper finish, like looking out over town and finally understanding the stakes."
+  },
+  {
+   "id": "ciderhouse-mule",
+   "name": "Holiday Parade Route",
+   "blurb": "Sparkling wine with berry and ginger turns the cold walk home into something almost celebratory, at least for one block."
   }
  ],
- "cuts": [
-  {
-   "classic": "manhattan",
-   "recipe": "black-manhattan",
-   "duplicates": [],
-   "name": "Porch-Side Ledger",
-   "note": "Its deeper, mellow finish suits the film's wintry, bittersweet warmth.",
-   "how": "Averna replaces vermouth, with aromatic and orange bitters."
-  }
- ]
+ "cuts": []
 }

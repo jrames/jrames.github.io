@@ -3,10 +3,10 @@
  "movieID": "Q190588",
  "catalogVersion": "2e929962596f",
  "matchingVersion": 1,
- "pickVersion": "3",
+ "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T05:24:16.347Z",
+ "generatedAt": "2026-11-25T17:42:14.386Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2398,79 +2398,88 @@
  "picks": [
   {
    "id": "mulled-claret",
-   "name": "Window-Steam Winter Warmup",
-   "blurb": "Hot spice and citrus make it feel like a wool coat, a lit window, and a cold London walk in one glass."
+   "name": "London Window Lights",
+   "blurb": "Steam and spice suit rainy December streets, and this one warms faster than a flat after the decorations go up."
   },
   {
    "id": "french-75",
-   "name": "Candlelit Sparkler",
-   "blurb": "Its crisp bubbles and bright citrus match the film’s polished, hopeful holiday glow."
+   "name": "West End Toast",
+   "blurb": "Bubbles and lemon keep the party moving, even when the evening keeps slipping from merry to melancholy."
   },
   {
    "id": "brandy-alexander",
-   "name": "After-Dinner Soft Landing",
-   "blurb": "Creamy, sweet, and a little indulgent, it fits the movie’s cozy evenings and softened edges."
+   "name": "After-The-Party Cream",
+   "blurb": "Brandy and cocoa soften the sharp edges, like the last hour at a Christmas gathering when nobody wants to leave."
   },
   {
    "id": "new-york-sour",
-   "name": "Red-Trimmed Heartache",
-   "blurb": "The wine cap gives a romantic, bittersweet look that suits the film’s mix of charm and ache."
+   "name": "Airport Goodbye Lantern",
+   "blurb": "That red wine float looks properly dramatic, which is handy for a story full of departures and second thoughts."
   },
   {
-   "id": "russian-spring-punch",
-   "name": "Party Lights in a Glass",
-   "blurb": "Sparkling, berry-bright, and festive, it has the easy holiday cheer of a crowded evening out."
-  },
-  {
-   "id": "jack-rose",
-   "name": "Blushing Confession",
-   "blurb": "Its apple-and-citrus sweetness feels romantic and slightly wistful, like a private admission at the end of a long night."
+   "id": "gin-tonic",
+   "name": "Mews Street Night",
+   "blurb": "Clean gin and tonic keep things brisk, like a winter walk past London terraces with your collar up."
   },
   {
    "id": "cosmopolitan",
-   "name": "City Date Brightener",
-   "blurb": "Clean, pink, and lively, it suits the movie’s modern romance and quick-stepping urban energy."
+   "name": "Office Bauble Red",
+   "blurb": "Cranberry brings the holiday color while the citrus stays sharp enough for all those tidy little heartbreaks."
   },
   {
    "id": "mojito",
-   "name": "Fresh Start Fizz",
-   "blurb": "Minty and bright, it brings a lighter, hopeful note to the film’s sweet-sour holiday mood."
-  },
-  {
-   "id": "blood-and-sand",
-   "name": "Velvet Melancholy",
-   "blurb": "Cherry, orange, and Scotch give it a warm, dramatic sweetness that matches the story’s bittersweet turns."
+   "name": "Tree Lot Green",
+   "blurb": "Mint and lime cut through the sweetness, which is useful when the season insists on being cheerful."
   },
   {
    "id": "manhattan",
-   "name": "Tailored in Red",
-   "blurb": "Strong, smooth, and classic, it echoes the film’s neat suits, soft lighting, and grown-up romance."
+   "name": "Train Platform Pause",
+   "blurb": "Rye and vermouth bring a formal edge, like waiting under station lights with too much unsaid."
+  },
+  {
+   "id": "cape-codder",
+   "name": "Gift Wrap Cranberry",
+   "blurb": "Simple, tart, and bright red, this one goes down easy during the wrapping-paper chaos."
   },
   {
    "id": "penicillin",
-   "name": "Cold-Night Comfort",
-   "blurb": "Smoky ginger and honey feel like a restorative drink for a wintry night with tender complications."
-  },
-  {
-   "id": "espresso-martini",
-   "name": "Late-Night Rescue",
-   "blurb": "Coffee-dark and brisk, it fits the film’s after-hours energy when the evening keeps going."
-  },
-  {
-   "id": "negroni",
-   "name": "Crimson Edge",
-   "blurb": "Bitter and elegant, it adds a sharper London note beneath all the sweetness."
+   "name": "Snowy Pavement Smoke",
+   "blurb": "Honey and ginger take the chill off, while the peated Scotch adds a little ache for the lonely bits."
   },
   {
    "id": "paloma",
-   "name": "Bright Lift Under the Tree",
-   "blurb": "Its grapefruit sparkle keeps the mood fresh and buoyant without losing the holiday gloss."
+   "name": "Advent Window Pink",
+   "blurb": "Grapefruit keeps the sweetness from getting smug, and the salt gives it a proper London-weather snap."
+  },
+  {
+   "id": "ramos-fizz",
+   "name": "Piano In White",
+   "blurb": "Creamy bubbles and orange blossom feel a bit overbuilt, which is exactly right for a room full of hopeful romantic disasters."
+  },
+  {
+   "id": "americano",
+   "name": "Corner Pub Cheer",
+   "blurb": "Campari and soda stay lively without overcommitting, handy for a night that keeps changing its mind."
+  },
+  {
+   "id": "blood-and-sand",
+   "name": "Red Curtain Reel",
+   "blurb": "Cherry and orange make this one velvet-smooth, with just enough bittersweet bite for the quieter scenes."
   },
   {
    "id": "aged-rum-soda",
-   "name": "Soft-Toned Toast",
-   "blurb": "Simple and warming, it gives the film a relaxed, easygoing finish that still feels celebratory."
+   "name": "Late-Train Lantern",
+   "blurb": "Dark rum and soda are easygoing but not dull, a sensible companion for winter streets after the lights come on."
   }
  ],
- "cuts": []
+ "cuts": [
+  {
+   "classic": "manhattan",
+   "recipe": "black-manhattan",
+   "duplicates": [],
+   "name": "Station Farewell",
+   "note": "Its amber, spiced depth suits the film’s bittersweet moments.",
+   "how": "Averna replaces vermouth, with aromatic and orange bitters."
+  }
+ ]
 }

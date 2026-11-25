@@ -3,10 +3,10 @@
  "movieID": "Q241958",
  "catalogVersion": "2e929962596f",
  "matchingVersion": 1,
- "pickVersion": "3",
+ "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T05:24:51.977Z",
+ "generatedAt": "2026-11-25T17:43:02.833Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2703,69 +2703,79 @@
  "signatures": [],
  "picks": [
   {
-   "id": "mulled-claret",
-   "name": "Holiday chaos in a mug",
-   "blurb": "Warm spice and red wine fit the wintry, mischievous holiday mood with a cozy-but-uneasy glow."
-  },
-  {
    "id": "tom-and-jerry",
-   "name": "After-midnight parlor warmth",
-   "blurb": "Its creamy, spiced heat feels like a nostalgic winter night that could turn unruly at any moment."
+   "name": "Snowed-In Living Room",
+   "blurb": "Hot, creamy batter for the night the house turns into a chaos engine; drink it before the furniture starts moving."
   },
   {
    "id": "last-word",
-   "name": "Little green trouble",
-   "blurb": "The vivid green color and sharp herbal bite echo the film’s playful, impish energy."
+   "name": "Kitchen Lights Out",
+   "blurb": "Green Chartreuse keeps the holiday mischief sharp, like a tiny creature watching from the shadows with perfect timing."
   },
   {
-   "id": "negroni",
-   "name": "Midnight warning light",
-   "blurb": "Bitter, red, and sleek, it matches the story’s darker edges and old-school urban holiday feel."
-  },
-  {
-   "id": "boulevardier",
-   "name": "Snowy noir sip",
-   "blurb": "This stirred whiskey drink brings a dressed-up, wintry bitterness that suits the film’s retro adult-leaning edge."
-  },
-  {
-   "id": "manhattan",
-   "name": "Retro nightcap for bad decisions",
-   "blurb": "Its classic American polish and bold spirit feel right for the film’s 1980s neighborhood atmosphere."
-  },
-  {
-   "id": "americano",
-   "name": "Holiday sparkle with a sting",
-   "blurb": "Light, fizzy, and bitter, it captures the movie’s comic menace without getting too heavy."
-  },
-  {
-   "id": "paper-plane",
-   "name": "Friendly at first, sharper later",
-   "blurb": "The bright red-orange profile gives a cheerful surface with enough bitterness to hint at trouble underneath."
-  },
-  {
-   "id": "sea-breeze",
-   "name": "Cold-weather cranberry relief",
-   "blurb": "Its cranberry-red look and crisp, easygoing feel suit the snowy suburban setting."
+   "id": "mulled-claret",
+   "name": "Main Street Snowfall",
+   "blurb": "Spiced red wine warms up the town square while the season goes from postcard pretty to mildly disastrous."
   },
   {
    "id": "bloody-mary",
-   "name": "Savory red alarm bell",
-   "blurb": "The bold red color and peppery kick match the film’s chaotic, tongue-in-cheek menace."
+   "name": "Basement Cleanup Duty",
+   "blurb": "Savory, peppery vodka is what you want after the mess gets serious and nobody wants to touch the floor."
   },
   {
-   "id": "rob-roy",
-   "name": "Velvet winter shadow",
-   "blurb": "This Scotch-forward classic brings a darker, more formal holiday mood with a smoky edge."
+   "id": "negroni",
+   "name": "Toy Store After Hours",
+   "blurb": "Bitter gin and Campari handle the late-night mayhem better than any adult in this movie."
   },
   {
-   "id": "cape-codder",
-   "name": "Cranberry sweater weather",
-   "blurb": "Simple, tart, and red, it mirrors the film’s wintry palette and easy suburban setting."
+   "id": "manhattan",
+   "name": "Father-Son Present Wrapping",
+   "blurb": "Rye, vermouth, and bitters stay composed while the holiday table slowly loses the argument."
   },
   {
-   "id": "ferrari",
-   "name": "Sharp little after-hours jolt",
-   "blurb": "The intense herbal bitterness suits the film’s frantic, nasty streak in a tiny, potent pour."
+   "id": "paper-plane",
+   "name": "Garage Door Panic",
+   "blurb": "Bourbon and Aperol bring bright, uneasy energy, like a Christmas present that definitely bites back."
+  },
+  {
+   "id": "new-york-sour",
+   "name": "Tree Lot Trouble",
+   "blurb": "A red wine float tops the whiskey like a clean finish on top of a very untidy holiday night."
+  },
+  {
+   "id": "moscow-mule",
+   "name": "Backyard Snow Chase",
+   "blurb": "Ginger beer snaps like icy mischief, and the vodka keeps the whole ridiculous sprint moving."
+  },
+  {
+   "id": "cosmopolitan",
+   "name": "County Fair Lights",
+   "blurb": "Cranberry and lime make the red pop against all that small-town snow and blinking decoration."
+  },
+  {
+   "id": "blood-moon",
+   "name": "Motel Vacancy Sign",
+   "blurb": "Amaro and tonic go weirdly well with fluorescent menace and a night that keeps getting stranger."
+  },
+  {
+   "id": "orange-whip",
+   "name": "Mall Santa Break",
+   "blurb": "Creamy orange rum softens the edges, because even this holiday mess deserves one brief sugar rush."
+  },
+  {
+   "id": "clover-leaf",
+   "name": "Green Hallway Shadows",
+   "blurb": "Foamy gin turns bright and slippery, like something fast darting past the stair rail at midnight."
+  },
+  {
+   "id": "sazerac",
+   "name": "Police Station Briefing",
+   "blurb": "Rye, absinthe, and Peychaud's bring a severe little swagger to the grown-up explanation nobody asked for."
+  },
+  {
+   "id": "americano",
+   "name": "Wrapped Gift Counter",
+   "blurb": "Campari and soda stay bubbly and sharp, which is exactly the kind of adult beverage this unruly December needs."
   }
  ],
  "cuts": [
@@ -2773,16 +2783,16 @@
    "classic": "negroni",
    "recipe": "negroni--green-s2",
    "duplicates": [],
-   "name": "Pine-Toned Mischief",
-   "note": "Its bright green hue suits the playful, spooky edge.",
+   "name": "Green Corridor Mischief",
+   "note": "Its vivid green glow suits the playful spooky energy and keeps the sip crisp.",
    "how": "White bitter, blanc vermouth and green liqueurs turn the Negroni green."
   },
   {
    "classic": "manhattan",
    "recipe": "black-manhattan",
    "duplicates": [],
-   "name": "Basement Shadow",
-   "note": "Its deeper, darker character fits the wintry mood.",
+   "name": "Coalfire Living Room",
+   "note": "This darker pour feels right for the wintry tension and brings a smooth, deeper finish.",
    "how": "Averna replaces vermouth, with aromatic and orange bitters."
   }
  ]

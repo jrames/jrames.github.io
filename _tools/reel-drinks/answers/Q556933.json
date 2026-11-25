@@ -3,10 +3,10 @@
  "movieID": "Q556933",
  "catalogVersion": "2e929962596f",
  "matchingVersion": 1,
- "pickVersion": "3",
+ "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T05:27:17.111Z",
+ "generatedAt": "2026-11-25T17:42:43.015Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2376,89 +2376,80 @@
  "signatures": [],
  "picks": [
   {
-   "id": "tom-and-jerry",
-   "name": "Old-School Holiday Nightcap",
-   "blurb": "A warm, creamy cooler that fits the film’s snowy, nostalgic, basement-and-kitchen holiday mood."
+   "id": "mulled-claret",
+   "name": "Front-Window Snowfall",
+   "blurb": "Warm spice and red wine for a December street under Indiana snow; take your mittens off for one careful sip."
   },
   {
    "id": "hot-brandy-sling",
-   "name": "After-Caroling Comfort",
-   "blurb": "Its simple heat and brandy warmth echo the film’s snug, old-fashioned winter atmosphere."
-  },
-  {
-   "id": "mulled-claret",
-   "name": "Tree-Lights in a Glass",
-   "blurb": "Spiced red wine feels like a quiet, glowing match for the story’s cozy Christmas color palette."
+   "name": "Parlor Lamp Heat",
+   "blurb": "Brandy and hot water keep the frost off while the family room turns into a small, loud battlefield."
   },
   {
    "id": "whiskey-sour",
-   "name": "Back-Porch Winter Sip",
-   "blurb": "Bright and familiar, it matches the film’s plainspoken Midwestern feel without getting too fancy."
-  },
-  {
-   "id": "bourbon-collins",
-   "name": "Snow-Day Easygoing",
-   "blurb": "This easy, soda-bright whiskey drink suits the film’s playful, unhurried holiday rhythm."
-  },
-  {
-   "id": "manhattan",
-   "name": "Grown-Up Evening in December",
-   "blurb": "Its deeper, more polished whiskey profile gives a slightly bittersweet counterpoint to the film’s childlike wonder."
-  },
-  {
-   "id": "new-york-sour",
-   "name": "Ribbon-Red Sentiment",
-   "blurb": "The red wine float gives it a festive look that suits the movie’s red-and-white holiday imagery."
-  },
-  {
-   "id": "jack-rose",
-   "name": "Candy-Apple Winter",
-   "blurb": "Apple and lemon bring a tart, nostalgic sweetness that feels right for a classic Christmas memory lane."
-  },
-  {
-   "id": "moscow-mule",
-   "name": "Cold Snap, Warm Spirit",
-   "blurb": "Ginger and lime make this bright and bracing, like stepping in from a snowy Indiana night."
-  },
-  {
-   "id": "paloma",
-   "name": "Bright After the Snow",
-   "blurb": "Its crisp citrus and salt keep the mood light, playful, and clean against the winter setting."
-  },
-  {
-   "id": "americano",
-   "name": "Neighborly Aperitif Hour",
-   "blurb": "Simple, fizzy, and a little bittersweet, it fits the film’s vintage holiday-busy feeling."
-  },
-  {
-   "id": "french-75",
-   "name": "Holiday Sparkle Cutaway",
-   "blurb": "The bubbles and lemon give the season a polished, celebratory lift without losing warmth."
+   "name": "Basement Air Gun",
+   "blurb": "Sharp lemon cuts through the sweetness, like a kid aiming too hard and learning consequences the hard way."
   },
   {
    "id": "white-russian",
-   "name": "Late-Night Recliner Drink",
-   "blurb": "Creamy and mellow, it matches the film’s soft, cozy after-dark holiday vibe."
+   "name": "Kitchen Table Breakfast",
+   "blurb": "Creamy and stubbornly sweet, this one belongs near the kitchen sink after the morning opens gifts and chaos."
   },
   {
-   "id": "espresso-martini",
-   "name": "After-Dinner Christmas Buzz",
-   "blurb": "Coffee and chocolate notes bring a grown-up, December-evening richness to the nostalgic setting."
+   "id": "tom-and-jerry",
+   "name": "Christmas Eve Batter",
+   "blurb": "Foamy, spiced, and old-fashioned enough to belong to a night when the adults need a little mercy."
   },
   {
-   "id": "koffie-van-brunt",
-   "name": "Basement-Closet Cocoa Night",
-   "blurb": "Its coffee, cream, and gentle sweetness feel like a tucked-away winter treat for a long holiday evening."
+   "id": "manhattan",
+   "name": "Suits On Main Street",
+   "blurb": "Rye, vermouth, and bitters bring grown-up winter polish to a town where every errand becomes a mission."
+  },
+  {
+   "id": "new-york-sour",
+   "name": "Department Store Santa",
+   "blurb": "Bourbon under a red wine cap, because even the mall Santa line deserves a bit of drama."
+  },
+  {
+   "id": "moscow-mule",
+   "name": "Frozen Porch Steps",
+   "blurb": "Ginger bite and lime snap like boots on icy boards when the house is half holiday, half hazard."
+  },
+  {
+   "id": "cape-codder",
+   "name": "Mailbox Red Ribbon",
+   "blurb": "Cranberry tartness keeps this bright and simple, like a wrapped package hung up on a tree branch."
+  },
+  {
+   "id": "jack-rose",
+   "name": "Tree Lot Find",
+   "blurb": "Apple brandy brings a red, wintry snap that suits pine needles, cold air, and one very determined Christmas setup."
+  },
+  {
+   "id": "penicillin",
+   "name": "Backyard Snowbank",
+   "blurb": "Honey and ginger soften the Scotch, which is handy when the weather outside is doing its worst."
+  },
+  {
+   "id": "americano",
+   "name": "Downtown Window Display",
+   "blurb": "Bitter, fizzy, and old-world in the right way, it belongs with glowing storefronts and bundled-up errands."
+  },
+  {
+   "id": "ramos-fizz",
+   "name": "Living Room Blizzard",
+   "blurb": "White, foamy, and fussy enough to feel like a family holiday that somehow still works."
+  },
+  {
+   "id": "bourbon-collins",
+   "name": "Cedar Chest Afternoon",
+   "blurb": "Bourbon and lemon stay bright while the soda keeps things light, like a snowy day with too much time inside."
+  },
+  {
+   "id": "orange-whip",
+   "name": "Toy Counter Daydream",
+   "blurb": "Creamy orange sweetness goes full Christmas morning, which is exactly the sort of nonsense this house deserves."
   }
  ],
- "cuts": [
-  {
-   "classic": "manhattan",
-   "recipe": "black-manhattan",
-   "duplicates": [],
-   "name": "Porch-Step Dusk",
-   "note": "Its deeper, drier finish fits the film’s cozy, bittersweet winter feel.",
-   "how": "Averna replaces vermouth, with aromatic and orange bitters."
-  }
- ]
+ "cuts": []
 }

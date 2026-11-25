@@ -3,10 +3,10 @@
  "movieID": "Q714721",
  "catalogVersion": "2e929962596f",
  "matchingVersion": 1,
- "pickVersion": "3",
+ "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T05:25:25.237Z",
+ "generatedAt": "2026-11-25T17:43:38.015Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2202,89 +2202,97 @@
  "picks": [
   {
    "id": "mulled-claret",
-   "name": "Christmas-Card Warmth",
-   "blurb": "Spiced red wine gives the whole night that candlelit, old-England holiday glow."
+   "name": "Christmas Eve Parlour",
+   "blurb": "Red wine, citrus, and spice warm the room like a draughty London hearth after the ghost stories start."
   },
   {
    "id": "hot-brandy-sling",
-   "name": "Parlor-Glass Comfort",
-   "blurb": "A simple hot brandy serve feels like a fireside pause in a snug Victorian drawing room."
+   "name": "Counting House Hearth",
+   "blurb": "Brandy and hot water bring old-world comfort; it’s for every frosty window and stern ledger in the story."
   },
   {
    "id": "egg-nog",
-   "name": "Snowy-Doorstep Indulgence",
-   "blurb": "Creamy, pale, and festive, it matches the storybook sweetness of a winter gathering."
-  },
-  {
-   "id": "tom-and-jerry",
-   "name": "Merriment by the Hearth",
-   "blurb": "Warm batter, spice, and rum bring the same old-fashioned holiday cheer as a crowded singalong."
-  },
-  {
-   "id": "hot-toddy",
-   "name": "Lantern-Walk Sipper",
-   "blurb": "Honeyed whiskey warmth suits the film’s chilly streets and tender, wintry mood."
+   "name": "Feast Table Finale",
+   "blurb": "Creamy and pale as fresh snow, this one sweetens the final reunion without losing a bit of holiday melancholy."
   },
   {
    "id": "manhattan",
-   "name": "Townhouse Evening Pick",
-   "blurb": "Its polished red-stirred profile fits the classic, slightly formal British-era atmosphere."
+   "name": "Foggy Stairwell Night",
+   "blurb": "Rye and vermouth keep things sharp, like a candlelit hallway where regret finally gets its turn."
   },
   {
    "id": "rob-roy",
-   "name": "Stately Fireside Pour",
-   "blurb": "Scotch and vermouth give a reserved, wintry dignity that suits the bittersweet side of the story."
+   "name": "Old Ledger Pages",
+   "blurb": "Scotch and sweet vermouth give a dusky, bookish bite, sturdy enough for Victorian gloom and brass-buttoned manners."
   },
   {
-   "id": "whiskey-sour",
-   "name": "Bright Spot in the Snow",
-   "blurb": "The sharp citrus edge keeps the sweetness from becoming too heavy, like the film’s playful tone."
-  },
-  {
-   "id": "brandy-rickey",
-   "name": "Brisk Hearth Companion",
-   "blurb": "Brandy and lime make a crisp, clean highball that still feels old-fashioned and wintry."
-  },
-  {
-   "id": "moscow-mule",
-   "name": "Snow-Day Sparkler",
-   "blurb": "Ginger snap and citrus give it a bright, playful lift that fits the film’s lively pace."
-  },
-  {
-   "id": "corpse-reviver-2",
-   "name": "Midnight in the Drawing Room",
-   "blurb": "Its pale, elegant citrus bite adds a slightly mischievous note to the cozy holiday setting."
-  },
-  {
-   "id": "kir",
-   "name": "Ribbon-Red Toast",
-   "blurb": "Simple and festive, its wine-and-cassis profile echoes the film’s red-and-white holiday palette."
-  },
-  {
-   "id": "americano",
-   "name": "Gaslight Spritz",
-   "blurb": "Bitter-sweet and lightly fizzy, it feels like a classic pub pour from another age."
+   "id": "gin-tonic",
+   "name": "Snowy Street Lanterns",
+   "blurb": "Gin and tonic stay brisk and bright, like a sleigh ride past gaslamps and striped shop awnings."
   },
   {
    "id": "mojito",
-   "name": "Evergreen Cheer",
-   "blurb": "The green mint and bright fizz bring a fresh, playful contrast to the snowbound mood."
+   "name": "Green Cratchit Ribbon",
+   "blurb": "Mint, lime, and soda cut through the winter heaviness with a cheerful little green flourish."
   },
   {
-   "id": "blood-and-sand",
-   "name": "Velvet Curtain Closing",
-   "blurb": "Cherry, orange, and Scotch give it a rich, bittersweet finish that suits the story’s tender heart."
+   "id": "kir",
+   "name": "Parlor Curtain Sampler",
+   "blurb": "White wine with cassis slips in a dark fruit note, like velvet trim against fresh stockings."
+  },
+  {
+   "id": "bellini",
+   "name": "Tiny Choir Sparklers",
+   "blurb": "Peach and bubbles keep it light on its feet, the sort of drink for carols and second chances."
+  },
+  {
+   "id": "whiskey-sour",
+   "name": "Gravestone Garden Chill",
+   "blurb": "Lemon and whiskey give a tart, wintry snap, as bracing as stepping outside into bare churchyard air."
+  },
+  {
+   "id": "hot-toddy",
+   "name": "Bells At Midnight",
+   "blurb": "Honeyed whiskey turns soft and soothing, which is exactly what you want after a chilly night walk."
+  },
+  {
+   "id": "bloody-mary",
+   "name": "Market Stall Morning",
+   "blurb": "Tomato, spice, and salt bring a bracing breakfast punch, like a brisk walk through a London market."
+  },
+  {
+   "id": "ramos-fizz",
+   "name": "Snowfall Windowpanes",
+   "blurb": "Creamy foam and orange blossom make a fanciful white topper, almost too pretty for the grumpy bits."
+  },
+  {
+   "id": "new-york-sour",
+   "name": "Sleigh Track Sunset",
+   "blurb": "Red wine over bourbon gives you bittersweet layers, like daylight fading while the carols keep going."
+  },
+  {
+   "id": "pimms-cup",
+   "name": "Mince Pie Plate",
+   "blurb": "Fruit, herbs, and bubbles add a playful ribbon of color, as if winter snuck in a summer memory."
   }
  ],
  "cuts": [
+  {
+   "classic": "manhattan",
+   "recipe": "black-manhattan",
+   "duplicates": [],
+   "name": "Lantern Room Pick",
+   "note": "Its darker, more bittersweet profile fits the cozy winter hush.",
+   "how": "Averna replaces vermouth, with aromatic and orange bitters."
+  },
   {
    "classic": "whiskey-sour",
    "recipe": "whiskey-sour--new-york",
    "duplicates": [
     "new-york-sour"
    ],
-   "name": "Snowy Windowpane",
-   "note": "The bright red top suits the wintry glow and gives the glass a festive, storybook look.",
+   "name": "Lamplit Table Pick",
+   "note": "The red top gives this bright, festive pour a warm finish.",
    "how": "A red wine float sits above a full-sized whiskey sour."
   }
  ]

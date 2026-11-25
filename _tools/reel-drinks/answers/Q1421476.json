@@ -3,10 +3,10 @@
  "movieID": "Q1421476",
  "catalogVersion": "2e929962596f",
  "matchingVersion": 1,
- "pickVersion": "3",
+ "pickVersion": "4",
  "cutVersion": "2",
  "complete": true,
- "generatedAt": "2026-11-25T05:23:58.504Z",
+ "generatedAt": "2026-11-25T17:41:56.994Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -2377,85 +2377,79 @@
  "picks": [
   {
    "id": "mulled-claret",
-   "name": "Holiday Hearth Pour",
-   "blurb": "Warm spice and ruby wine give it the same cozy, stocking-stuffed glow as a night in front of the tree."
+   "name": "Tree Lot Lights",
+   "blurb": "Warm spices and red wine suit the snowy yard chaos; keep one hand on the mug and the other on the ladder."
   },
   {
    "id": "tom-and-jerry",
-   "name": "Snow-Day Cuddle Bowl",
-   "blurb": "Its creamy, old-school warmth feels tailor-made for a sweet, retro winter evening."
+   "name": "Dining Room Batter",
+   "blurb": "Foamy, sweet, and a little old-school, just like that overworked holiday house that never stops taking on more."
   },
   {
    "id": "hot-brandy-sling",
-   "name": "After-Decor Wind-Down",
-   "blurb": "Simple, steamy, and comforting, it matches the film’s gentle holiday exhale."
-  },
-  {
-   "id": "white-russian",
-   "name": "Late-Night Pajama Pick",
-   "blurb": "The soft cream and coffee notes make it a mellow, indulgent fit for a laid-back seasonal watch."
-  },
-  {
-   "id": "whiskey-sour",
-   "name": "Bright Red Ribbon Sip",
-   "blurb": "Its clean citrus snap keeps the mood lively while still feeling classic and wintry."
+   "name": "Piano Room Hearth",
+   "blurb": "Brandy and hot water bring a calm spark to the family-room wreckage, if only for one civilized minute."
   },
   {
    "id": "moscow-mule",
-   "name": "Ginger Snap Cooler",
-   "blurb": "The fizzy ginger bite adds playful energy without losing the crisp cold-weather feel."
+   "name": "Garage Snow Shovel",
+   "blurb": "Ginger beer cuts through all that winter mess, with enough bite to wake up the whole cul-de-sac."
   },
   {
-   "id": "jack-rose",
-   "name": "Candy-Apple Toast",
-   "blurb": "Its rosy fruitiness brings a cheerful, nostalgic sweetness that suits a holiday comedy."
+   "id": "cape-codder",
+   "name": "Red Wrapping Paper",
+   "blurb": "Cranberry keeps it tart and bright, like the decorations that outnumber the sane decisions by a mile."
   },
   {
-   "id": "russian-spring-punch",
-   "name": "Wrapped-Present Sparkler",
-   "blurb": "Bright berry, bubbles, and a festive pink color make it feel like a party drink for the season."
+   "id": "whiskey-sour",
+   "name": "Basement Fuse Box",
+   "blurb": "This one starts cheerful and ends with a jolt, which is about right for a house full of bad timing."
   },
   {
-   "id": "bellini",
-   "name": "Brunch Under the Lights",
-   "blurb": "Soft fruit and sparkle keep things light, sweet, and celebratory."
-  },
-  {
-   "id": "tom-collins",
-   "name": "Clean Snowbank Highball",
-   "blurb": "Its crisp lemon fizz has a bright, easygoing charm that fits a playful winter mood."
-  },
-  {
-   "id": "americano",
-   "name": "Back-Porch Holiday Sipper",
-   "blurb": "Bitter, bubbly, and low-key, it suits a retro American setting without getting too heavy."
+   "id": "new-york-sour",
+   "name": "Attic Christmas Box",
+   "blurb": "That red wine float looks dressed for the season, while the bourbon underneath keeps the whole family debate from getting too sweet."
   },
   {
    "id": "manhattan",
-   "name": "Evening Suit-and-Tie",
-   "blurb": "The deep red, stirred style brings a polished old-school edge to the cozy season."
+   "name": "Country Club Neighbor",
+   "blurb": "Rye and vermouth make a sharp little nightcap for anyone still pretending the evening is under control."
+  },
+  {
+   "id": "ramos-fizz",
+   "name": "Snowy Living Room",
+   "blurb": "Creamy, foamy, and absurdly elaborate, it’s as overbuilt as a holiday display with one too many extension cords."
   },
   {
    "id": "french-75",
-   "name": "Sparkling Ribbon Pop",
-   "blurb": "Effervescent and elegant, it adds a little celebratory lift to the wintry warmth."
+   "name": "Front Porch Sparkler",
+   "blurb": "Bubbles make the whole thing feel festive, while the gin keeps it polished enough for the in-laws."
   },
   {
-   "id": "sea-breeze",
-   "name": "Cranberry Window View",
-   "blurb": "Its tart red fruit and easygoing profile feel like a bright, breezy counterpoint to the cold outside."
+   "id": "mojito",
+   "name": "Green Garland Twist",
+   "blurb": "Fresh mint and lime cut through all the sugar overload, like a sane person in a house of blinking lights."
+  },
+  {
+   "id": "white-russian",
+   "name": "Basement Recliner Night",
+   "blurb": "Creamy coffee takes the edge off after a long evening of family damage control and too much punch."
+  },
+  {
+   "id": "bellini",
+   "name": "Wrapping Station Peach",
+   "blurb": "Light, sparkling, and a little too easy to drink, it goes down like holiday optimism before the power bill arrives."
+  },
+  {
+   "id": "americano",
+   "name": "Mantelpiece Tonic",
+   "blurb": "Bitter and bubbly, it keeps the sweetness from running away with the night, which the neighborhood never quite manages."
+  },
+  {
+   "id": "espresso-martini",
+   "name": "Late Gift Haul",
+   "blurb": "Coffee liqueur and espresso keep you upright through the last round of chaos, right when the tape should probably be rewound."
   }
  ],
- "cuts": [
-  {
-   "classic": "whiskey-sour",
-   "recipe": "whiskey-sour--new-york",
-   "duplicates": [
-    "new-york-sour"
-   ],
-   "name": "Chicago Window Glow",
-   "note": "Its deep red layer feels just right for the film's cozy, festive glow.",
-   "how": "A red wine float sits above a full-sized whiskey sour."
-  }
- ]
+ "cuts": []
 }
