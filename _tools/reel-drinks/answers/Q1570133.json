@@ -3,10 +3,10 @@
  "movieID": "Q1570133",
  "catalogVersion": "ed8b37082135",
  "matchingVersion": 1,
- "pickVersion": "4",
- "cutVersion": "2",
+ "pickVersion": "7",
+ "cutVersion": "5",
  "complete": true,
- "generatedAt": "2026-11-25T22:43:11.255Z",
+ "generatedAt": "2026-11-25T23:03:27.472Z",
  "bar": {
   "threshold": {
    "relative": 0.6,
@@ -34,60 +34,69 @@
  "reasons": [
   "Comedy: bright and easy",
   "Romance: pink and sparkling",
-  "Family: bright and fruity",
   "Same era",
   "Holiday: creamy and spiced"
  ],
  "fit": [
   [
+   "20th-century",
+   8,
+   []
+  ],
+  [
    "212",
-   12.3,
+   20.4,
    [
     0
    ]
   ],
   [
    "adonis",
-   6.3,
+   8.4,
    []
   ],
   [
    "after-all-imperial",
-   26.6,
+   26.3,
    [
     0
    ]
   ],
   [
    "aged-rum-soda",
-   21,
+   24.7,
    []
   ],
   [
    "aged-rum-ginger-lime",
-   21,
+   24.7,
    []
   ],
   [
    "airmail",
-   24.7,
+   28.9,
    [
     0
    ]
   ],
   [
    "alabazam",
-   28.5,
+   14.7,
+   []
+  ],
+  [
+   "alaska",
+   4,
    []
   ],
   [
    "alexander",
-   20.6,
+   49.2,
    []
   ],
   [
    "amaretto-sour-jeffrey-morgenthaler",
-   45.9,
+   26.7,
    [
     0,
     1
@@ -95,56 +104,55 @@
   ],
   [
    "amaro-highball",
-   15.3,
+   20.4,
    [
     0
    ]
   ],
   [
    "amen-corner",
-   26.1,
+   10.3,
    []
   ],
   [
    "americano",
-   52.7,
+   33.6,
    [
     1
    ]
   ],
   [
    "amoxicillin",
-   2.8,
+   13.7,
    []
   ],
   [
    "andalusian-buck",
-   29,
+   30.6,
    [
     0
    ]
   ],
   [
    "angel-face",
-   13,
+   18,
    []
   ],
   [
    "angie",
-   23.4,
+   19.2,
    [
-    0,
-    2
+    0
    ]
   ],
   [
    "apapacho-cafe",
-   20.2,
+   42.8,
    []
   ],
   [
    "apb-melrose-gin-tonic",
-   34,
+   33.3,
    [
     0,
     1
@@ -152,174 +160,197 @@
   ],
   [
    "aperol-spritz",
-   43.7,
-   [
-    0,
-    3
-   ]
-  ],
-  [
-   "apricot-and-coffee-highball",
-   15.3,
-   [
-    0
-   ]
-  ],
-  [
-   "archangel",
-   0.5,
-   []
-  ],
-  [
-   "army-navy",
-   12.3,
-   [
-    0
-   ]
-  ],
-  [
-   "artichoke-hold",
-   13.7,
-   [
-    0
-   ]
-  ],
-  [
-   "assunta",
-   19.6,
-   [
-    0
-   ]
-  ],
-  [
-   "aviation",
-   13,
-   []
-  ],
-  [
-   "b-52",
-   2.8,
-   []
-  ],
-  [
-   "baby-turtle",
-   16.6,
-   [
-    0
-   ]
-  ],
-  [
-   "bacardi-cocktail",
-   14,
-   [
-    0
-   ]
-  ],
-  [
-   "backlash-tonic",
-   42.7,
-   [
-    1
-   ]
-  ],
-  [
-   "baltimore-southside",
-   24.7,
-   [
-    0
-   ]
-  ],
-  [
-   "barbacoa",
-   19.3,
-   [
-    0
-   ]
-  ],
-  [
-   "barracuda",
-   28.7,
-   [
-    0
-   ]
-  ],
-  [
-   "batanga",
-   24.7,
-   [
-    0
-   ]
-  ],
-  [
-   "bebbo",
-   18.3,
-   [
-    0
-   ]
-  ],
-  [
-   "bees-knees",
-   28.3,
-   [
-    0
-   ]
-  ],
-  [
-   "bellini",
-   45,
+   45.9,
    [
     0,
     2
    ]
   ],
   [
-   "betty-is-back",
-   17,
-   []
-  ],
-  [
-   "between-the-sheets",
-   8.5,
-   []
-  ],
-  [
-   "beuser-angus-special",
-   6.3,
+   "apricot-and-coffee-highball",
+   20.4,
    [
     0
    ]
   ],
   [
+   "archangel",
+   10.7,
+   []
+  ],
+  [
+   "army-navy",
+   16.4,
+   [
+    0
+   ]
+  ],
+  [
+   "arsenic-and-old-lace",
+   2.2,
+   []
+  ],
+  [
+   "artichoke-hold",
+   24.9,
+   [
+    0
+   ]
+  ],
+  [
+   "assunta",
+   26.2,
+   [
+    0
+   ]
+  ],
+  [
+   "aviation",
+   18,
+   []
+  ],
+  [
+   "b-52",
+   13.7,
+   []
+  ],
+  [
+   "baby-turtle",
+   22.2,
+   [
+    0
+   ]
+  ],
+  [
+   "bacardi-cocktail",
+   18.7,
+   [
+    0
+   ]
+  ],
+  [
+   "backlash-tonic",
+   23.6,
+   [
+    1
+   ]
+  ],
+  [
+   "baltimore-southside",
+   24.9,
+   [
+    0
+   ]
+  ],
+  [
+   "barbacoa",
+   21.7,
+   [
+    0
+   ]
+  ],
+  [
+   "barracuda",
+   27,
+   [
+    0
+   ]
+  ],
+  [
+   "batanga",
+   24.9,
+   [
+    0
+   ]
+  ],
+  [
+   "bay-ridge",
+   5.4,
+   []
+  ],
+  [
+   "bebbo",
+   20.4,
+   [
+    0
+   ]
+  ],
+  [
+   "bees-knees",
+   30.4,
+   [
+    0
+   ]
+  ],
+  [
+   "bellini",
+   36.7,
+   [
+    0
+   ]
+  ],
+  [
+   "betty-is-back",
+   14.7,
+   []
+  ],
+  [
+   "between-the-sheets",
+   18,
+   []
+  ],
+  [
+   "beuser-angus-special",
+   16.4,
+   [
+    0
+   ]
+  ],
+  [
+   "bijou",
+   8,
+   []
+  ],
+  [
+   "bijou-blanc",
+   4,
+   []
+  ],
+  [
    "bitter-giuseppe",
-   6.3,
+   16.4,
    [
     0
    ]
   ],
   [
    "bitter-mai-tai",
-   36.3,
+   23.1,
    [
     0,
     1
    ]
   ],
   [
+   "black-manhattan",
+   1.4,
+   []
+  ],
+  [
    "black-russian",
-   2.5,
+   10,
    []
   ],
   [
    "blinker",
-   27.9,
+   20,
    [
-    2,
     0
    ]
   ],
   [
    "blood-and-sand",
-   62.3,
+   37.1,
    [
     0,
     1
@@ -327,7 +358,7 @@
   ],
   [
    "blood-moon",
-   48.7,
+   31.6,
    [
     0,
     1
@@ -335,252 +366,259 @@
   ],
   [
    "bloody-mary",
-   61,
+   36.6,
    [
     0
    ]
   ],
   [
    "bloom-no-5",
-   30,
+   34.6,
    [
     0
    ]
   ],
   [
    "blue-hawaii",
-   19.8,
+   6.4,
    [
-    2,
     0
    ]
   ],
   [
    "bluebird-eggnog",
-   22.6,
+   47.2,
    [
     0
    ]
   ],
   [
    "bon-soiree",
-   15,
+   19.9,
    [
     0
    ]
   ],
   [
    "boothby",
-   0.8,
+   9.8,
    []
   ],
   [
    "boulevardier",
-   32.5,
+   16.7,
    []
   ],
   [
    "bourbon-and-cola",
-   34.7,
+   38.9,
    []
   ],
   [
    "bourbon-and-ginger-ale",
-   33,
+   36.7,
    []
   ],
   [
    "bourbon-collins",
-   44.3,
+   42.5,
    [
-    0,
-    2
+    0
    ]
   ],
   [
    "bourbon-lift",
-   26.6,
+   26.2,
    []
   ],
   [
    "bourbon-renewal",
-   21.9,
+   20,
    [
     0
    ]
   ],
   [
    "bourbon-rickey",
-   30.6,
+   36.3,
    [
     0
    ]
   ],
   [
+   "brainstorm",
+   1.8,
+   []
+  ],
+  [
    "bramble",
-   39.3,
+   37.1,
    [
     0,
-    2
+    1
    ]
   ],
   [
    "brandy-alexander",
-   24.6,
+   53.2,
    []
   ],
   [
    "brandy-and-ginger-ale",
-   21,
+   24.7,
    []
   ],
   [
    "brandy-and-soda",
-   21,
+   24.7,
    []
   ],
   [
    "brandy-crusta",
-   13,
+   18,
    []
   ],
   [
    "brandy-rickey",
-   27,
+   32.7,
    [
     0
    ]
   ],
   [
    "caipirinha",
-   2.5,
+   10,
    []
   ],
   [
    "calvados-tonic",
-   22.3,
+   28.5,
    [
     0
    ]
   ],
   [
    "cameron-park-spritz",
-   6.7,
+   16.9,
    []
   ],
   [
    "campbeltown",
-   3,
+   8,
    []
   ],
   [
    "canchanchara",
-   28.3,
+   30.4,
    [
     0
    ]
   ],
   [
    "cane-tables-royal-hawaiian",
-   20,
+   14.7,
    [
-    0,
-    2
-   ]
-  ],
-  [
-   "cape-codder",
-   76.3,
-   [
-    2,
     0
    ]
   ],
   [
+   "cape-codder",
+   45.1,
+   [
+    0,
+    1
+   ]
+  ],
+  [
    "carajillo",
-   6.3,
+   8.4,
    []
   ],
   [
    "cardinale",
-   0.5,
+   10.7,
    []
   ],
   [
    "caribbean-ember",
-   24.7,
+   24.9,
    [
     0
    ]
   ],
   [
    "caribbean-parachute",
-   24.7,
+   28.9,
    [
     0
    ]
   ],
   [
    "casino",
-   11.3,
+   15.8,
    []
   ],
   [
    "champagne-cocktail",
-   27,
+   28.7,
    [
     0
    ]
   ],
   [
    "chocolate-martica",
-   3,
+   8,
+   []
+  ],
+  [
+   "chrysanthemum",
+   4,
    []
   ],
   [
    "ciderhouse-mule",
-   29,
+   30.6,
    [
     0
    ]
   ],
   [
    "clover-club",
-   39.3,
+   37.1,
    [
     0,
-    2
+    1
    ]
   ],
   [
    "clover-leaf",
-   46.7,
+   20.9,
    [
     0
    ]
   ],
   [
    "comte-de-sureau",
-   0.3,
+   8.4,
    []
   ],
   [
    "cordial-gimlet",
-   23.5,
+   33,
    [
-    3
+    2
    ]
   ],
   [
    "corpse-reviver-2",
-   28.3,
+   30.4,
    [
     0
    ]
   ],
   [
    "cosmopolitan",
-   58.3,
+   33.1,
    [
     0,
     1
@@ -588,73 +626,78 @@
   ],
   [
    "countermand",
-   6.3,
+   8.4,
    []
   ],
   [
    "crimson-spritz",
-   40.7,
+   11.6,
    [
     0,
-    2
+    1
    ]
   ],
   [
    "cuba-libre",
-   34.7,
+   34.9,
    [
     0
    ]
   ],
   [
    "cynar-flip",
-   4.6,
+   14.2,
    []
   ],
   [
    "daiquiri",
-   22.3,
+   26.4,
    [
     0
    ]
   ],
   [
    "daiquiri-4",
-   12.4,
+   8.5,
    [
     0
    ]
   ],
   [
    "dantes-garibaldi",
-   18.3,
+   20.4,
    [
     0
    ]
   ],
   [
    "dark-rum-mule",
-   27,
+   32.6,
+   []
+  ],
+  [
+   "day-o-fashioned",
+   3.7,
    []
   ],
   [
    "dead-sea-mule",
-   42.6,
+   36.8,
    [
     0,
-    2
+    1
    ]
   ],
   [
    "death-in-the-afternoon",
-   31,
+   32.7,
    [
     0
    ]
   ],
   [
    "debbie-dont",
-   36.3,
+   23.1,
    [
     0,
     1
@@ -662,237 +705,266 @@
   ],
   [
    "division-bell",
-   20,
+   22.7,
    [
     0
    ]
   ],
   [
    "dons-mai-tai",
-   12.3,
+   16.4,
    [
     0
    ]
   ],
   [
    "martini",
-   12.8,
+   19.8,
    []
   ],
   [
    "dry-vermouth-cocktail",
-   20.7,
+   20.2,
    []
   ],
   [
    "e-tonico",
-   6.7,
+   16.9,
+   []
+  ],
+  [
+   "eel-bars-marianito",
+   8,
    []
   ],
   [
    "eeyores-requiem",
-   22.5,
+   6.7,
    []
   ],
   [
    "egg-nog",
-   38.6,
+   61.2,
    []
   ],
   [
    "el-diablo",
-   60,
+   55.6,
    [
     0,
-    2,
-    3
+    2
    ]
   ],
   [
    "el-presidente",
-   8,
+   18.7,
    [
     0
    ]
   ],
   [
    "electric-current-fizz",
-   18.7,
+   24.9,
+   [
+    0
+   ]
+  ],
+  [
+   "employees-onlys-mezcal-margarita",
+   7.6,
    [
     0
    ]
   ],
   [
    "endless-summer",
-   8,
+   10.7,
    [
     0
    ]
   ],
   [
    "eponine-collins",
-   6.3,
+   16.4,
    [
     0
    ]
   ],
   [
    "eric-alperins-tuxedo-no-2",
-   1.3,
+   5.8,
    []
   ],
   [
    "espresso-martini",
-   16.3,
+   18.4,
    []
   ],
   [
    "fancy-free",
-   12.6,
+   15.6,
    [
     0
    ]
   ],
   [
    "femme-fatale",
-   30.7,
+   28.9,
    [
-    0,
-    2
+    0
    ]
   ],
   [
    "fernandito",
-   52.7,
+   33.6,
    [
     1
    ]
   ],
   [
    "ferrari",
-   22.5,
+   6.7,
+   []
+  ],
+  [
+   "fiore-di-francia",
+   4.4,
    []
   ],
   [
    "french-75",
-   38.7,
+   42.9,
    [
     0
    ]
   ],
   [
    "french-connection",
-   2.5,
+   10,
    []
   ],
   [
    "french-martini",
-   8.7,
+   12.3,
+   []
+  ],
+  [
+   "french-pearl",
+   8,
    []
   ],
   [
    "frozen-margarita",
-   14,
+   14.7,
    [
     0
    ]
   ],
   [
    "fumata-bianca",
-   9.3,
+   12.4,
    []
   ],
   [
    "garibaldi-spritz",
-   18.7,
+   24.9,
    [
     0
    ]
+  ],
+  [
+   "gentlemans-exchange",
+   3.6,
+   []
   ],
   [
    "ghost-coast",
-   14,
+   10.7,
    [
     0
    ]
   ],
   [
+   "gimlet",
+   8,
+   []
+  ],
+  [
    "gin-tonic",
-   22.7,
+   26.9,
    []
   ],
   [
    "gin-basil-smash",
-   12.3,
+   16.4,
    [
     0
    ]
   ],
   [
    "gin-blossom",
-   3,
+   8,
    []
   ],
   [
    "gin-daisy-new-school",
-   29,
+   22.7,
    [
-    0,
-    2
+    0
    ]
   ],
   [
    "gin-fizz",
-   20.7,
+   24.2,
    [
     0
    ]
   ],
   [
    "gin-rickey",
-   17,
+   22.7,
    [
     0
    ]
   ],
   [
    "gin-gin-mule",
-   23,
+   30.6,
    [
     0
    ]
   ],
   [
    "ginger-lime-fizz",
-   9,
+   10.6,
    [
     0
    ]
   ],
   [
    "gold-rush",
-   21.9,
+   24,
    [
     0
    ]
   ],
   [
    "golden-dream",
-   28.3,
+   30.4,
    [
     0
    ]
   ],
   [
    "gram-arita",
-   3,
+   12,
    [
     0
    ]
   ],
   [
    "grand-armys-amaretto-sour",
-   42.3,
+   23.1,
    [
     0,
     1
@@ -900,148 +972,147 @@
   ],
   [
    "grasshopper",
-   20.6,
+   49.2,
    []
   ],
   [
    "grasshopper-blanco",
-   10.6,
+   39.2,
    []
   ],
   [
    "green-eyes",
-   3,
+   12,
    [
     0
    ]
   ],
   [
    "greta-garbo",
-   3,
+   8,
    []
   ],
   [
    "greyhound",
-   44.7,
+   40.2,
    [
-    0,
-    2
+    0
    ]
   ],
   [
    "halekulani",
-   23.6,
-   [
-    0,
-    2
-   ]
-  ],
-  [
-   "hanky-panky",
-   32.5,
-   []
-  ],
-  [
-   "happy-bastard",
-   30.3,
-   [
-    0,
-    1
-   ]
-  ],
-  [
-   "harvey-wallbanger",
    18.3,
    [
     0
    ]
   ],
   [
+   "hanky-panky",
+   16.7,
+   []
+  ],
+  [
+   "happy-bastard",
+   39,
+   [
+    0,
+    1
+   ]
+  ],
+  [
+   "harvard",
+   6.2,
+   []
+  ],
+  [
+   "harvey-wallbanger",
+   20.4,
+   [
+    0
+   ]
+  ],
+  [
    "haymaker",
-   9.9,
+   12,
    []
   ],
   [
    "hemingway-daiquiri",
-   24.3,
+   20.4,
    [
-    0,
-    2
+    0
    ]
   ],
   [
    "hemingway-special",
-   34.3,
+   30.4,
    [
-    0,
-    2
+    0
    ]
   ],
   [
    "highland-diver",
-   22.6,
+   22.2,
    [
     0
    ]
   ],
   [
    "honeyed-coffee-gin-tonic",
-   12.7,
+   16.9,
    []
   ],
   [
    "honeymoon",
-   6.6,
+   11.6,
    []
   ],
   [
    "hoodwinked",
-   16.7,
+   10.3,
    [
-    0,
-    2
+    0
    ]
   ],
   [
    "horses-neck",
-   27,
+   24.7,
    []
   ],
   [
    "hot-brandy-sling",
-   39.1,
+   36.8,
    []
   ],
   [
    "hot-buttered-rum",
-   21.4,
+   20.5,
    [
-    4
+    3
    ]
   ],
   [
    "hot-oaxacan-penicillin",
-   25.7,
+   22.3,
    [
-    4,
-    2
+    3
    ]
   ],
   [
    "hot-toddy",
-   28.8,
+   27,
    []
   ],
   [
    "house-of-gucci-mane",
-   14,
+   10.7,
    [
     0
    ]
   ],
   [
    "hugo-spritz",
-   22,
+   25.3,
    [
     1,
     0
@@ -1049,63 +1120,62 @@
   ],
   [
    "hurricane",
-   14,
+   10.7,
    [
     0
    ]
   ],
   [
    "im-on-fire",
-   21,
+   16,
    [
-    0,
-    2
+    0
    ]
   ],
   [
    "illegal",
-   19,
+   22,
    [
     0
    ]
   ],
   [
    "insanely-good-gin-tonic",
-   12.7,
+   24.9,
    [
     0
    ]
   ],
   [
    "irish-coffee",
-   46.4,
+   45.5,
    [
-    4,
-    3
+    3,
+    2
    ]
   ],
   [
    "irish-coffee-2",
-   21.4,
+   20.5,
    [
-    4
+    3
    ]
   ],
   [
    "irish-maid",
-   15.7,
+   20.9,
    [
     0
    ]
   ],
   [
    "irish-whiskey-ginger-lime",
-   27,
+   24.7,
    []
   ],
   [
    "j-tonys-kold-brew-americano",
-   48.7,
+   31.6,
    [
     0,
     1
@@ -1113,7 +1183,7 @@
   ],
   [
    "jack-rose",
-   51.9,
+   26.7,
    [
     0,
     1
@@ -1121,177 +1191,183 @@
   ],
   [
    "jasmine",
-   6.3,
+   16.4,
    [
     0
    ]
   ],
   [
    "john-collins",
-   34.7,
+   34.9,
    [
     0
    ]
   ],
   [
    "john-debarys-singapore-sling",
-   14,
-   [
-    0
-   ]
-  ],
-  [
-   "juliet-romeo",
-   12.3,
-   [
-    0
-   ]
-  ],
-  [
-   "jungle-cruise",
-   14.4,
-   [
-    0
-   ]
-  ],
-  [
-   "kamikaze",
-   40.3,
-   [
-    0
-   ]
-  ],
-  [
-   "ken-burns-effect",
-   6.6,
-   []
-  ],
-  [
-   "kentucky-flyer",
-   6.6,
-   []
-  ],
-  [
-   "keoke-coffee",
-   12.8,
-   []
-  ],
-  [
-   "kingston-club",
-   26.4,
-   [
-    0,
-    2
-   ]
-  ],
-  [
-   "kingstone-negroni",
-   22.5,
-   []
-  ],
-  [
-   "kir",
-   43.7,
-   [
-    2,
-    0
-   ]
-  ],
-  [
-   "koffie-van-brunt",
-   35,
-   [
-    2,
-    4
-   ]
-  ],
-  [
-   "la-rosita",
-   22.5,
-   []
-  ],
-  [
-   "last-word",
-   31,
-   [
-    0
-   ]
-  ],
-  [
-   "lemon-drop-martini",
-   8.5,
-   []
-  ],
-  [
-   "long-island-ice-tea",
-   28.7,
-   [
-    0
-   ]
-  ],
-  [
-   "lust-for-life",
    10.7,
    [
     0
    ]
   ],
   [
+   "juliet-romeo",
+   16.4,
+   [
+    0
+   ]
+  ],
+  [
+   "jungle-cruise",
+   19.2,
+   [
+    0
+   ]
+  ],
+  [
+   "kamikaze",
+   42.4,
+   [
+    0
+   ]
+  ],
+  [
+   "ken-burns-effect",
+   11.6,
+   []
+  ],
+  [
+   "kentucky-flyer",
+   11.6,
+   []
+  ],
+  [
+   "keoke-coffee",
+   17,
+   []
+  ],
+  [
+   "kingston-club",
+   23.2,
+   [
+    0
+   ]
+  ],
+  [
+   "kingstone-negroni",
+   6.7,
+   []
+  ],
+  [
+   "kir",
+   34.9,
+   [
+    0
+   ]
+  ],
+  [
+   "koffie-van-brunt",
+   55.7,
+   [
+    3,
+    0
+   ]
+  ],
+  [
+   "la-rosita",
+   6.7,
+   []
+  ],
+  [
+   "last-word",
+   34,
+   [
+    0
+   ]
+  ],
+  [
+   "lemon-drop-martini",
+   18,
+   []
+  ],
+  [
+   "little-italy",
+   3.6,
+   []
+  ],
+  [
+   "long-island-ice-tea",
+   34.9,
+   [
+    0
+   ]
+  ],
+  [
+   "lust-for-life",
+   6.3,
+   [
+    0
+   ]
+  ],
+  [
    "mai-tai",
-   20.5,
+   30,
    []
   ],
   [
    "mamie-taylor",
-   29,
+   30.6,
    [
     0
    ]
   ],
   [
    "manhattan",
-   46.8,
+   30.4,
    []
   ],
   [
    "margarita",
-   26.3,
-   [
-    0,
-    3
-   ]
-  ],
-  [
-   "margarita-soda",
-   30.7,
+   34.8,
    [
     0,
     2
    ]
   ],
   [
+   "margarita-soda",
+   28.9,
+   [
+    0
+   ]
+  ],
+  [
    "martinez",
-   2.5,
+   10,
    []
   ],
   [
    "mary-celeste",
-   14,
+   22.7,
    [
     0
    ]
   ],
   [
    "mary-pickford",
-   30,
+   24.7,
    [
-    0,
-    2
+    0
    ]
   ],
   [
+   "matador",
+   8,
+   []
+  ],
+  [
    "mexican-firing-squad",
-   23.3,
+   27.1,
    [
     0,
     1
@@ -1299,41 +1375,45 @@
   ],
   [
    "mexican-razor-blade",
-   12.3,
+   16.4,
    [
     0
    ]
   ],
   [
+   "mezcal-margarita",
+   3.6,
+   []
+  ],
+  [
    "mezcal-mule",
-   27.3,
+   24.4,
    [
-    0,
-    2
+    0
    ]
   ],
   [
    "mezcal-sour",
-   19.3,
+   21.7,
    [
     0
    ]
   ],
   [
    "mimosa",
-   33,
+   32.7,
    [
     0
    ]
   ],
   [
    "mint-julep",
-   10.6,
+   17.6,
    []
   ],
   [
    "misis-negroni-sour",
-   17.3,
+   27.1,
    [
     0,
     1
@@ -1341,119 +1421,121 @@
   ],
   [
    "missionarys-downfall",
-   22.8,
+   10.4,
    [
-    2,
     0
    ]
   ],
   [
    "mojito",
-   40.7,
+   38.9,
    [
-    0,
-    2
+    0
    ]
   ],
   [
    "monkey-gland",
-   34.3,
+   30.4,
    [
-    0,
-    2
+    0
    ]
   ],
   [
    "monte-cassino",
-   6.6,
+   15.6,
    [
     0
    ]
   ],
   [
    "monte-mule-recipe",
-   17,
+   30.6,
    [
     0
    ]
   ],
   [
    "more-supreme",
-   8,
+   18.7,
    [
     0
    ]
   ],
   [
    "morning-glory-fizz",
-   24.7,
+   24.9,
    [
     0
    ]
   ],
   [
    "moscow-mule",
-   66,
-   [
-    0,
-    3
-   ]
-  ],
-  [
-   "mosquito",
-   7.3,
-   [
-    0
-   ]
-  ],
-  [
-   "mulled-claret",
-   69,
-   [
-    4,
-    0
-   ]
-  ],
-  [
-   "naked-and-famous",
-   19,
-   [
-    0
-   ]
-  ],
-  [
-   "navy-grog",
-   14,
-   [
-    0
-   ]
-  ],
-  [
-   "negroni",
-   32.5,
-   []
-  ],
-  [
-   "negroni-sbagliato",
-   6.7,
-   []
-  ],
-  [
-   "negroski",
-   22.5,
-   []
-  ],
-  [
-   "neruda",
-   16,
+   67.6,
    [
     0,
     2
    ]
   ],
   [
+   "mosquito",
+   17.7,
+   [
+    0
+   ]
+  ],
+  [
+   "mr-brown",
+   3.6,
+   []
+  ],
+  [
+   "mulled-claret",
+   47.4,
+   [
+    3,
+    0
+   ]
+  ],
+  [
+   "naked-and-famous",
+   26,
+   [
+    0
+   ]
+  ],
+  [
+   "navy-grog",
+   14.7,
+   [
+    0
+   ]
+  ],
+  [
+   "negroni",
+   16.7,
+   []
+  ],
+  [
+   "negroni-sbagliato",
+   16.9,
+   []
+  ],
+  [
+   "negroski",
+   6.7,
+   []
+  ],
+  [
+   "neruda",
+   11.3,
+   [
+    0,
+    1
+   ]
+  ],
+  [
    "new-york-sour",
-   55.9,
+   36.7,
    [
     0,
     1
@@ -1461,94 +1543,99 @@
   ],
   [
    "nojito",
-   10.7,
+   8.9,
    [
-    0,
-    2
+    0
    ]
   ],
   [
    "nuclear-daiquiri",
-   3,
+   12,
    [
     0
    ]
   ],
   [
    "oak-kin",
-   19.2,
+   2.2,
+   []
+  ],
+  [
+   "oaxaca-old-fashioned",
+   5.6,
+   []
+  ],
+  [
+   "ol-poets-smoke",
+   8,
    []
   ],
   [
    "old-cuban",
-   28.7,
+   34.9,
    [
     0
    ]
   ],
   [
    "old-fashioned",
-   14.5,
+   22,
    []
   ],
   [
    "old-haitian",
-   24.7,
+   28.9,
    [
     0
    ]
   ],
   [
    "old-salt",
-   24.3,
+   20.4,
    [
-    0,
-    2
+    0
    ]
   ],
   [
    "orange-whip",
-   32.7,
+   28.2,
    [
-    0,
-    2
+    0
    ]
   ],
   [
    "padua-paloma",
-   30.7,
+   28.9,
    [
-    0,
-    2
+    0
    ]
   ],
   [
    "painkiller-the-mothership",
-   0.7,
+   19.9,
    [
-    0,
-    2
+    0
    ]
   ],
   [
    "paloma",
-   60.7,
+   60.6,
    [
     0,
     1,
-    3
+    2
    ]
   ],
   [
    "pancho-villa",
-   18.7,
+   17,
    [
     0
    ]
   ],
   [
    "paper-plane",
-   49.9,
+   36.7,
    [
     0,
     1
@@ -1556,185 +1643,206 @@
   ],
   [
    "paradise",
-   19,
+   22,
    [
     0
    ]
   ],
   [
    "paris-is-burning",
-   20,
+   14.7,
    [
-    0,
-    2
+    0
    ]
   ],
   [
    "parisian-dispatch",
-   18.7,
+   16.9,
    []
   ],
   [
    "parisien-mojito",
-   6.3,
+   16.4,
    [
     0
    ]
   ],
   [
    "penicillin",
-   29.3,
+   31.7,
    [
     0
    ]
   ],
   [
    "pina-colada",
-   45,
+   60.7,
    [
-    2,
     0,
-    3
+    2
    ]
   ],
   [
    "pina-verde",
-   18.3,
+   41.4,
    [
     0
    ]
   ],
   [
    "pineapple-daiquiri",
-   20,
+   14.7,
    [
-    0,
-    2
+    0
    ]
   ],
   [
    "pink-lady",
-   29.3,
+   27.1,
    [
     0,
-    2
+    1
    ]
   ],
   [
    "pisco-sour",
-   22.3,
+   51.4,
    [
     0
    ]
   ],
   [
    "planters-punch",
-   22.3,
+   26.4,
    [
     0
    ]
   ],
   [
+   "poets-dream",
+   4,
+   []
+  ],
+  [
    "poolside-gossip",
-   30.7,
+   28.9,
    [
-    0,
-    2
+    0
    ]
   ],
   [
    "poppas-pride",
-   20.6,
+   26.2,
    []
   ],
   [
    "porto-flip",
-   6.8,
+   15.7,
    []
   ],
   [
    "poseidon",
-   25.2,
+   10.2,
    []
   ],
   [
    "puebla-york",
-   25.2,
+   10.2,
+   []
+  ],
+  [
+   "puritan",
+   1.8,
    []
   ],
   [
    "queen-of-the-rodeo",
-   18.3,
+   16.4,
    [
     0
    ]
   ],
   [
+   "queens-park-swizzle",
+   8,
+   []
+  ],
+  [
    "rabbit-szn",
-   29,
+   30.6,
    [
     0
    ]
   ],
   [
    "ramos-fizz",
-   42.3,
+   70,
    [
     0,
     1
    ]
   ],
   [
+   "ranglum",
+   8,
+   []
+  ],
+  [
    "rattlesnake",
-   15.9,
+   20,
    [
     0
    ]
   ],
   [
    "red-hook",
-   6.6,
+   11.6,
    []
   ],
   [
    "red-morning-light",
-   22.5,
+   6.7,
    []
   ],
   [
    "remember-the-alimony",
-   30.3,
+   15.1,
    [
     1
    ]
   ],
   [
    "remember-the-maine",
-   6.6,
+   11.6,
+   []
+  ],
+  [
+   "revolver",
+   1.4,
    []
   ],
   [
    "risorgimento-ditalia",
-   12.3,
+   20.4,
    [
     0
    ]
   ],
   [
    "ritz-cocktail",
-   24.7,
+   24.9,
    [
     0
    ]
   ],
   [
    "rob-roy",
-   30.8,
+   14.4,
    []
   ],
   [
    "rome-with-a-view",
-   29.7,
+   35.6,
    [
     0,
     1
@@ -1742,19 +1850,19 @@
   ],
   [
    "rum-and-coke",
-   22.7,
+   26.9,
    []
   ],
   [
    "rum-collins",
-   33,
+   32.7,
    [
     0
    ]
   ],
   [
    "russian-spring-punch",
-   45.7,
+   45.6,
    [
     0,
     1
@@ -1762,81 +1870,90 @@
   ],
   [
    "rusty-nail",
-   2.5,
+   10,
    []
   ],
   [
    "rusty-ringo",
-   6.6,
+   11.6,
    []
   ],
   [
    "salmoncito",
-   18.7,
+   24.9,
    [
     0
    ]
   ],
   [
    "sang-amer",
-   12.3,
+   20.4,
    [
     0
    ]
   ],
   [
    "sauvignon-blanc-punch",
-   29,
-   [
-    0,
-    2
-   ]
-  ],
-  [
-   "sazerac",
-   44.5,
-   []
-  ],
-  [
-   "scofflaw",
-   0.4,
-   []
-  ],
-  [
-   "scorched-earth",
-   19.2,
-   []
-  ],
-  [
-   "scotch-and-soda",
-   21,
-   []
-  ],
-  [
-   "scotch-rickey",
-   27,
+   26.7,
    [
     0
    ]
   ],
   [
+   "sawyer",
+   8,
+   []
+  ],
+  [
+   "sazerac",
+   28.7,
+   []
+  ],
+  [
+   "scofflaw",
+   9.4,
+   []
+  ],
+  [
+   "scorched-earth",
+   2.2,
+   []
+  ],
+  [
+   "scotch-and-soda",
+   24.7,
+   []
+  ],
+  [
+   "scotch-rickey",
+   32.7,
+   [
+    0
+   ]
+  ],
+  [
+   "scotch-sling",
+   3.6,
+   []
+  ],
+  [
    "screwdriver",
-   28.3,
+   30.4,
    [
     0
    ]
   ],
   [
    "sea-breeze",
-   64.3,
+   33.1,
    [
-    2,
-    0
+    0,
+    1
    ]
   ],
   [
    "second-serve",
-   54.7,
+   31.6,
    [
     0,
     1
@@ -1844,7 +1961,7 @@
   ],
   [
    "second-serve-2",
-   42.3,
+   23.1,
    [
     0,
     1
@@ -1852,22 +1969,26 @@
   ],
   [
    "sex-on-the-beach",
-   28.3,
+   26.4,
    [
     0
    ]
   ],
   [
+   "shade-thrower",
+   3.6,
+   []
+  ],
+  [
    "shannon-tebays-paloma",
-   30.7,
+   28.9,
    [
-    0,
-    2
+    0
    ]
   ],
   [
    "shirley-temple",
-   32,
+   33.3,
    [
     0,
     1
@@ -1875,76 +1996,80 @@
   ],
   [
    "sidecar",
-   10.8,
+   19.8,
    []
   ],
   [
    "singapore-sling",
-   36,
+   24.7,
    [
-    2,
     0
    ]
   ],
   [
    "smoking-bishop",
-   69,
+   47.4,
    [
-    4,
+    3,
     0
    ]
   ],
   [
    "society-street",
-   0.4,
+   9.4,
    []
   ],
   [
    "southside",
-   22.3,
+   26.4,
    [
     0
    ]
   ],
   [
    "spanish-monk",
-   3,
+   12,
    [
     0
    ]
   ],
   [
    "spicy-fifty",
-   36,
+   40.6,
    [
     0
    ]
   ],
   [
    "squeaky-wheel",
-   19.2,
+   2.2,
    []
   ],
   [
    "st-john-frizells-irish-coffee",
-   23,
+   22.7,
    [
-    4
+    3
    ]
   ],
   [
+   "st-regis-julep",
+   3.6,
+   []
+  ],
+  [
    "star",
-   2.1,
+   11.6,
    []
   ],
   [
    "stinger",
-   2.5,
+   10,
    []
   ],
   [
    "stones-throw",
-   36.3,
+   23.1,
    [
     0,
     1
@@ -1952,79 +2077,86 @@
   ],
   [
    "strawberry-daiquiri",
-   29.3,
+   27.1,
    [
     0,
-    2
+    1
    ]
   ],
   [
    "suffering-bastard",
-   31.3,
+   38.4,
    [
     0
    ]
   ],
   [
    "pimms-cup",
-   36.7,
+   28.9,
    [
-    0,
-    2
+    0
    ]
   ],
   [
    "sweet-vermouth-cocktail",
-   40.3,
+   25.1,
    [
     1
    ]
   ],
   [
+   "tequila-daisy",
+   8,
+   []
+  ],
+  [
    "tequila-matador",
-   24.4,
+   12.5,
    [
-    2,
     0
    ]
   ],
   [
    "tequila-slammer",
-   27,
+   32.7,
    [
     0
    ]
   ],
   [
    "tequila-sunrise",
-   40.3,
+   30.4,
    [
-    2,
     0
    ]
   ],
   [
    "teton-tanya",
-   33.9,
+   18.7,
    [
     1
    ]
   ],
   [
    "thad-voglers-el-presidente",
-   2,
+   10.7,
    []
   ],
   [
    "the-brave",
-   1.5,
+   12,
    [
     0
    ]
   ],
   [
+   "the-coffee-house",
+   3.6,
+   []
+  ],
+  [
    "the-cutter",
-   39.9,
+   26.7,
    [
     0,
     1
@@ -2032,43 +2164,51 @@
   ],
   [
    "the-dead-rabbit",
-   45,
+   18.7,
    [
     0
    ]
   ],
   [
    "the-doctors-orders",
-   20,
+   14.7,
    [
-    0,
-    2
+    0
    ]
   ],
   [
    "the-flatliner",
-   2.8,
+   38.7,
+   []
+  ],
+  [
+   "the-greenpoint",
+   3.6,
    []
   ],
   [
    "the-last-spritz",
-   30.7,
+   28.9,
    [
-    0,
-    2
+    0
    ]
   ],
   [
    "the-mahatma",
-   51.9,
+   26.7,
    [
     0,
     1
    ]
   ],
   [
+   "the-perfect-bqe",
+   3.6,
+   []
+  ],
+  [
    "the-st-germain-spritz",
-   32,
+   29.3,
    [
     1,
     0
@@ -2076,208 +2216,217 @@
   ],
   [
    "the-turnbuckle",
-   8,
+   10.7,
    [
     0
    ]
   ],
   [
    "the-west-8th",
-   18.7,
+   24.9,
    [
     0
    ]
   ],
   [
+   "three-dots-and-a-dash",
+   8,
+   []
+  ],
+  [
    "thunderbird",
-   28.6,
+   26.2,
    [
-    0,
-    2
+    0
    ]
   ],
   [
    "thyme-after-thyme",
-   18.3,
+   20.4,
    [
     0
    ]
   ],
   [
+   "tia-mia",
+   3.6,
+   []
+  ],
+  [
    "tigers-claw",
-   18.3,
+   16.4,
    [
     0
    ]
   ],
   [
    "tipperary",
-   2.5,
+   10,
    []
   ],
   [
    "toby-cecchinis-gin-tonic",
-   6.7,
+   16.9,
    []
   ],
   [
    "tom-and-jerry",
-   47.7,
+   73.2,
    [
-    4
+    3
    ]
   ],
   [
    "tom-collins",
-   46.7,
+   46.9,
    [
     0
    ]
   ],
   [
    "tom-macys-gimlet",
-   12.3,
+   16.4,
    [
     0
    ]
   ],
   [
    "tommys-margarita",
-   28.3,
+   30.4,
    [
     0
    ]
   ],
   [
    "tonic-rickey",
-   18.7,
+   24.9,
    [
     0
    ]
   ],
   [
    "trinidad-sour",
-   25.9,
+   34,
    [
     0
    ]
   ],
   [
    "tunnel",
-   22.5,
+   6.7,
    []
   ],
   [
    "turf-club",
-   1.3,
+   5.8,
    []
   ],
   [
    "tuxedo",
-   0.8,
+   7.8,
    []
   ],
   [
    "ultima-palabra",
-   1.4,
+   1.8,
    [
     0
    ]
   ],
   [
    "verte-chaud",
-   23,
+   22.7,
    [
-    4
+    3
    ]
   ],
   [
    "vesper",
-   19.8,
+   26.8,
    [
-    3
+    2
    ]
   ],
   [
    "vieux-carre",
-   6.1,
+   13.6,
    []
   ],
   [
    "vodka-martini",
-   15.8,
+   22.8,
    [
-    3
+    2
    ]
   ],
   [
    "vodka-sour",
-   22.3,
+   26.4,
    [
     0
    ]
   ],
   [
    "vodka-tonic",
-   16.7,
+   26.9,
    []
   ],
   [
    "ward-eight",
-   4.9,
+   13.4,
    [
     0
    ]
   ],
   [
    "whiskey-smash",
-   0.6,
+   7.6,
    []
   ],
   [
    "whiskey-sour",
-   40.3,
+   42.4,
    [
     0
    ]
   ],
   [
    "japanese-highball",
-   27,
+   24.7,
    []
   ],
   [
    "white-lady",
-   8.5,
+   18,
    []
   ],
   [
    "white-negroni",
-   6.3,
+   12.4,
    []
   ],
   [
    "white-negroni-sbagliato",
-   12.7,
+   20.9,
    [
     0
    ]
   ],
   [
    "white-russian",
-   47.6,
+   76.2,
    [
-    3
+    2
    ]
   ],
   [
    "white-russian-gus-sip-and-dip",
-   6.3,
+   8.4,
    []
   ],
   [
    "whitechapel-gt",
-   17.7,
+   27.6,
    [
     1,
     0
@@ -2285,39 +2434,38 @@
   ],
   [
    "wildest-redhead",
-   28.6,
+   26.2,
    [
-    0,
-    2
+    0
    ]
   ],
   [
    "winterized-negroni",
-   22.5,
+   6.7,
    []
   ],
   [
    "wisconsin-old-fashioned",
-   20.8,
+   4.4,
    []
   ],
   [
    "yellow",
-   12.3,
+   20.4,
    [
     0
    ]
   ],
   [
    "yellow-bird",
-   13,
+   22,
    [
     0
    ]
   ],
   [
    "zombie",
-   18,
+   20.7,
    [
     0
    ]
@@ -2334,90 +2482,79 @@
  "picks": [
   {
    "id": "egg-nog",
-   "name": "Snow at Last",
-   "blurb": "Brandy, rum, egg and milk for the finale, when the back doors open and the snow has finally come."
+   "name": "General Waverly's Pour",
+   "blurb": "Eggs and brandy keep the cold Vermont setbacks from turning into a full holiday mutiny."
   },
   {
    "id": "hot-brandy-sling",
-   "name": "Christmas Eve, 1944",
-   "blurb": "Brandy, sugar and hot water for an army Christmas Eve show in 1944, with shells landing nearby."
+   "name": "Columbia Inn Hearth",
+   "blurb": "This one brings the fireplace; brandy and hot water suit the empty inn better than any crowd would."
   },
   {
    "id": "mulled-claret",
-   "name": "Vermont Inn Without Snow",
-   "blurb": "Red wine, sugar and spice for a Vermont inn at Christmas with green hills, no snow and no guests."
+   "name": "Pine Tree Service",
+   "blurb": "Red wine and mulling spice warm the dead-silent Vermont lobby while the snow still refuses to show up."
   },
   {
-   "id": "tom-and-jerry",
-   "name": "Midnight Snack Duet",
-   "blurb": "Hot rum, brandy and batter for a midnight snack in the empty lounge and a lullaby about counting blessings."
-  },
-  {
-   "id": "irish-coffee",
-   "name": "General Runs the Inn",
-   "blurb": "Irish whiskey, coffee and cream for a retired general running a struggling inn, too proud to ask for help."
+   "id": "smoking-bishop",
+   "name": "Christmas Eve Regiment",
+   "blurb": "Port and citrus give the old soldiers' show a deeper red than any curtain in Pine Tree."
   },
   {
    "id": "french-75",
-   "name": "Feather Fan Number",
-   "blurb": "Gin, lemon and bubbles for two army buddies miming a sister act with feather fans and rolled-up trousers."
+   "name": "Broadway Spotlights",
+   "blurb": "Sparkling wine and gin keep the stage work crisp, bright, and just a little too polished for the snow delay."
+  },
+  {
+   "id": "brandy-alexander",
+   "name": "Wallace and Davis",
+   "blurb": "Creamy brandy softens the edges, like two headliners trying not to notice they care about the same people."
   },
   {
    "id": "manhattan",
-   "name": "Broadway Headliners",
-   "blurb": "Rye and sweet vermouth for two war buddies turned big Broadway producers, polished from hat to shoes."
+   "name": "Backstage Dressing Room",
+   "blurb": "Rye and vermouth arrive with tuxedo discipline, which is exactly what a song-and-dance team needs after the last curtain."
+  },
+  {
+   "id": "white-russian",
+   "name": "Snowless Vermont Night",
+   "blurb": "Vodka and cream look winter-white enough to fool the inn, even if the ground stays stubbornly bare."
+  },
+  {
+   "id": "irish-coffee",
+   "name": "Train Car Morning",
+   "blurb": "Coffee and whiskey wake you up after a sleepless ride, especially when the sleeping compartment was someone else's problem."
+  },
+  {
+   "id": "blood-and-sand",
+   "name": "Florida Nightclub Curtain",
+   "blurb": "Cherry, Scotch, and vermouth make the nightclub number feel dressed up and slightly melodramatic, like a touring act should."
+  },
+  {
+   "id": "tom-collins",
+   "name": "Columbia Inn Lobby",
+   "blurb": "Gin and soda keep things brisk while everyone hustles through the empty hotel and its Christmas booking woes."
   },
   {
    "id": "whiskey-sour",
-   "name": "Half a Phone Call",
-   "blurb": "Whiskey and lemon for a housekeeper who overhears half a phone call and gets the wrong idea."
+   "name": "Betty at the Desk",
+   "blurb": "Lemon sharpens the sweetness the way Betty sharpens Bob's better instincts, whether he likes it or not."
   },
   {
    "id": "kir",
-   "name": "Fake Engagement",
-   "blurb": "White wine and cassis, sweet and a little sneaky, for a fake engagement meant to push two other people together."
-  },
-  {
-   "id": "bellini",
-   "name": "Train to Vermont",
-   "blurb": "Peach and bubbles for an overnight train north and a dining car full of songs about snow."
+   "name": "Judy's Letter",
+   "blurb": "Crème de cassis turns plain white wine pink, which is a fair trick for the sister who wrote the note."
   },
   {
    "id": "ramos-fizz",
-   "name": "Barn Rehearsals",
-   "blurb": "Gin, cream and egg white, light on its feet, for rehearsals in a barn turned into a stage."
+   "name": "Haynes Sisters Harmony",
+   "blurb": "Foam, citrus, and orange flower water are as fussy and decorative as a polished sister act in midcentury style."
   },
   {
-   "id": "aperol-spritz",
-   "name": "New York Club Solo",
-   "blurb": "Aperol, bubbles and soda for a singer who quits for a New York club and sings about love gone wrong."
-  },
-  {
-   "id": "clover-club",
-   "name": "Two Sisters in Blue",
-   "blurb": "Gin, raspberry and egg white, pink and perfectly matched, for two sisters in blue gowns singing about sisters."
-  },
-  {
-   "id": "sweet-vermouth-cocktail",
-   "name": "The Division Arrives",
-   "blurb": "Sweet vermouth and bitters, simple and proud, for an old division turning up on Christmas Eve to salute their general."
-  },
-  {
-   "id": "cape-codder",
-   "name": "Call on National TV",
-   "blurb": "Vodka and cranberry, bright red, for a TV appeal calling every old soldier to Vermont for Christmas Eve."
+   "id": "bourbon-and-ginger-ale",
+   "name": "Vermont Rehearsal Break",
+   "blurb": "Bourbon and ginger ale keep the pace easy between dance steps, which helps when the barn dance needs saving."
   }
  ],
- "cuts": [
-  {
-   "classic": "whiskey-sour",
-   "recipe": "whiskey-sour--new-york",
-   "duplicates": [
-    "new-york-sour"
-   ],
-   "name": "Train-Window Glow",
-   "note": "Its red finish adds a festive lift to the cozy romance.",
-   "how": "A red wine float sits above a full-sized whiskey sour."
-  }
- ]
+ "cuts": []
 }
