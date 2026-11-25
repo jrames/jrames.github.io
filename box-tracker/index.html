@@ -344,9 +344,20 @@
       html { scroll-behavior: auto; }
       .button { transition: none; }
     }
+
+    /* Black Friday 2026 — shown/hidden by the dated script at the end of <body>. */
+    .sale-banner { background: var(--dark); color: #fff; text-align: center; font-size: .9rem; font-weight: 600; }
+    .sale-banner[hidden] { display: none; }
+    .sale-banner a { display: block; padding: 10px 16px; text-decoration: none; text-wrap: balance; }
+    .sale-banner a:hover span { text-decoration: underline; }
+    .sale-banner strong { color: #f0b46a; }
+    .plan-was { margin-left: 10px; color: var(--muted); font-size: 1.3rem; font-weight: 650; letter-spacing: 0; }
   </style>
 </head>
 <body>
+  <aside class="sale-banner" id="sale-banner" hidden>
+    <a data-goatcounter-click="app-store-home-sale-banner" href="https://apps.apple.com/us/app/moving-box-tracker-find-items/id6762944912?pt=119038783&amp;ct=web-bf26&amp;mt=8"><strong>Black Friday:</strong> <span id="sale-banner-text">Lifetime Pro is 50% off Nov 27–30</span> →</a>
+  </aside>
   <nav class="nav">
     <div class="wrap nav-inner">
       <a class="brand" href="#top"><img src="assets/app/app-icon.png" alt="" />Box Tracker</a>
@@ -502,7 +513,7 @@
           <span class="plan-badge">One-time upgrade</span>
           <span class="plan-name">Lifetime Pro</span>
           <h3>Extra speed for bigger moves and long-term storage.</h3>
-          <div class="plan-price"><sup>$</sup>9.99<small>once</small></div>
+          <div class="plan-price" id="pro-price"><sup>$</sup>9.99<small>once</small></div>
           <p class="plan-description">Everything in Free, plus:</p>
           <ul class="benefits">
             <li>Instant Lookup across items, rooms, and tags</li>
@@ -579,6 +590,25 @@
     if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       voiceEntryVideo.play().catch(() => {});
     }
+  </script>
+  <script>
+    // Black Friday 2026: heads-up before Nov 27, live sale Nov 27–30, gone from Dec 1.
+    // Uses the visitor's local date, matching how App Store pricing dates roll over per storefront.
+    // Safe to delete this script, the #sale-banner markup, and its CSS after the sale.
+    (function () {
+      const now = new Date();
+      const saleStart = new Date(2026, 10, 27);
+      const saleEnd = new Date(2026, 11, 1);
+      if (now >= saleEnd) return;
+
+      const banner = document.getElementById("sale-banner");
+      if (now >= saleStart) {
+        document.getElementById("sale-banner-text").textContent = "Lifetime Pro is 50% off through Nov 30";
+        document.getElementById("pro-price").innerHTML =
+          '<sup>$</sup>4.99<small>once</small><s class="plan-was">$9.99</s>';
+      }
+      banner.hidden = false;
+    })();
   </script>
 </body>
 </html>
